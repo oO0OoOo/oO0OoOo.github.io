@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-01-08T16:46:08.622Z</updated>
+  <updated>2023-01-08T17:20:52.748Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -20,21 +20,25 @@
     <title>Hexo博文书写样板</title>
     <link href="http://example.com/2023/01/09/hexo-bo-wen-shu-xie-yang-ban/"/>
     <id>http://example.com/2023/01/09/hexo-bo-wen-shu-xie-yang-ban/</id>
-    <published>2023-01-08T16:44:59.000Z</published>
-    <updated>2023-01-08T16:46:08.622Z</updated>
+    <published>2023-01-08T16:44:00.000Z</published>
+    <updated>2023-01-08T17:20:52.748Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;本文展示了书写博文时常用的组件，以及对应语法&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;p&gt;本文记录了书写博文时常用的Markdown语法和Hexo标签&lt;/p&gt;
+&lt;p&gt;Markdown官方文档：&lt;a href=&quot;https://markdown.tw/&quot;&gt;https://markdown.tw/&lt;/a&gt;&lt;br&gt;所有：&lt;a</summary>
         
       
     
     
     
+    <category term="博客搭建" scheme="http://example.com/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    
+    <category term="博客" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
