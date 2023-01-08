@@ -5,27 +5,83 @@
     <url>/2023/01/09/hexo-bo-wen-shu-xie-yang-ban/</url>
     <content><![CDATA[<p>本文记录了书写博文时常用的Markdown语法和Hexo标签</p>
 <p>Markdown官方文档：<a href="https://markdown.tw/">https://markdown.tw/</a><br>所有：<a href="https://yuang01.github.io/categories/%E5%89%8D%E7%AB%AF/">https://yuang01.github.io/categories/%E5%89%8D%E7%AB%AF/</a></p>
-<h4 id="1-文本"><a href="#1-文本" class="headerlink" title="1.文本"></a>1.文本</h4><h5 id="1-1-单行文本"><a href="#1-1-单行文本" class="headerlink" title="1.1 单行文本"></a>1.1 单行文本</h5><p>这是一行示例文本，没有任何语法规则。</p>
-<h5 id="1-2-多行文本"><a href="#1-2-多行文本" class="headerlink" title="1.2 多行文本"></a>1.2 多行文本</h5><p>这是第一行，在本行结尾处键入2个空格再回车，即可开启第二行，只键入回车是不会换行的。<br>这是第二行。</p>
-<h5 id="1-3-文本缩进与空格"><a href="#1-3-文本缩进与空格" class="headerlink" title="1.3 文本缩进与空格"></a>1.3 文本缩进与空格</h5><p>　本行采用了1个汉字的缩进，方法为在这句话前面键入一个<strong>全角空格</strong>。同样地，我们也可以键入多个全角空格实现多层次缩进。<br>　　　　本行采用了4个汉字（即8个字节）的缩进。在前方键入了4个全角空格。<br>　　　　在Markdown的语法中，半角空格无论连续打多少个，都只能产生1个空格，这和Word，记事本等软件的使用习惯截然不同。因此若想在文本中增加大量空隙，可以选择使用连续的全角空格。就　　像　　这　　样。  </p>
-<h5 id="1-4-区块文本"><a href="#1-4-区块文本" class="headerlink" title="1.4 区块文本"></a>1.4 区块文本</h5><p>区块文本适用于展示诗歌，名言，代码等内容，语法为在文本段上下使用&#96;&#96;&#96;包夹，例如：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">　这是一段区块文本，能够拥有自己的框框，感觉这句话很重要的样子。</span><br></pre></td></tr></table></figure>
-<p>另外，针对代码区块，可以在&#96;&#96;&#96;前增加语言类型，例如：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">System.out.print(<span class="string">&quot;这是java代码&quot;</span>);</span><br></pre></td></tr></table></figure>
-
-<h5 id="1-5-标题文本"><a href="#1-5-标题文本" class="headerlink" title="1.5 标题文本"></a>1.5 标题文本</h5><p>在行首插入1到6个# ，各对应到标题1到6阶，例如：  </p>
+<h3 id="文本"><a href="#文本" class="headerlink" title="文本"></a>文本</h3><h4 id="单行文本"><a href="#单行文本" class="headerlink" title="单行文本"></a>单行文本</h4><p>这是一行示例文本，没有任何语法规则。</p>
+<h4 id="多行文本"><a href="#多行文本" class="headerlink" title="多行文本"></a>多行文本</h4><p>这是第一行，在本行结尾处键入2个空格再回车，即可开启第二行，只键入回车是不会换行的。<br>这是第二行。</p>
+<h4 id="文本缩进与空格"><a href="#文本缩进与空格" class="headerlink" title="文本缩进与空格"></a>文本缩进与空格</h4><p>　本行采用了1个汉字的缩进，方法为在这句话前面键入一个<strong>全角空格</strong>。同样地，我们也可以键入多个全角空格实现多层次缩进。<br>　　　　本行采用了4个汉字（即8个字节）的缩进。在前方键入了4个全角空格。<br>　　　　在Markdown的语法中，半角空格无论连续打多少个，都只能产生1个空格，这和Word，记事本等软件的使用习惯截然不同。因此若想在文本中增加大量空隙，可以选择使用连续的全角空格。就　　像　　这　　样。<br><span id="jump1"></span></p>
+<h4 id="区块文本"><a href="#区块文本" class="headerlink" title="区块文本"></a>区块文本</h4><p>区块文本适用于展示诗歌，名言，代码等内容，语法为在文本段上下使用```包夹，例如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">　这是一段区块文本，能够拥有自己的框框，感觉这句话很重要。</span><br></pre></td></tr></table></figure>
+<p>此外，使用单个`包夹可以在一行文本内突出某些文字，例如<code>美丽且突出</code>的我</p>
+<h4 id="标题文本"><a href="#标题文本" class="headerlink" title="标题文本"></a>标题文本</h4><p>在行首插入1到6个# ，各对应到标题1到6阶，例如：  </p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 这是一级标题</span><br><span class="line">## 这是二级标题</span><br><span class="line">### 这是三级标题</span><br><span class="line">#### 这是四级标题</span><br><span class="line">##### 这是五级标题</span><br><span class="line">###### 这是六级标题</span><br></pre></td></tr></table></figure>
-<h5 id="1-6-文本加粗，倾斜，上下标，删除线，下划线，大小号文字"><a href="#1-6-文本加粗，倾斜，上下标，删除线，下划线，大小号文字" class="headerlink" title="1.6 文本加粗，倾斜，上下标，删除线，下划线，大小号文字"></a>1.6 文本加粗，倾斜，上下标，删除线，下划线，大小号文字</h5><p>只需在文本前后打上如下标签,即可将包夹的 <i>文本倾斜</i>：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;i&gt;想要倾斜的内容&lt;/i&gt;</span><br></pre></td></tr></table></figure>
-<p>采用相似的做法，使用如下标签可以实现<b>加粗</b>效果：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;b&gt;想要加粗的内容&lt;/b&gt;</span><br></pre></td></tr></table></figure>
+<h4 id="文本加粗，倾斜，上下标，删除线，下划线，大小号"><a href="#文本加粗，倾斜，上下标，删除线，下划线，大小号" class="headerlink" title="文本加粗，倾斜，上下标，删除线，下划线，大小号"></a>文本加粗，倾斜，上下标，删除线，下划线，大小号</h4><p>只需在文本前后打上星号,即可将包夹的文字<strong>加粗</strong>或<em>倾斜</em>：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">**想要加粗的内容**</span><br><span class="line">*想要倾斜的内容*</span><br></pre></td></tr></table></figure>
 <p><sup>上标</sup>和<sub>下标</sub>的写法：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">这是&lt;sup&gt;上标&lt;/sup&gt;和&lt;sub&gt;下标&lt;/sub&gt;</span><br></pre></td></tr></table></figure>
 <p><s>删除线</s>和<u>下划线</u>的写法：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;s&gt;删除线&lt;/s&gt;和&lt;u&gt;下划线&lt;/u&gt;</span><br></pre></td></tr></table></figure>
 <p><small>小号文本</small> 正常文本 <big>大号文本</big>：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;small&gt;小号文本&lt;/small&gt; 正常文本 &lt;big&gt;大号文本&lt;/big&gt;</span><br></pre></td></tr></table></figure>
-<h5 id="1-7-超链接"><a href="#1-7-超链接" class="headerlink" title="1.7 超链接"></a>1.7 超链接</h5>]]></content>
+<p>MarkDown兼容HTML语言,可直接使用HTML的语法</p>
+<h4 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h4><p><a href="https://www.baidu.com/">链接到百度</a><br><a href="/about/">链接到站内页</a><br><a href="https://github.com/Tencent/xLua/blob/master/Assets/XLua/Doc/xLua.png?raw=true">网络图片</a><br><a href="/medias/logo.jpg">站点icon</a><br><a href="#jump1">跳转到页面内某一位置</a></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[链接到百度](https://www.baidu.com)  </span><br><span class="line">[链接到站内页](/about/)</span><br><span class="line">[网络图片](https://github.com/Tencent/xLua/blob/master/Assets/XLua/Doc/xLua.png?raw=true)</span><br><span class="line">[站点icon](/medias/logo.jpg)</span><br><span class="line">[跳转到页面内某一位置](#jump1)</span><br><span class="line">注意，需要在跳转的目的地写上对应标签，jump1名字可自定义</span><br><span class="line">&lt;span id=&quot;jump1&quot;&gt;&lt;/span&gt;</span><br></pre></td></tr></table></figure>
+
+<h4 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h4><p>可以在一行中用三个或以上的星号、减号、下划线来建立一个分割线。例如：<br>我是分割线上面的文字</p>
+<hr>
+<p>我是分割线下面的文字</p>
+<h3 id="图表"><a href="#图表" class="headerlink" title="图表"></a>图表</h3><h4 id="目录树"><a href="#目录树" class="headerlink" title="目录树"></a>目录树</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+ 一级</span><br><span class="line"> + 二级</span><br><span class="line"> + 二级</span><br><span class="line">+ 一级</span><br></pre></td></tr></table></figure>
+<p>效果：</p>
+<ul>
+<li>一级</li>
+<li>二级</li>
+<li>二级</li>
+<li>一级</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. 一级</span><br><span class="line">1. 一级</span><br><span class="line"> 1. 二级</span><br><span class="line"> 1. 二级</span><br></pre></td></tr></table></figure>
+<p>效果：</p>
+<ol>
+<li>一级</li>
+<li>一级</li>
+<li>二级</li>
+<li>二级</li>
+</ol>
+<p>注意，目录树只支持到二级</p>
+<h4 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h4><table>
+<thead>
+<tr>
+<th align="left">一列</th>
+<th align="center">二列</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">香蕉</td>
+<td align="center">苹果</td>
+</tr>
+</tbody></table>
+<h3 id="多媒体"><a href="#多媒体" class="headerlink" title="多媒体"></a>多媒体</h3><h4 id="网站小窗"><a href="#网站小窗" class="headerlink" title="网站小窗"></a>网站小窗</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;iframe name=&quot;斗鱼首页&quot; width=&quot;100%&quot; height=&quot;540px&quot; frameborder=&quot;0&quot; src=&quot;https://www.douyu.com/&quot;&gt;&lt;/iframe&gt;</span><br></pre></td></tr></table></figure>
+<p>效果：</p>
+<iframe name="斗鱼首页" width="100%" height="540px" frameborder="0" src="https://www.douyu.com/"></iframe>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]></content>
       <categories>
         <category>博客搭建</category>
       </categories>
