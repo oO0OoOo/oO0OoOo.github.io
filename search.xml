@@ -15,11 +15,10 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 这是一级标题</span><br><span class="line">## 这是二级标题</span><br><span class="line">### 这是三级标题</span><br><span class="line">#### 这是四级标题</span><br><span class="line">##### 这是五级标题</span><br><span class="line">###### 这是六级标题</span><br></pre></td></tr></table></figure>
 <p>需要注意的是，只有1到4级标题才会被文章目录收录。</p>
 <p>以下为Bamboo主题的定制标题样式：  </p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% title h1, 这是一级标题 %&#125;</span><br><span class="line">&#123;% title h6, 这是六级标题, red %&#125;</span><br><span class="line">&#123;% titleB h2, 这是二级标题 %&#125;</span><br><span class="line">&#123;% titleB h5, 这是五级标题, #895546 %&#125;</span><br></pre></td></tr></table></figure>
-<h1 class="bamboo-h " id="这是一级标题uvkyhh04x6">这是一级标题</h1><br/>
-<h6 class="bamboo-h red" id="这是六级标题11zig4shsl8">这是六级标题</h6><br/>
-<h2 class="bamboo-h-b" id="这是二级标题t7iqfe2iv1" style="color:!important">这是二级标题</h2><div></div>
-<h5 class="bamboo-h-b" id="这是五级标题214zo519091" style="color:#895546!important">这是五级标题</h5><div></div>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% title h1, 这是一级标题 %&#125;</span><br><span class="line">&#123;% title h6, 这是六级标题, red %&#125;</span><br><span class="line">&#123;% titleB h5, 这是五级标题, #895546 %&#125;</span><br></pre></td></tr></table></figure>
+<h1 class="bamboo-h " id="这是一级标题1c3zm9v3s6f">这是一级标题</h1><br/>
+<h6 class="bamboo-h red" id="这是六级标题1fjzam5dpo9">这是六级标题</h6><br/>
+<h5 class="bamboo-h-b" id="这是五级标题1fkhfnxj6oa" style="color:#895546!important">这是五级标题</h5><div></div>
 
 <h3 id="文本加粗，倾斜，上下标，删除线，下划线，大小号"><a href="#文本加粗，倾斜，上下标，删除线，下划线，大小号" class="headerlink" title="文本加粗，倾斜，上下标，删除线，下划线，大小号"></a>文本加粗，倾斜，上下标，删除线，下划线，大小号</h3><p>（MarkDown兼容HTML语言,可直接使用HTML的语法）<br>只需在文本前后打上星号,即可将包夹的文字<strong>加粗</strong>或<em>倾斜</em>：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">**想要加粗的内容**</span><br><span class="line">*想要倾斜的内容*</span><br></pre></td></tr></table></figure>
@@ -141,18 +140,7 @@
 <div class="video"><video controls preload><source src='https://assets.mixkit.co/videos/preview/mixkit-down-the-river-in-a-bamboo-canoe-6804-large.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div>
 <div class="video"><video controls preload><source src='https://assets.mixkit.co/videos/preview/mixkit-down-the-river-in-a-bamboo-canoe-6804-large.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div>
 <div class="video"><video controls preload><source src='https://assets.mixkit.co/videos/preview/mixkit-down-the-river-in-a-bamboo-canoe-6804-large.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div>
-<div class="video"><video controls preload><source src='https://assets.mixkit.co/videos/preview/mixkit-down-the-river-in-a-bamboo-canoe-6804-large.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div></div>
-
-
-
-
-
-
-
-
-
-
-]]></content>
+<div class="video"><video controls preload><source src='https://assets.mixkit.co/videos/preview/mixkit-down-the-river-in-a-bamboo-canoe-6804-large.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div></div>]]></content>
       <categories>
         <category>博客搭建</category>
       </categories>
