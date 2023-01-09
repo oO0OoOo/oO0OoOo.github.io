@@ -19,7 +19,8 @@
   <entry>
     <title>博客搭建教程7 - 使用云服务器搭建图床</title>
     <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-7-shi-yong-yun-fu-wu-qi-da-jian-tu-chuang/</url>
-    <content><![CDATA[<p>linux开放端口<a href="https://blog.csdn.net/qq_36530891/article/details/102789233">https://blog.csdn.net/qq_36530891/article/details/102789233</a><br>搭建图床<a href="https://blog.csdn.net/qq_29091587/article/details/104412358">https://blog.csdn.net/qq_29091587/article/details/104412358</a><br><a href="https://postimg.cc/9DCxFJsX">testimg.png</a></p>
+    <content><![CDATA[<p>linux开放端口<a href="https://blog.csdn.net/qq_36530891/article/details/102789233">https://blog.csdn.net/qq_36530891/article/details/102789233</a><br>搭建图床<a href="https://blog.csdn.net/qq_29091587/article/details/104412358">https://blog.csdn.net/qq_29091587/article/details/104412358</a><br><a href="https://postimg.cc/9DCxFJsX">testimg.png</a>  </p>
+<p><a href="https://postimg.cc/9DCxFJsX"><img src="https://i.postimg.cc/FHJwp6ZS/testimg.png" class="lazyload placeholder" data-srcset="https://i.postimg.cc/FHJwp6ZS/testimg.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="testimg.png"></a></p>
 ]]></content>
   </entry>
   <entry>
@@ -64,9 +65,9 @@
 <p>需要注意的是，只有1到4级标题才会被文章目录收录。</p>
 <p>以下为Bamboo主题的定制标题样式：  </p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% title h1, 这是一级标题 %&#125;</span><br><span class="line">&#123;% title h6, 这是六级标题, red %&#125;</span><br><span class="line">&#123;% titleB h5, 这是五级标题, #895546 %&#125;</span><br></pre></td></tr></table></figure>
-<h1 class="bamboo-h " id="这是一级标题26hcs7fcnvi">这是一级标题</h1><br/>
-<h6 class="bamboo-h red" id="这是六级标题1sthki5co3h">这是六级标题</h6><br/>
-<h5 class="bamboo-h-b" id="这是五级标题704ipo239f" style="color:#895546!important">这是五级标题</h5><div></div>
+<h1 class="bamboo-h " id="这是一级标题17nyfhsceo4">这是一级标题</h1><br/>
+<h6 class="bamboo-h red" id="这是六级标题5xo71tr9s8">这是六级标题</h6><br/>
+<h5 class="bamboo-h-b" id="这是五级标题9pw7wmb7cws" style="color:#895546!important">这是五级标题</h5><div></div>
 
 <h3 id="文本加粗，倾斜，上下标，删除线，下划线，大小号"><a href="#文本加粗，倾斜，上下标，删除线，下划线，大小号" class="headerlink" title="文本加粗，倾斜，上下标，删除线，下划线，大小号"></a>文本加粗，倾斜，上下标，删除线，下划线，大小号</h3><p>（MarkDown兼容HTML语言,可直接使用HTML的语法）<br>只需在文本前后打上星号,即可将包夹的文字<strong>加粗</strong>或<em>倾斜</em>：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">**想要加粗的内容**</span><br><span class="line">*想要倾斜的内容*</span><br></pre></td></tr></table></figure>
