@@ -1,7 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hexo博文书写样板</title>
+    <title>博客搭建教程11 - Linux常用操作</title>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-11-linux-chang-yong-cao-zuo/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>博客搭建教程10 - 最佳实践</title>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-9-zui-jia-shi-jian/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>博客搭建教程9 - 接触Linux</title>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-8-jie-hong-linux/</url>
+    <content><![CDATA[<p>添加图形界面<a href="https://blog.csdn.net/weixin_45115705/article/details/100553983">https://blog.csdn.net/weixin_45115705/article/details/100553983</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>博客搭建教程7 - 使用云服务器搭建图床</title>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-7-shi-yong-yun-fu-wu-qi-da-jian-tu-chuang/</url>
+    <content><![CDATA[<p>linux开放端口<a href="https://blog.csdn.net/qq_36530891/article/details/102789233">https://blog.csdn.net/qq_36530891/article/details/102789233</a><br>搭建图床<a href="https://blog.csdn.net/qq_29091587/article/details/104412358">https://blog.csdn.net/qq_29091587/article/details/104412358</a><br><a href="https://postimg.cc/9DCxFJsX">testimg.png</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>博客搭建教程6 - 拥有自己的域名</title>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-6-yong-you-zi-ji-de-yu-ming/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>博客搭建教程5 - 发布第一篇博客</title>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-5-di-yi-ci-fa-bu-bo-ke/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>博客搭建教程4 - 选择喜欢的Hexo主题</title>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-3-xuan-ze-xi-huan-de-hexo-zhu-ti/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>博客搭建教程3 - 使用Hexo开始搭建</title>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-3-shi-yong-hexo-kai-shi-da-jian/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>博客搭建教程2 - 初识Git</title>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-2-shou-xi-git/</url>
+    <content><![CDATA[<p>1</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>博客搭建教程8 - Markdown常用语法</title>
     <url>/2023/01/09/hexo-bo-wen-shu-xie-yang-ban/</url>
     <content><![CDATA[<p>本文记录了书写博文时常用的Markdown语法和Hexo标签</p>
 <p>Markdown官方文档：<a href="https://markdown.tw/">https://markdown.tw/</a><br>所有：<a href="https://yuang01.github.io/categories/%E5%89%8D%E7%AB%AF/">https://yuang01.github.io/categories/%E5%89%8D%E7%AB%AF/</a><br><a href="https://xuxiaoshi.gitee.io/Hexo%E9%97%AE%E9%A2%98-Hexo%E5%86%99%E4%BD%9C%E8%AF%AD%E6%B3%95%E6%8C%87%E5%8D%97/">https://xuxiaoshi.gitee.io/Hexo%E9%97%AE%E9%A2%98-Hexo%E5%86%99%E4%BD%9C%E8%AF%AD%E6%B3%95%E6%8C%87%E5%8D%97/</a></p>
@@ -16,9 +64,9 @@
 <p>需要注意的是，只有1到4级标题才会被文章目录收录。</p>
 <p>以下为Bamboo主题的定制标题样式：  </p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% title h1, 这是一级标题 %&#125;</span><br><span class="line">&#123;% title h6, 这是六级标题, red %&#125;</span><br><span class="line">&#123;% titleB h5, 这是五级标题, #895546 %&#125;</span><br></pre></td></tr></table></figure>
-<h1 class="bamboo-h " id="这是一级标题1c3zm9v3s6f">这是一级标题</h1><br/>
-<h6 class="bamboo-h red" id="这是六级标题1fjzam5dpo9">这是六级标题</h6><br/>
-<h5 class="bamboo-h-b" id="这是五级标题1fkhfnxj6oa" style="color:#895546!important">这是五级标题</h5><div></div>
+<h1 class="bamboo-h " id="这是一级标题26hcs7fcnvi">这是一级标题</h1><br/>
+<h6 class="bamboo-h red" id="这是六级标题1sthki5co3h">这是六级标题</h6><br/>
+<h5 class="bamboo-h-b" id="这是五级标题704ipo239f" style="color:#895546!important">这是五级标题</h5><div></div>
 
 <h3 id="文本加粗，倾斜，上下标，删除线，下划线，大小号"><a href="#文本加粗，倾斜，上下标，删除线，下划线，大小号" class="headerlink" title="文本加粗，倾斜，上下标，删除线，下划线，大小号"></a>文本加粗，倾斜，上下标，删除线，下划线，大小号</h3><p>（MarkDown兼容HTML语言,可直接使用HTML的语法）<br>只需在文本前后打上星号,即可将包夹的文字<strong>加粗</strong>或<em>倾斜</em>：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">**想要加粗的内容**</span><br><span class="line">*想要倾斜的内容*</span><br></pre></td></tr></table></figure>
@@ -54,11 +102,11 @@
             </div>
 <h3 id="特殊符号"><a href="#特殊符号" class="headerlink" title="特殊符号"></a>特殊符号</h3><p>以下列出了一些特殊符号，可在博文中按需使用  </p>
 <p>▍本文仅限18岁以上儿童观看<br>▏这个在段落前等于是空格<br>各种三角 ▷ ◁ ▶ ◀ △▽▲▼<br>➥ 和 → 还有 ☛ 以及 ➨ 起引导视线的作用<br>☑ 和 ✔ 是已经选择，OK<br>✘ 是错误，删除，NO<br>✚ 是添加，补充，选项<br>☷ 是列表，调整格式<br>① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩  </p>
-<h3 id="左右对齐，居中"><a href="#左右对齐，居中" class="headerlink" title="左右对齐，居中"></a>左右对齐，居中</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">亲爱的老石，你好：</span><br><span class="line">&#123;% p center, 这是居中的第一种写法 %&#125;</span><br><span class="line">&lt;center&gt;这是居中的第二种写法&lt;/center&gt;</span><br><span class="line">&lt;div style=&quot;text-align:right&quot;&gt;此致，敬礼&lt;/div&gt;</span><br></pre></td></tr></table></figure>
-<p>亲爱的老石，你好：</p>
+<h3 id="左右对齐，居中"><a href="#左右对齐，居中" class="headerlink" title="左右对齐，居中"></a>左右对齐，居中</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Mr.Cindy，你好：</span><br><span class="line">&#123;% p center, 这是居中的第一种写法 %&#125;</span><br><span class="line">&lt;center&gt;这是居中的第二种写法&lt;/center&gt;</span><br><span class="line">&lt;div style=&quot;text-align:right&quot;&gt;2023年1月23日&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+<p>Mr.Cindy，你好：</p>
 <p class='p center'>这是居中的第一种写法</p>
 <center>这是居中的第二种写法</center>
-<div style="text-align:right">此致，敬礼</div>
+<div style="text-align:right">2023年1月23日</div>
 
 <h2 id="图表"><a href="#图表" class="headerlink" title="图表"></a>图表</h2><h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+ 一级</span><br><span class="line"> + 二级</span><br><span class="line"> + 二级</span><br><span class="line">+ 一级</span><br></pre></td></tr></table></figure>
 <ul>
@@ -149,22 +197,10 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo博客搭建教程</title>
+    <title>博客搭建教程1 - 技术栈与工具准备</title>
     <url>/2023/01/08/hexo-bo-ke-da-jian-jiao-cheng-1/</url>
     <content><![CDATA[<p>正在填写，预计年前写完2</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>My New Post</title>
-    <url>/2023/01/07/my-new-post/</url>
-    <content><![CDATA[<p>asd<br>adwoj<br>afjaiwfiw<br>wd</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>Test</tag>
-      </tags>
   </entry>
   <entry>
     <title>Hello World</title>

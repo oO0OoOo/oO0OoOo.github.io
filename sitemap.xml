@@ -2,6 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://example.com/2023/01/09/bo-ke-da-jian-jiao-cheng-7-shi-yong-yun-fu-wu-qi-da-jian-tu-chuang/</loc>
+    
+    <lastmod>2023-01-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2023/01/09/bo-ke-da-jian-jiao-cheng-8-jie-hong-linux/</loc>
+    
+    <lastmod>2023-01-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2023/01/09/bo-ke-da-jian-jiao-cheng-11-linux-chang-yong-cao-zuo/</loc>
+    
+    <lastmod>2023-01-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2023/01/09/bo-ke-da-jian-jiao-cheng-9-zui-jia-shi-jian/</loc>
+    
+    <lastmod>2023-01-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2023/01/09/bo-ke-da-jian-jiao-cheng-2-shou-xi-git/</loc>
+    
+    <lastmod>2023-01-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/2023/01/09/hexo-bo-wen-shu-xie-yang-ban/</loc>
     
     <lastmod>2023-01-09</lastmod>
@@ -11,9 +56,36 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/01/07/my-new-post/</loc>
+    <loc>http://example.com/2023/01/09/bo-ke-da-jian-jiao-cheng-6-yong-you-zi-ji-de-yu-ming/</loc>
     
-    <lastmod>2023-01-08</lastmod>
+    <lastmod>2023-01-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2023/01/09/bo-ke-da-jian-jiao-cheng-5-di-yi-ci-fa-bu-bo-ke/</loc>
+    
+    <lastmod>2023-01-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2023/01/09/bo-ke-da-jian-jiao-cheng-3-xuan-ze-xi-huan-de-hexo-zhu-ti/</loc>
+    
+    <lastmod>2023-01-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2023/01/09/bo-ke-da-jian-jiao-cheng-3-shi-yong-hexo-kai-shi-da-jian/</loc>
+    
+    <lastmod>2023-01-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,7 +94,7 @@
   <url>
     <loc>http://example.com/2023/01/08/hexo-bo-ke-da-jian-jiao-cheng-1/</loc>
     
-    <lastmod>2023-01-08</lastmod>
+    <lastmod>2023-01-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -90,7 +162,7 @@
 
   
   <url>
-    <loc>http://example.com/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <loc>http://example.com/categories/%E4%BB%A3%E7%A0%81/</loc>
     <lastmod>2023-01-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -98,13 +170,6 @@
   
   <url>
     <loc>http://example.com/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
-    <lastmod>2023-01-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/categories/%E4%BB%A3%E7%A0%81/</loc>
     <lastmod>2023-01-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
