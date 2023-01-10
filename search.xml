@@ -1,70 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>博客搭建教程11 - Linux常用操作</title>
-    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-11-linux-chang-yong-cao-zuo/</url>
-    <content><![CDATA[<p>正在筹备</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>博客搭建教程10 - 最佳实践</title>
-    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-9-zui-jia-shi-jian/</url>
-    <content><![CDATA[<p>正在筹备<br>规划好资源目录结构<br>1.按博文 每个博文对应一个文件夹<br>2.按数据类型，音频在一个文件夹下，视频在一个文件夹下</p>
-<p>我选择了按博文建目录，这样可以和Markdown归档保持一致，但是按博文建目录会面临一个问题，资源冗余。两篇博文使用了相同的资源，那么该资源就会在两个目录里存在两份，这种情况不太可能发生，即使冗余其占比也不高，所以不用担心，而且冗余也有好处，一旦这两篇博文有一篇被删除，那么另一篇的资源不会被误删。<br>在&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;html&#x2F; 目录就是资源根目录。我在此目录下又新建了一个文件夹epya15，专门用来存放该网站的资源。同时我在epya15目录下又新建了文件夹blogresource，用来存储每个博文的资源文件<br>至此，我的服务器的目录结构为<br>&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;html&#x2F;epya15&#x2F;		（存放网站所有资源）<br>&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;html&#x2F;epya15&#x2F;blogresource		（存放网站所有博客资源）</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>博客搭建教程9 - 接触Linux</title>
-    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-8-jie-hong-linux/</url>
-    <content><![CDATA[<p>正在筹备</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>博客搭建教程7 - 使用云服务器搭建资源服</title>
-    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-7-shi-yong-yun-fu-wu-qi-da-jian-tu-chuang/</url>
-    <content><![CDATA[<p>网页中会展示一些大体积的资源，比如音频视频等多媒体文件，还有一些可被公开下载的文件。<br>虽然使用Git可以存储这些文件，但是Git的本意是代码管理，对于大体积文件来讲并不适合，大量文件会让你的Git仓库变得臃肿，另外在中国访问Git的速度有限，在一些网络不稳定的时候，网页上的图片会loading很久，甚至无法显示。<br>Q:在中国访问Git并不稳定，那是否意味着在坏的网络情况下，整个网页都无法打开？<br>A：是这样的，因此在后续的教程中，我们会让博客脱离Github，转移到自己的服务器上。但现在我们先使用Github忍耐一段时间。</p>
-<p>关于网站备案，香港的好处，无需备案，可以上国际网路<br>恒创ECS云服务器，阿里云也可以。阿里轻量服务器便宜，跟ECS差不多<br>ECS和轻量服务器的区别<br>按预算选择，我选择的是恒创的ECS云服务器，最低配置，CentOS，1核1G带宽2M，一年300块钱</p>
-<p><img src="/%5Cimages%5Cpasted-1.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-1.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"></p>
-<p>第一件事安装图形界面<br>如果会敲命令行，那么就不需要了。<br><a href="https://blog.csdn.net/weixin_45115705/article/details/100553983">https://blog.csdn.net/weixin_45115705/article/details/100553983</a></p>
-<p>使用scp向服务器传输文件<br><a href="https://www.cnblogs.com/tugenhua0707/p/8278772.html">https://www.cnblogs.com/tugenhua0707/p/8278772.html</a></p>
-<p>比如传送一个Windows桌面上的视频到服务器，输入下面指令并回车<br>scp D:\Users\Administrator\Desktop\video.mp4 <a href="mailto:&#114;&#111;&#x6f;&#x74;&#64;&#x32;&#x30;&#x38;&#46;&#x38;&#55;&#46;&#50;&#x30;&#x31;&#x2e;&#49;&#x36;&#x34;">&#114;&#111;&#x6f;&#x74;&#64;&#x32;&#x30;&#x38;&#46;&#x38;&#55;&#46;&#50;&#x30;&#x31;&#x2e;&#49;&#x36;&#x34;</a>:&#x2F;usr&#x2F;local<br>会提示这个：<br><img src="/%5Cimages%5Cpasted-2.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-2.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"><br>输入yes并回车</p>
-<p><img src="/%5Cimages%5Cpasted-3.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-3.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"><br>接下来输入远程服务器的密码<br>注意该密码是登录远程服务器时设的密码，在云服务器实例页面中能看到，对应的账号是root<br>如果出现下面的图说明传输成功，我传了1个59兆的视频花了29秒，速度为2MB一秒<br><img src="/%5Cimages%5Cpasted-4.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-4.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"><br>接下来到服务器查看这个文件<br>Q：找不到usr文件夹？<br>A：可以试试点击桌面的【主文件夹】图表，或者找到桌面左上角的【应用程序&#x2F;附件&#x2F;文件】,在打开的资源管理器窗口找到【其他位置】选项，点击后找到【计算机】，再点击即可看到盘根的全部文件夹，usr就在其中。<br>在服务器端或许由于缺少播放视频的插件而无法预览视频，但这本就不是服务器的职责，我们只要确保该文件被平安地放到指定的目录，并且可以被外部网络访问到即可。<br>接下来我们要做的工作就是将该视频部署到某一个网络地址，生成可以被访问的外链。</p>
-<p>介绍新工具，nginx<br>在linux安装nginx<br><a href="https://blog.csdn.net/t8116189520/article/details/81909574">https://blog.csdn.net/t8116189520/article/details/81909574</a><br>Q：如何在图形界面系统上输入命令？<br>A：在应用程序中找到【系统工具&#x2F;终端】即可。请注意，通过此种方式运行终端，用户并非拥有root权限，因此，如果在执行命令时收到【您需要root权限执行此命令】或者【permission denied】，【you need to be root to xxxx】等报错时，只要在当前的命令前增加sudo 即可。例如sudo yum -y install xxxxxxx</p>
-<p>Q：如何在图形界面获取root权限？<br>A：选择root作为用户名登录，即可获得root权限，你可以选择注销当前账号的登录，回到登录界面，然后选择以其他身份登入，以此切换到root账号。</p>
-<p>按照该命令安装nginx后，nginx所在的目录为usr&#x2F;local&#x2F;nginx，该文件夹内的nginx-1.13.7.tar.gz是安装包文件，可以删除了<br>删除的命令是：sudo rm -rf nginx-1.13.7.tar.gz</p>
-<p>配置nginx过程中可能涉及到使用命令行修改文件内容，可以上网搜做法<a href="https://blog.csdn.net/qq_51515673/article/details/124390606">https://blog.csdn.net/qq_51515673/article/details/124390606</a><br>配置完nginx后还需要开启防火墙，并且确保自己设置的8089端口是开放tcp的<br><a href="https://blog.csdn.net/szw906689771/article/details/121647887">https://blog.csdn.net/szw906689771/article/details/121647887</a><br>查看端口是否开启：<br><a href="https://www.muzhuangnet.com/show/78535.html">https://www.muzhuangnet.com/show/78535.html</a><br>sudo firewall-cmd –query-port&#x3D;8089&#x2F;tcp<br>如果返回的是no，则说明端口还没有打开<br>开启8089端口<br>sudo firewall-cmd –add-port&#x3D;8089&#x2F;tcp –permanent<br>开启后需再次重启防火墙，才能生效<br>sudo firewall-cmd –reload<br>然后再查询一次端口是否打开，如果是yes，则我们已经取得90%的胜利了。<br>Q：我还是no，怎么办？<br>A：你可能还需要在服务器控制台的安全组中创建规则，在【入方向规则】中添加8089端口</p>
-<p>接下来让我们打开服务器的firefox浏览器，在地址栏输入本机公网IP:端口号，例如208.87.125.168:8089</p>
-<p>注意：重启服务器时，防火墙和nginx会重新回到关闭状态，需要留意。开机后需要执行的操作：<br>获得root权限：su root<br>重新开启防火墙：systemctl start firewalld<br>开启nginx：&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin&#x2F;nginx -c &#x2F;usr&#x2F;local&#x2F;nginx&#x2F;conf&#x2F;nginx.conf<br>在其它机器上访问http:&#x2F;&#x2F;公网IP:端口号，看看能否出现nginx的index.html页面，出现即为成功</p>
-<p>只剩最后一点了，我们要在nginx的文件夹下放置一个资源，然后尝试在其它设备上访问<br>首先进入</p>
-<div class="video"><video controls preload><source src='http://208.87.201.164:8089/video/video2.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div>]]></content>
-  </entry>
-  <entry>
-    <title>博客搭建教程6 - 拥有自己的域名</title>
-    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-6-yong-you-zi-ji-de-yu-ming/</url>
-    <content><![CDATA[<p>正在筹备</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>博客搭建教程5 - 发布第一篇博客</title>
-    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-5-di-yi-ci-fa-bu-bo-ke/</url>
-    <content><![CDATA[<p>正在筹备</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>博客搭建教程4 - 选择喜欢的Hexo主题</title>
-    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-3-xuan-ze-xi-huan-de-hexo-zhu-ti/</url>
-    <content><![CDATA[<p>正在筹备</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>博客搭建教程3 - 使用Hexo开始搭建</title>
-    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-3-shi-yong-hexo-kai-shi-da-jian/</url>
-    <content><![CDATA[<p>正在筹备</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>博客搭建教程2 - 初识Git</title>
-    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-2-shou-xi-git/</url>
+    <title>博客搭建教程1 - 技术栈与工具准备</title>
+    <url>/2023/01/08/hexo-bo-ke-da-jian-jiao-cheng-1/</url>
     <content><![CDATA[<p>正在筹备</p>
 ]]></content>
   </entry>
@@ -84,9 +22,9 @@
 <p>需要注意的是，只有1到4级标题才会被文章目录收录。</p>
 <p>以下为Bamboo主题的定制标题样式：  </p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% title h1, 这是一级标题 %&#125;</span><br><span class="line">&#123;% title h6, 这是六级标题, red %&#125;</span><br><span class="line">&#123;% titleB h5, 这是五级标题, #895546 %&#125;</span><br></pre></td></tr></table></figure>
-<h1 class="bamboo-h " id="这是一级标题rjaddnbarp">这是一级标题</h1><br/>
-<h6 class="bamboo-h red" id="这是六级标题8lvvgun2gf">这是六级标题</h6><br/>
-<h5 class="bamboo-h-b" id="这是五级标题281a9m0g7iv" style="color:#895546!important">这是五级标题</h5><div></div>
+<h1 class="bamboo-h " id="这是一级标题13m7ae5njig">这是一级标题</h1><br/>
+<h6 class="bamboo-h red" id="这是六级标题1a2278ju86u">这是六级标题</h6><br/>
+<h5 class="bamboo-h-b" id="这是五级标题1lchnfjlrbp" style="color:#895546!important">这是五级标题</h5><div></div>
 
 <h3 id="文本加粗，倾斜，上下标，删除线，下划线，大小号"><a href="#文本加粗，倾斜，上下标，删除线，下划线，大小号" class="headerlink" title="文本加粗，倾斜，上下标，删除线，下划线，大小号"></a>文本加粗，倾斜，上下标，删除线，下划线，大小号</h3><p>（MarkDown兼容HTML语言,可直接使用HTML的语法）<br>只需在文本前后打上星号,即可将包夹的文字<strong>加粗</strong>或<em>倾斜</em>：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">**想要加粗的内容**</span><br><span class="line">*想要倾斜的内容*</span><br></pre></td></tr></table></figure>
@@ -217,8 +155,8 @@
       </tags>
   </entry>
   <entry>
-    <title>博客搭建教程1 - 技术栈与工具准备</title>
-    <url>/2023/01/08/hexo-bo-ke-da-jian-jiao-cheng-1/</url>
+    <title>博客搭建教程2 - 初识Git</title>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-2-shou-xi-git/</url>
     <content><![CDATA[<p>正在筹备</p>
 ]]></content>
   </entry>
@@ -245,5 +183,48 @@
       <tags>
         <tag>Test</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>博客搭建教程3 - 使用Hexo开始搭建</title>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-3-shi-yong-hexo-kai-shi-da-jian/</url>
+    <content><![CDATA[<p>正在筹备</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>博客搭建教程11 - Linux常用操作</title>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-11-linux-chang-yong-cao-zuo/</url>
+    <content><![CDATA[<p>正在筹备</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>博客搭建教程4 - 选择喜欢的Hexo主题</title>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-3-xuan-ze-xi-huan-de-hexo-zhu-ti/</url>
+    <content><![CDATA[<p>正在筹备</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>博客搭建教程5 - 发布第一篇博客</title>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-5-di-yi-ci-fa-bu-bo-ke/</url>
+    <content><![CDATA[<p>正在筹备</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>博客搭建教程6 - 拥有自己的域名</title>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-6-yong-you-zi-ji-de-yu-ming/</url>
+    <content><![CDATA[<p>正在筹备</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>博客搭建教程10 - 最佳实践</title>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-9-zui-jia-shi-jian/</url>
+    <content><![CDATA[<p>正在筹备<br>规划好资源目录结构<br>1.按博文 每个博文对应一个文件夹<br>2.按数据类型，音频在一个文件夹下，视频在一个文件夹下</p>
+<p>我选择了按博文建目录，这样可以和Markdown归档保持一致，但是按博文建目录会面临一个问题，资源冗余。两篇博文使用了相同的资源，那么该资源就会在两个目录里存在两份，这种情况不太可能发生，即使冗余其占比也不高，所以不用担心，而且冗余也有好处，一旦这两篇博文有一篇被删除，那么另一篇的资源不会被误删。<br>在&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;html&#x2F; 目录就是资源根目录。我在此目录下又新建了一个文件夹epya15，专门用来存放该网站的资源。同时我在epya15目录下又新建了文件夹blogresource，用来存储每个博文的资源文件<br>至此，我的服务器的目录结构为<br>&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;html&#x2F;epya15&#x2F;		（存放网站所有资源）<br>&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;html&#x2F;epya15&#x2F;blogresource		（存放网站所有博客资源）</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>博客搭建教程9 - 接触Linux</title>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-8-jie-hong-linux/</url>
+    <content><![CDATA[<p>正在筹备</p>
+]]></content>
   </entry>
 </search>

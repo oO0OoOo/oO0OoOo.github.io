@@ -82,27 +82,6 @@
   </entry>
   
   <entry>
-    <title>博客搭建教程7 - 使用云服务器搭建资源服</title>
-    <link href="http://epya15.com/2023/01/09/bo-ke-da-jian-jiao-cheng-7-shi-yong-yun-fu-wu-qi-da-jian-tu-chuang/"/>
-    <id>http://epya15.com/2023/01/09/bo-ke-da-jian-jiao-cheng-7-shi-yong-yun-fu-wu-qi-da-jian-tu-chuang/</id>
-    <published>2023-01-09T14:46:10.000Z</published>
-    <updated>2023-01-10T16:45:09.372Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;网页中会展示一些大体积的资源，比如音频视频等多媒体文件，还有一些可被公开下载的文件。&lt;br&gt;虽然使用Git可以存储这些文件，但是Git的本意是代码管理，对于大体积文件来讲并不适合，大量文件会让你的Git仓库变得臃肿，另外在中国访问Git的速度有限，在一些网络不稳定的时候，网</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>博客搭建教程6 - 拥有自己的域名</title>
     <link href="http://epya15.com/2023/01/09/bo-ke-da-jian-jiao-cheng-6-yong-you-zi-ji-de-yu-ming/"/>
     <id>http://epya15.com/2023/01/09/bo-ke-da-jian-jiao-cheng-6-yong-you-zi-ji-de-yu-ming/</id>
