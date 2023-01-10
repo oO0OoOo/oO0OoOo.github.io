@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Epya15</title>
+  <title>赛朋博客</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="http://epya15.com/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="http://epya15.com/"/>
   <updated>2023-01-10T16:31:11.891Z</updated>
-  <id>http://example.com/</id>
+  <id>http://epya15.com/</id>
   
   <author>
     <name>hunter.ye</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>博客搭建教程11 - Linux常用操作</title>
-    <link href="http://example.com/2023/01/09/bo-ke-da-jian-jiao-cheng-11-linux-chang-yong-cao-zuo/"/>
-    <id>http://example.com/2023/01/09/bo-ke-da-jian-jiao-cheng-11-linux-chang-yong-cao-zuo/</id>
+    <link href="http://epya15.com/2023/01/09/bo-ke-da-jian-jiao-cheng-11-linux-chang-yong-cao-zuo/"/>
+    <id>http://epya15.com/2023/01/09/bo-ke-da-jian-jiao-cheng-11-linux-chang-yong-cao-zuo/</id>
     <published>2023-01-09T14:53:36.000Z</published>
     <updated>2023-01-10T16:31:11.891Z</updated>
     
@@ -40,18 +40,17 @@
   
   <entry>
     <title>博客搭建教程10 - 最佳实践</title>
-    <link href="http://example.com/2023/01/09/bo-ke-da-jian-jiao-cheng-9-zui-jia-shi-jian/"/>
-    <id>http://example.com/2023/01/09/bo-ke-da-jian-jiao-cheng-9-zui-jia-shi-jian/</id>
+    <link href="http://epya15.com/2023/01/09/bo-ke-da-jian-jiao-cheng-9-zui-jia-shi-jian/"/>
+    <id>http://epya15.com/2023/01/09/bo-ke-da-jian-jiao-cheng-9-zui-jia-shi-jian/</id>
     <published>2023-01-09T14:47:54.000Z</published>
-    <updated>2023-01-10T16:31:08.523Z</updated>
+    <updated>2023-01-10T17:07:08.133Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;正在筹备&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;p&gt;正在筹备&lt;br&gt;规划好资源目录结构&lt;br&gt;1.按博文</summary>
         
       
     
@@ -62,8 +61,8 @@
   
   <entry>
     <title>博客搭建教程9 - 接触Linux</title>
-    <link href="http://example.com/2023/01/09/bo-ke-da-jian-jiao-cheng-8-jie-hong-linux/"/>
-    <id>http://example.com/2023/01/09/bo-ke-da-jian-jiao-cheng-8-jie-hong-linux/</id>
+    <link href="http://epya15.com/2023/01/09/bo-ke-da-jian-jiao-cheng-8-jie-hong-linux/"/>
+    <id>http://epya15.com/2023/01/09/bo-ke-da-jian-jiao-cheng-8-jie-hong-linux/</id>
     <published>2023-01-09T14:47:28.000Z</published>
     <updated>2023-01-10T16:31:03.836Z</updated>
     
@@ -83,9 +82,30 @@
   </entry>
   
   <entry>
+    <title>博客搭建教程7 - 使用云服务器搭建资源服</title>
+    <link href="http://epya15.com/2023/01/09/bo-ke-da-jian-jiao-cheng-7-shi-yong-yun-fu-wu-qi-da-jian-tu-chuang/"/>
+    <id>http://epya15.com/2023/01/09/bo-ke-da-jian-jiao-cheng-7-shi-yong-yun-fu-wu-qi-da-jian-tu-chuang/</id>
+    <published>2023-01-09T14:46:10.000Z</published>
+    <updated>2023-01-10T16:45:09.372Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;网页中会展示一些大体积的资源，比如音频视频等多媒体文件，还有一些可被公开下载的文件。&lt;br&gt;虽然使用Git可以存储这些文件，但是Git的本意是代码管理，对于大体积文件来讲并不适合，大量文件会让你的Git仓库变得臃肿，另外在中国访问Git的速度有限，在一些网络不稳定的时候，网</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>博客搭建教程6 - 拥有自己的域名</title>
-    <link href="http://example.com/2023/01/09/bo-ke-da-jian-jiao-cheng-6-yong-you-zi-ji-de-yu-ming/"/>
-    <id>http://example.com/2023/01/09/bo-ke-da-jian-jiao-cheng-6-yong-you-zi-ji-de-yu-ming/</id>
+    <link href="http://epya15.com/2023/01/09/bo-ke-da-jian-jiao-cheng-6-yong-you-zi-ji-de-yu-ming/"/>
+    <id>http://epya15.com/2023/01/09/bo-ke-da-jian-jiao-cheng-6-yong-you-zi-ji-de-yu-ming/</id>
     <published>2023-01-09T14:45:12.000Z</published>
     <updated>2023-01-10T16:30:58.299Z</updated>
     
@@ -106,8 +126,8 @@
   
   <entry>
     <title>博客搭建教程5 - 发布第一篇博客</title>
-    <link href="http://example.com/2023/01/09/bo-ke-da-jian-jiao-cheng-5-di-yi-ci-fa-bu-bo-ke/"/>
-    <id>http://example.com/2023/01/09/bo-ke-da-jian-jiao-cheng-5-di-yi-ci-fa-bu-bo-ke/</id>
+    <link href="http://epya15.com/2023/01/09/bo-ke-da-jian-jiao-cheng-5-di-yi-ci-fa-bu-bo-ke/"/>
+    <id>http://epya15.com/2023/01/09/bo-ke-da-jian-jiao-cheng-5-di-yi-ci-fa-bu-bo-ke/</id>
     <published>2023-01-09T14:44:24.000Z</published>
     <updated>2023-01-10T16:30:54.924Z</updated>
     
@@ -128,8 +148,8 @@
   
   <entry>
     <title>博客搭建教程4 - 选择喜欢的Hexo主题</title>
-    <link href="http://example.com/2023/01/09/bo-ke-da-jian-jiao-cheng-3-xuan-ze-xi-huan-de-hexo-zhu-ti/"/>
-    <id>http://example.com/2023/01/09/bo-ke-da-jian-jiao-cheng-3-xuan-ze-xi-huan-de-hexo-zhu-ti/</id>
+    <link href="http://epya15.com/2023/01/09/bo-ke-da-jian-jiao-cheng-3-xuan-ze-xi-huan-de-hexo-zhu-ti/"/>
+    <id>http://epya15.com/2023/01/09/bo-ke-da-jian-jiao-cheng-3-xuan-ze-xi-huan-de-hexo-zhu-ti/</id>
     <published>2023-01-09T14:43:49.000Z</published>
     <updated>2023-01-10T16:30:51.012Z</updated>
     
@@ -150,8 +170,8 @@
   
   <entry>
     <title>博客搭建教程3 - 使用Hexo开始搭建</title>
-    <link href="http://example.com/2023/01/09/bo-ke-da-jian-jiao-cheng-3-shi-yong-hexo-kai-shi-da-jian/"/>
-    <id>http://example.com/2023/01/09/bo-ke-da-jian-jiao-cheng-3-shi-yong-hexo-kai-shi-da-jian/</id>
+    <link href="http://epya15.com/2023/01/09/bo-ke-da-jian-jiao-cheng-3-shi-yong-hexo-kai-shi-da-jian/"/>
+    <id>http://epya15.com/2023/01/09/bo-ke-da-jian-jiao-cheng-3-shi-yong-hexo-kai-shi-da-jian/</id>
     <published>2023-01-09T14:43:16.000Z</published>
     <updated>2023-01-10T16:30:47.076Z</updated>
     
@@ -172,8 +192,8 @@
   
   <entry>
     <title>博客搭建教程2 - 初识Git</title>
-    <link href="http://example.com/2023/01/09/bo-ke-da-jian-jiao-cheng-2-shou-xi-git/"/>
-    <id>http://example.com/2023/01/09/bo-ke-da-jian-jiao-cheng-2-shou-xi-git/</id>
+    <link href="http://epya15.com/2023/01/09/bo-ke-da-jian-jiao-cheng-2-shou-xi-git/"/>
+    <id>http://epya15.com/2023/01/09/bo-ke-da-jian-jiao-cheng-2-shou-xi-git/</id>
     <published>2023-01-09T14:40:00.000Z</published>
     <updated>2023-01-10T16:30:42.618Z</updated>
     
@@ -194,8 +214,8 @@
   
   <entry>
     <title>博客搭建教程8 - Markdown常用语法</title>
-    <link href="http://example.com/2023/01/09/hexo-bo-wen-shu-xie-yang-ban/"/>
-    <id>http://example.com/2023/01/09/hexo-bo-wen-shu-xie-yang-ban/</id>
+    <link href="http://epya15.com/2023/01/09/hexo-bo-wen-shu-xie-yang-ban/"/>
+    <id>http://epya15.com/2023/01/09/hexo-bo-wen-shu-xie-yang-ban/</id>
     <published>2023-01-08T16:44:00.000Z</published>
     <updated>2023-01-09T14:46:24.423Z</updated>
     
@@ -211,17 +231,17 @@
     
     
     
-    <category term="博客搭建" scheme="http://example.com/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    <category term="博客搭建" scheme="http://epya15.com/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
-    <category term="博客" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    <category term="博客" scheme="http://epya15.com/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
   <entry>
     <title>博客搭建教程1 - 技术栈与工具准备</title>
-    <link href="http://example.com/2023/01/08/hexo-bo-ke-da-jian-jiao-cheng-1/"/>
-    <id>http://example.com/2023/01/08/hexo-bo-ke-da-jian-jiao-cheng-1/</id>
+    <link href="http://epya15.com/2023/01/08/hexo-bo-ke-da-jian-jiao-cheng-1/"/>
+    <id>http://epya15.com/2023/01/08/hexo-bo-ke-da-jian-jiao-cheng-1/</id>
     <published>2023-01-07T19:34:00.000Z</published>
     <updated>2023-01-10T16:30:32.964Z</updated>
     
@@ -242,8 +262,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2023/01/07/hello-world/"/>
-    <id>http://example.com/2023/01/07/hello-world/</id>
+    <link href="http://epya15.com/2023/01/07/hello-world/"/>
+    <id>http://epya15.com/2023/01/07/hello-world/</id>
     <published>2023-01-06T17:23:00.000Z</published>
     <updated>2023-01-07T18:50:42.889Z</updated>
     
@@ -258,10 +278,10 @@
     
     
     
-    <category term="代码" scheme="http://example.com/categories/%E4%BB%A3%E7%A0%81/"/>
+    <category term="代码" scheme="http://epya15.com/categories/%E4%BB%A3%E7%A0%81/"/>
     
     
-    <category term="Test" scheme="http://example.com/tags/Test/"/>
+    <category term="Test" scheme="http://epya15.com/tags/Test/"/>
     
   </entry>
   
