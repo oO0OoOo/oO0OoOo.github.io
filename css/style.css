@@ -175,7 +175,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   color: #fff;
 }
 .bg-floor {
-  background: ;
+  background: url("/medias/pageBg2.jpg");
   background-size: cover;
   transition: all 0.3s;
 }
