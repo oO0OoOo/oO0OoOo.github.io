@@ -22,8 +22,8 @@
   <entry>
     <title>博客搭建教程6 - 拥有自己的域名</title>
     <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-6-yong-you-zi-ji-de-yu-ming/</url>
-    <content><![CDATA[<p>正在筹备</p>
-]]></content>
+    <content><![CDATA[<p>正在筹备  </p>
+<div class="video"><video controls preload><source src='http://208.87.201.164:8089/video/video2.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div>]]></content>
   </entry>
   <entry>
     <title>博客搭建教程5 - 发布第一篇博客</title>
@@ -65,9 +65,9 @@
 <p>需要注意的是，只有1到4级标题才会被文章目录收录。</p>
 <p>以下为Bamboo主题的定制标题样式：  </p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% title h1, 这是一级标题 %&#125;</span><br><span class="line">&#123;% title h6, 这是六级标题, red %&#125;</span><br><span class="line">&#123;% titleB h5, 这是五级标题, #895546 %&#125;</span><br></pre></td></tr></table></figure>
-<h1 class="bamboo-h " id="这是一级标题15c0yqld1pr">这是一级标题</h1><br/>
-<h6 class="bamboo-h red" id="这是六级标题2q43bjv638u">这是六级标题</h6><br/>
-<h5 class="bamboo-h-b" id="这是五级标题39g39tojd40" style="color:#895546!important">这是五级标题</h5><div></div>
+<h1 class="bamboo-h " id="这是一级标题48be1gli6j0">这是一级标题</h1><br/>
+<h6 class="bamboo-h red" id="这是六级标题a36aans1qco">这是六级标题</h6><br/>
+<h5 class="bamboo-h-b" id="这是五级标题1ccw6p4ne0v" style="color:#895546!important">这是五级标题</h5><div></div>
 
 <h3 id="文本加粗，倾斜，上下标，删除线，下划线，大小号"><a href="#文本加粗，倾斜，上下标，删除线，下划线，大小号" class="headerlink" title="文本加粗，倾斜，上下标，删除线，下划线，大小号"></a>文本加粗，倾斜，上下标，删除线，下划线，大小号</h3><p>（MarkDown兼容HTML语言,可直接使用HTML的语法）<br>只需在文本前后打上星号,即可将包夹的文字<strong>加粗</strong>或<em>倾斜</em>：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">**想要加粗的内容**</span><br><span class="line">*想要倾斜的内容*</span><br></pre></td></tr></table></figure>

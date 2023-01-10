@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://epya15.com/2023/01/09/bo-ke-da-jian-jiao-cheng-6-yong-you-zi-ji-de-yu-ming/</loc>
+    
+    <lastmod>2023-01-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://epya15.com/2023/01/09/bo-ke-da-jian-jiao-cheng-9-zui-jia-shi-jian/</loc>
     
     <lastmod>2023-01-10</lastmod>
@@ -21,15 +30,6 @@
   
   <url>
     <loc>http://epya15.com/2023/01/09/bo-ke-da-jian-jiao-cheng-8-jie-hong-linux/</loc>
-    
-    <lastmod>2023-01-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://epya15.com/2023/01/09/bo-ke-da-jian-jiao-cheng-6-yong-you-zi-ji-de-yu-ming/</loc>
     
     <lastmod>2023-01-10</lastmod>
     
@@ -137,14 +137,14 @@
 
   
   <url>
-    <loc>http://epya15.com/tags/Test/</loc>
+    <loc>http://epya15.com/tags/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2023-01-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://epya15.com/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>http://epya15.com/tags/Test/</loc>
     <lastmod>2023-01-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -153,14 +153,14 @@
 
   
   <url>
-    <loc>http://epya15.com/categories/%E4%BB%A3%E7%A0%81/</loc>
+    <loc>http://epya15.com/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
     <lastmod>2023-01-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://epya15.com/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
+    <loc>http://epya15.com/categories/%E4%BB%A3%E7%A0%81/</loc>
     <lastmod>2023-01-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

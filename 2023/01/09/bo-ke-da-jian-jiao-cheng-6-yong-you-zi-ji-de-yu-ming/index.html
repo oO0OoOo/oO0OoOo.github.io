@@ -627,7 +627,7 @@
       
         <div class="post-detail-header_wordcount">
           <span class="totalcount">
-            <i class="fas fa-file-text-o"></i> Words: 4 |
+            <i class="fas fa-file-text-o"></i> Words: 12 |
           </span>
   
           <span class="min2read">
@@ -656,8 +656,8 @@
   <div class="main-content">
     <article class="post post-detail">
       <div class="post-content">
-        <p>正在筹备</p>
-
+        <p>正在筹备  </p>
+<div class="video"><video controls preload><source src='http://208.87.201.164:8089/video/video2.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div>
       </div>
       <div class="post-tags-categories">
         
@@ -1078,7 +1078,7 @@
 			clearInterval(this.time);
 		},
 		mounted() {
-			let prop = '' || '';
+			let prop = '' || 'url(&#34;/medias/pageBg2.jpg&#34;)';
 			let isImg = prop.includes('.bmp') || prop.includes('.jpg') || prop.includes('.png') || prop.includes('.tif') || prop.includes('.gif') || prop.includes('.pcx') || prop.includes('.tga') || prop.includes('.exif') || prop.includes('.fpx') || prop.includes('.psd') || prop.includes('.cdr') || prop.includes('.pcd') || prop.includes('.dxf') || prop.includes('.ufo') || prop.includes('.eps') || prop.includes('.ai') || prop.includes('.raw') || prop.includes('.WMF') || prop.includes('.webp') || prop.includes('.jpeg') || prop.includes('http://') || prop.includes('https://')
 			if (isImg) {
 				let img = prop.split(',');
