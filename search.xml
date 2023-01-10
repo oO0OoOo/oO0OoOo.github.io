@@ -3,50 +3,49 @@
   <entry>
     <title>博客搭建教程11 - Linux常用操作</title>
     <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-11-linux-chang-yong-cao-zuo/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<p>正在筹备</p>
+]]></content>
   </entry>
   <entry>
     <title>博客搭建教程10 - 最佳实践</title>
     <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-9-zui-jia-shi-jian/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<p>正在筹备</p>
+]]></content>
   </entry>
   <entry>
     <title>博客搭建教程9 - 接触Linux</title>
     <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-8-jie-hong-linux/</url>
-    <content><![CDATA[<p>添加图形界面<a href="https://blog.csdn.net/weixin_45115705/article/details/100553983">https://blog.csdn.net/weixin_45115705/article/details/100553983</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>博客搭建教程7 - 使用云服务器搭建图床</title>
-    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-7-shi-yong-yun-fu-wu-qi-da-jian-tu-chuang/</url>
-    <content><![CDATA[<p>linux开放端口<a href="https://blog.csdn.net/qq_36530891/article/details/102789233">https://blog.csdn.net/qq_36530891/article/details/102789233</a><br>搭建图床<a href="https://blog.csdn.net/qq_29091587/article/details/104412358">https://blog.csdn.net/qq_29091587/article/details/104412358</a><br>在linux安装nginx<br><a href="https://blog.csdn.net/t8116189520/article/details/81909574">https://blog.csdn.net/t8116189520/article/details/81909574</a><br><a href="https://postimg.cc/9DCxFJsX">testimg.png</a><br>linux修改文件内容<a href="https://blog.csdn.net/qq_51515673/article/details/124390606">https://blog.csdn.net/qq_51515673/article/details/124390606</a></p>
-<p><a href="https://postimg.cc/9DCxFJsX"><img src="https://i.postimg.cc/FHJwp6ZS/testimg.png" class="lazyload placeholder" data-srcset="https://i.postimg.cc/FHJwp6ZS/testimg.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="testimg.png"></a><br>我在服务器上放的图片，太不容易了<br><a href="http://154.204.55.90:8089/www/test.jpg">http://154.204.55.90:8089/www/test.jpg</a><br>[<img src="http://154.204.55.90:8089/www/test.jpg" class="lazyload placeholder" data-srcset="http://154.204.55.90:8089/www/test.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="test.jpg">]</p>
+    <content><![CDATA[<p>正在筹备</p>
 ]]></content>
   </entry>
   <entry>
     <title>博客搭建教程6 - 拥有自己的域名</title>
     <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-6-yong-you-zi-ji-de-yu-ming/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<p>正在筹备</p>
+]]></content>
   </entry>
   <entry>
     <title>博客搭建教程5 - 发布第一篇博客</title>
     <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-5-di-yi-ci-fa-bu-bo-ke/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<p>正在筹备</p>
+]]></content>
   </entry>
   <entry>
     <title>博客搭建教程4 - 选择喜欢的Hexo主题</title>
     <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-3-xuan-ze-xi-huan-de-hexo-zhu-ti/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<p>正在筹备</p>
+]]></content>
   </entry>
   <entry>
     <title>博客搭建教程3 - 使用Hexo开始搭建</title>
     <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-3-shi-yong-hexo-kai-shi-da-jian/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<p>正在筹备</p>
+]]></content>
   </entry>
   <entry>
     <title>博客搭建教程2 - 初识Git</title>
     <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-2-shou-xi-git/</url>
-    <content><![CDATA[<p>1</p>
+    <content><![CDATA[<p>正在筹备</p>
 ]]></content>
   </entry>
   <entry>
@@ -65,9 +64,9 @@
 <p>需要注意的是，只有1到4级标题才会被文章目录收录。</p>
 <p>以下为Bamboo主题的定制标题样式：  </p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% title h1, 这是一级标题 %&#125;</span><br><span class="line">&#123;% title h6, 这是六级标题, red %&#125;</span><br><span class="line">&#123;% titleB h5, 这是五级标题, #895546 %&#125;</span><br></pre></td></tr></table></figure>
-<h1 class="bamboo-h " id="这是一级标题2ovvragwjwc">这是一级标题</h1><br/>
-<h6 class="bamboo-h red" id="这是六级标题29qaksxne1z">这是六级标题</h6><br/>
-<h5 class="bamboo-h-b" id="这是五级标题21u0vyghm97" style="color:#895546!important">这是五级标题</h5><div></div>
+<h1 class="bamboo-h " id="这是一级标题1v9ac4vgs4p">这是一级标题</h1><br/>
+<h6 class="bamboo-h red" id="这是六级标题20y4ft1s6w">这是六级标题</h6><br/>
+<h5 class="bamboo-h-b" id="这是五级标题jby200k76" style="color:#895546!important">这是五级标题</h5><div></div>
 
 <h3 id="文本加粗，倾斜，上下标，删除线，下划线，大小号"><a href="#文本加粗，倾斜，上下标，删除线，下划线，大小号" class="headerlink" title="文本加粗，倾斜，上下标，删除线，下划线，大小号"></a>文本加粗，倾斜，上下标，删除线，下划线，大小号</h3><p>（MarkDown兼容HTML语言,可直接使用HTML的语法）<br>只需在文本前后打上星号,即可将包夹的文字<strong>加粗</strong>或<em>倾斜</em>：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">**想要加粗的内容**</span><br><span class="line">*想要倾斜的内容*</span><br></pre></td></tr></table></figure>
@@ -200,7 +199,7 @@
   <entry>
     <title>博客搭建教程1 - 技术栈与工具准备</title>
     <url>/2023/01/08/hexo-bo-ke-da-jian-jiao-cheng-1/</url>
-    <content><![CDATA[<p>正在填写，预计年前写完2</p>
+    <content><![CDATA[<p>正在筹备</p>
 ]]></content>
   </entry>
   <entry>
