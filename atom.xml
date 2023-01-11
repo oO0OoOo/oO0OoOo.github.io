@@ -6,7 +6,7 @@
   <link href="http://epya15.com/atom.xml" rel="self"/>
   
   <link href="http://epya15.com/"/>
-  <updated>2023-01-10T16:31:11.891Z</updated>
+  <updated>2023-01-11T17:08:19.473Z</updated>
   <id>http://epya15.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博客搭建教程12 - 服务器数据迁移</title>
+    <link href="http://epya15.com/2023/01/12/bo-ke-da-jian-jiao-cheng-12-fu-wu-qi-shu-ju-qian-yi/"/>
+    <id>http://epya15.com/2023/01/12/bo-ke-da-jian-jiao-cheng-12-fu-wu-qi-shu-ju-qian-yi/</id>
+    <published>2023-01-11T17:02:53.000Z</published>
+    <updated>2023-01-11T17:08:19.473Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;正在筹备&lt;/p&gt;
+&lt;p&gt;随着我们在网站开展事业而变得更富有或者变得更穷，现有的服务器可能不再符合我们的需求，因此我们需要换一台更适合自己的服务器。&lt;br&gt;想到这里，你会觉得痛苦，因为配置好一台服务器实在花费了太多精力，在无数次试错后它终于得以正常运行，现在要更换新服务器，或</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>博客搭建教程11 - Linux常用操作</title>
@@ -64,15 +86,14 @@
     <link href="http://epya15.com/2023/01/09/bo-ke-da-jian-jiao-cheng-8-jie-hong-linux/"/>
     <id>http://epya15.com/2023/01/09/bo-ke-da-jian-jiao-cheng-8-jie-hong-linux/</id>
     <published>2023-01-09T14:47:28.000Z</published>
-    <updated>2023-01-10T16:31:03.836Z</updated>
+    <updated>2023-01-11T17:54:49.682Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;正在筹备&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;p&gt;正在筹备&lt;br&gt;将资源放在Git上从而暴露的风险，而我们已经将自己的服务器用作私有的资源服，这很酷，它意味着他人必须通过我们自己的网站才能获取到这些资源，这为我们带来了流量。&lt;br&gt;是时候将我们的网站全部迁移至自己的服务器了。&lt;br&gt;放心，这不会花费太长时间，之后涉及的每一</summary>
         
       
     
