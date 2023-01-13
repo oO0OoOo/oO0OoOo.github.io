@@ -11,7 +11,7 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-  <title>博客搭建教程11 - Linux常用操作 | 赛朋博客</title>
+  <title>博客搭建教程14 - 使用宝塔远程维护服务器 | 赛朋博客</title>
 
   <link rel="icon" type="image/jpeg" href="/favicon.jpg">
   <link rel="stylesheet" href="https://at.alicdn.com/t/font_1911880_c1nvbyezg17.css">
@@ -611,14 +611,14 @@
   <div class="post-detail-header_info-box">
     <div class="title-box">
       <span class="title">
-        博客搭建教程11 - Linux常用操作
+        博客搭建教程14 - 使用宝塔远程维护服务器
       </span>
     </div>
     
     
       
         <span class="post-detail-header_date">
-          <i class="fas fa-calendar"></i> Published in：2023-01-09 |
+          <i class="fas fa-calendar"></i> Published in：2023-01-13 |
         </span>
       
 
@@ -636,7 +636,7 @@
       
         <div class="post-detail-header_wordcount">
           <span class="totalcount">
-            <i class="fas fa-file-text-o"></i> Words: 370 |
+            <i class="fas fa-file-text-o"></i> Words: 243 |
           </span>
   
           <span class="min2read">
@@ -665,10 +665,10 @@
   <div class="main-content">
     <article class="post post-detail">
       <div class="post-content">
-        <p>重启服务器后的例行操作</p>
-<p>1.检查防火墙<br>检查防火墙状态：systemctl status firewalld<br>若出现绿色的active(running)，说明防火墙已经启动，否则<br>systemctl start firewalld开启防火墙，没有任何提示即开启成功<br>如果没有反应，或者等待1分钟后出现timeout，需要先kill掉现在的防火墙进程再重新开启<br>kill防火墙进程：pkill -f firewalld<br>然后再重新systemctl start firewalld开启防火墙，没有任何提示即开启成功</p>
-<p>2.检查80端口<br>firewall-cmd –query-port&#x3D;80&#x2F;tcp<br>返回yes即没问题，否则打开80端口<br>firewall-cmd –add-port&#x3D;80&#x2F;tcp –permanent<br>开启后需再次重启防火墙，才能生效<br>firewall-cmd –reload</p>
-<p>3.检查nginx服务<br>开启nginx：&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin&#x2F;nginx -c &#x2F;usr&#x2F;local&#x2F;nginx&#x2F;conf&#x2F;nginx.conf<br>在其它机器上访问服务器IP:端口号，如果出现nginx页面，就表示开启成功（出现403 Forbidden也无所谓）<br>（关闭命令：&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin&#x2F;nginx -s stop）<br>如果提示80端口被占用，可能被nginx占用<br>查看80端口使用情况<br>netstat -lnp|grep 80<br>如果是被nginx占用的，则记住显示的进程号，比如1053<br>停掉nginx<br>systemctl stop nginx<br>强制杀掉1053进程<br>kill -9 1053<br>再查询<br>netstat -lnp|grep 80<br>没结果说明已经不占用了<br>接着重新开启nginx服务<br>开启nginx：&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin&#x2F;nginx -c &#x2F;usr&#x2F;local&#x2F;nginx&#x2F;conf&#x2F;nginx.conf</p>
+        <p>.安装宝塔面板只需要一句话命令：<br>在<a target="_blank" rel="noopener" href="http://www.bt.cn宝塔官网上能找到安装命令,比如/">www.bt.cn宝塔官网上能找到安装命令，比如</a><br>yum install -y wget &amp;&amp; wget -O install.sh <a target="_blank" rel="noopener" href="https://download.bt.cn/install/install_6.0.sh">https://download.bt.cn/install/install_6.0.sh</a> &amp;&amp; sh install.sh ed8484bec</p>
+<p>回车开始自动安装，安装大概需要2-10分钟。安装成功后，会显示出你的宝塔登录信息，帐号和密码。</p>
+<p>直接用你的 IP打开 http:&#x2F;&#x2F;你的IP:8888&#x2F; 就可以登录后台，然后选择网站环境安装了。<br>可以在宝塔面板上修改账号和密码</p>
+<p>在浏览上打开宝塔面板的地址，登入面板会自动推荐你安装环境的套件，这里有两种选择，第一种是LNMP套件，第二种是LAMP套件。选择安装的程序后，面板的左上角会自动显示任务的数量，点击后进入任务列表。最后，调试面板即可安装网站操作。</p>
 
       </div>
       <div class="post-tags-categories">
@@ -690,7 +690,7 @@
     </li>
     <li class="post-copyright-link">
     <strong>link:  </strong>
-    <a href="/2023/01/09/bo-ke-da-jian-jiao-cheng-11-linux-chang-yong-cao-zuo/" target="_blank" title="博客搭建教程11 - Linux常用操作">http://epya15.com/2023/01/09/bo-ke-da-jian-jiao-cheng-11-linux-chang-yong-cao-zuo/</a>
+    <a href="/2023/01/13/bo-ke-da-jian-jiao-cheng-14-an-zhuang-bao-ta/" target="_blank" title="博客搭建教程14 - 使用宝塔远程维护服务器">http://epya15.com/2023/01/13/bo-ke-da-jian-jiao-cheng-14-an-zhuang-bao-ta/</a>
     </li>
     <li class="post-copyright-license">
       <strong>Copyright notice:   </strong>
@@ -708,40 +708,22 @@
 
 
 
-  
-  <div class="post-nav-prev post-nav-item">
-    <div class="post-nav-img" style="background-size: cover; 
-      background-position: center center;">
-      <img class="lazyload lazyload placeholder" src="/medias/15.jpg" class="lazyload placeholder" data-srcset="/medias/15.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
-    </div>
-    <a href="/2023/01/12/bo-ke-da-jian-jiao-cheng-12-fu-wu-qi-shu-ju-qian-yi/" class="post-nav-link">
-      <div class="title">
-        <i class="fas fa-angle-left"></i> Prev:
-        <div class="title-text">博客搭建教程12 - 服务器数据迁移</div>
-      </div>
-      
-      <!-- <div class="content">
-        正在筹备
-随着我们在网站开展事业而变得更富有或者变得更穷，现有的服务器可能不再符合我们的需求，因此我们需要换一台更适合自
-      </div> -->
-    </a>
-  </div>
-
 
 
   
   <div class="post-nav-next post-nav-item">
     <div class="post-nav-img" style="background-size: cover; 
       background-position: center center;">
-      <img class="lazyload lazyload placeholder" src="/medias/13.jpg" class="lazyload placeholder" data-srcset="/medias/13.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" src="" alt="">
+      <img class="lazyload lazyload placeholder" src="/medias/1.jpg" class="lazyload placeholder" data-srcset="/medias/1.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" src="" alt="">
     </div>
-    <a href="/2023/01/09/bo-ke-da-jian-jiao-cheng-8-jie-hong-linux/" class="post-nav-link">
+    <a href="/2023/01/13/bo-ke-da-jian-jiao-cheng-13-geng-huan-yu-ming/" class="post-nav-link">
       <div class="title">
         Next: <i class="fas fa-angle-right"></i>
-        <div class="title-text">博客搭建教程8 - 搭建云服务器环境</div>
+        <div class="title-text">博客搭建教程13 - 更换域名</div>
       </div>
       <!-- <div class="content">
-        恒创的CentOS系统并不自带图形界面，如果想和Windows系统一样看到图形界面，需要额外进行安装。但是要注意，虽然图
+        正在筹备找到了更心仪的域名？先买下来，之后再换
+
       </div> -->
     </a>
   </div>
