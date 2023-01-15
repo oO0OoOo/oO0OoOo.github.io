@@ -16,6 +16,6 @@ http://cypunberk.cn/categories/index.html
 http://cypunberk.cn/about/index.html
 http://cypunberk.cn/tags/index.html
 http://cypunberk.cn/
-http://cypunberk.cn/tags/%E5%8D%9A%E5%AE%A2/
 http://cypunberk.cn/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/
+http://cypunberk.cn/tags/%E5%8D%9A%E5%AE%A2/
 http://cypunberk.cn/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/
