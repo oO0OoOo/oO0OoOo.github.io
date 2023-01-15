@@ -2308,7 +2308,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   padding: 20px;
   border-radius: 10px;
   box-sizing: border-box;
-  transition: all 5.3s;
+  transition: all 0.3s;
   background: /medias/notice_bg.png;
 }
 .index-notice .index-notice-icon {
