@@ -1,4 +1,5 @@
 http://cypunberk.cn/2023/01/13/bo-ke-da-jian-jiao-cheng-13-geng-huan-yu-ming/
+http://cypunberk.cn/2023/01/09/bo-ke-da-jian-jiao-cheng-3-shi-yong-hexo-kai-shi-da-jian/
 http://cypunberk.cn/2023/01/13/bo-ke-da-jian-jiao-cheng-14-an-zhuang-bao-ta/
 http://cypunberk.cn/2023/01/09/bo-ke-da-jian-jiao-cheng-11-linux-chang-yong-cao-zuo/
 http://cypunberk.cn/2023/01/09/bo-ke-da-jian-jiao-cheng-8-jie-hong-linux/
@@ -8,7 +9,6 @@ http://cypunberk.cn/2023/01/12/bo-ke-da-jian-jiao-cheng-12-fu-wu-qi-shu-ju-qian-
 http://cypunberk.cn/2023/01/09/bo-ke-da-jian-jiao-cheng-9-zui-jia-shi-jian/
 http://cypunberk.cn/2023/01/09/bo-ke-da-jian-jiao-cheng-6-yong-you-zi-ji-de-yu-ming/
 http://cypunberk.cn/2023/01/09/bo-ke-da-jian-jiao-cheng-5-di-yi-ci-fa-bu-bo-ke/
-http://cypunberk.cn/2023/01/09/bo-ke-da-jian-jiao-cheng-3-shi-yong-hexo-kai-shi-da-jian/
 http://cypunberk.cn/2023/01/09/bo-ke-da-jian-jiao-cheng-3-xuan-ze-xi-huan-de-hexo-zhu-ti/
 http://cypunberk.cn/2023/01/09/bo-ke-da-jian-jiao-cheng-2-shou-xi-git/
 http://cypunberk.cn/2023/01/08/hexo-bo-ke-da-jian-jiao-cheng-1/
