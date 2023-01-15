@@ -2315,7 +2315,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   color: #f00;
   font-size: 1.2rem;
   margin-right: 5px;
-  animation: mymove 1.5s infinite;
+/*animation: mymove 1.5s infinite*/
 }
 @media (max-width: 992px) {
   .index-notice {
