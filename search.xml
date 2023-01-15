@@ -1,223 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>博客搭建教程14 - 使用宝塔远程维护服务器</title>
-    <url>/2023/01/13/bo-ke-da-jian-jiao-cheng-14-an-zhuang-bao-ta/</url>
-    <content><![CDATA[<p>.安装宝塔面板只需要一句话命令：<br>在<a href="http://www.bt.cn宝塔官网上能找到安装命令,比如/">www.bt.cn宝塔官网上能找到安装命令，比如</a><br>yum install -y wget &amp;&amp; wget -O install.sh <a href="https://download.bt.cn/install/install_6.0.sh">https://download.bt.cn/install/install_6.0.sh</a> &amp;&amp; sh install.sh ed8484bec</p>
-<p>回车开始自动安装，安装大概需要2-10分钟。安装成功后，会显示出你的宝塔登录信息，帐号和密码。</p>
-<p>直接用你的 IP打开 http:&#x2F;&#x2F;你的IP:8888&#x2F; 就可以登录后台，然后选择网站环境安装了。<br>可以在宝塔面板上修改账号和密码</p>
-<p>在浏览上打开宝塔面板的地址，登入面板会自动推荐你安装环境的套件，这里有两种选择，第一种是LNMP套件，第二种是LAMP套件。选择安装的程序后，面板的左上角会自动显示任务的数量，点击后进入任务列表。最后，调试面板即可安装网站操作。</p>
-<p>scp -r D:\Hexo\public <a href="mailto:&#114;&#x6f;&#111;&#116;&#64;&#50;&#x30;&#x38;&#46;&#56;&#55;&#46;&#x32;&#48;&#x31;&#46;&#49;&#x36;&#x34;">&#114;&#x6f;&#111;&#116;&#64;&#50;&#x30;&#x38;&#46;&#56;&#55;&#46;&#x32;&#48;&#x31;&#46;&#49;&#x36;&#x34;</a>:&#x2F;www&#x2F;wwwroot</p>
+    <title>博客搭建教程16 - 知识财产保护</title>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-16-zhi-shi-cai-chan-bao-hu/</url>
+    <content><![CDATA[<p>本篇介绍以下内容<br>其它站点引用协议<br>转载协议<br>图片水印<br>盗链与防盗链<br>简单的防盗链设置<br><a href="https://www.huati365.com/16b0661323e8cec6">https://www.huati365.com/16b0661323e8cec6</a><br><a href="https://blog.csdn.net/qq_52162404/article/details/127051356">https://blog.csdn.net/qq_52162404/article/details/127051356</a><br><a href="https://www.jb51.net/article/251177.htm">https://www.jb51.net/article/251177.htm</a></p>
+<p>总结下来写法<br>修改&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;conf&#x2F;nginx.conf文件，<br>如果这个是注释的状态，则将其打开</p>
+<p><img src="/images/pasted-18.png" class="lazyload placeholder" data-srcset="/images/pasted-18.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"><br>增加下面代码</p>
+<p><img src="/images/pasted-20.png" class="lazyload placeholder" data-srcset="/images/pasted-20.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"></p>
+<p>然后nginx -s reload<br>如果自己的网站能显示图片，其它网站CNAME过来的就不显示图片<br>如果检测到盗链行为则用一张图片回击，其它盗链网站效果如下<br><img src="/images/pasted-12.png" class="lazyload placeholder" data-srcset="/images/pasted-12.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"><br>也可以使用七牛云等专业图床，可以设置防盗链，但是需要服务器有备案<br>无版权素材<br>常见侵权行为</p>
 ]]></content>
-      <categories>
-        <category>博客搭建</category>
-      </categories>
-      <tags>
-        <tag>博客搭建</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客搭建教程13 - 更换域名</title>
-    <url>/2023/01/13/bo-ke-da-jian-jiao-cheng-13-geng-huan-yu-ming/</url>
-    <content><![CDATA[<p>正在筹备<br>找到了更心仪的域名？先买下来，之后再换</p>
-<p><img src="/images/pasted-0.png" class="lazyload placeholder" data-srcset="/images/pasted-0.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"></p>
-<div class="video"><video controls preload><source src='/media/video2.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div>]]></content>
-      <categories>
-        <category>博客搭建</category>
-      </categories>
-      <tags>
-        <tag>博客搭建</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客搭建教程12 - 服务器数据迁移</title>
-    <url>/2023/01/12/bo-ke-da-jian-jiao-cheng-12-fu-wu-qi-shu-ju-qian-yi/</url>
-    <content><![CDATA[<p>正在筹备</p>
-<p>随着我们在网站开展事业而变得更富有或者变得更穷，现有的服务器可能不再符合我们的需求，因此我们需要换一台更适合自己的服务器。<br>想到这里，你会觉得痛苦，因为配置好一台服务器实在花费了太多精力，在无数次试错后它终于得以正常运行，现在要更换新服务器，或许会质疑自己没有足够的自信去完成这件事。<br>不用担心，你无需再回顾前几篇教程，我将切换服务器所需的操作集成在这篇文档中，你会发现其实并不复杂，迁移过程中大量的时间只是花在拷贝文件上而已。</p>
-]]></content>
-      <categories>
-        <category>博客搭建</category>
-      </categories>
-      <tags>
-        <tag>博客搭建</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客搭建教程11 - Linux常用操作</title>
-    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-11-linux-chang-yong-cao-zuo/</url>
-    <content><![CDATA[<p>重启服务器后的例行操作</p>
-<p>1.检查防火墙<br>检查防火墙状态：systemctl status firewalld<br>若出现绿色的active(running)，说明防火墙已经启动，否则<br>systemctl start firewalld开启防火墙，没有任何提示即开启成功<br>如果没有反应，或者等待1分钟后出现timeout，需要先kill掉现在的防火墙进程再重新开启<br>kill防火墙进程：pkill -f firewalld<br>然后再重新systemctl start firewalld开启防火墙，没有任何提示即开启成功</p>
-<p>2.检查80端口<br>firewall-cmd –query-port&#x3D;80&#x2F;tcp<br>返回yes即没问题，否则打开80端口<br>firewall-cmd –add-port&#x3D;80&#x2F;tcp –permanent<br>开启后需再次重启防火墙，才能生效<br>firewall-cmd –reload</p>
-<p>3.检查nginx服务<br>开启nginx：&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin&#x2F;nginx -c &#x2F;usr&#x2F;local&#x2F;nginx&#x2F;conf&#x2F;nginx.conf<br>在其它机器上访问服务器IP:端口号，如果出现nginx页面，就表示开启成功（出现403 Forbidden也无所谓）<br>（关闭命令：&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin&#x2F;nginx -s stop）<br>如果提示80端口被占用，可能被nginx占用<br>查看80端口使用情况<br>netstat -lnp|grep 80<br>如果是被nginx占用的，则记住显示的进程号，比如1053<br>停掉nginx<br>systemctl stop nginx<br>强制杀掉1053进程<br>kill -9 1053<br>再查询<br>netstat -lnp|grep 80<br>没结果说明已经不占用了<br>接着重新开启nginx服务<br>开启nginx：&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin&#x2F;nginx -c &#x2F;usr&#x2F;local&#x2F;nginx&#x2F;conf&#x2F;nginx.conf</p>
-]]></content>
-      <categories>
-        <category>博客搭建</category>
-      </categories>
-      <tags>
-        <tag>博客搭建</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客搭建教程8 - 搭建云服务器环境</title>
-    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-8-jie-hong-linux/</url>
-    <content><![CDATA[<p>恒创的CentOS系统并不自带图形界面，如果想和Windows系统一样看到图形界面，需要额外进行安装。<br>但是要注意，虽然图形界面在交互上比命令行更加直观，但是会占用大约500MB的内存，这也就意味着，如果你购买的服务器内存小于500MB，一定是无法安装图形界面的。实际上，1G内存的服务器也不建议安装图形界面，在实测中，1G内存的服务器运行图形界面会非常卡，打开一个firefox浏览器有概率直接让服务器卡死。而2G及以上的服务器安装图形界面则是无压力的，实测在2G服务器上运行CentOS系统+GNOME桌面，内存占用在50%左右。<br>接下来的教程中都是以命令行的方式操作的，如果你可以接受命令行，那就尽量不要安装图形界面，毕竟它会占用一部分服务器的资源，影响到服务器的性能。<br>如果你实在希望使用图形界面的方式操作，可以按照如下教程安装。<br>在图形界面中打开【终端】也可以执行命令行，实测在1G内存情况下在图形界面执行【终端】是没有问题的。（但不要再开更多窗口了）<br><a href="https://blog.csdn.net/weixin_45115705/article/details/100553983">https://blog.csdn.net/weixin_45115705/article/details/100553983</a></p>
-<p>使用scp向服务器传输文件<br><a href="https://www.cnblogs.com/tugenhua0707/p/8278772.html">https://www.cnblogs.com/tugenhua0707/p/8278772.html</a></p>
-<p>比如传送一个Windows桌面上的视频到服务器，输入下面指令并回车<br>scp D:\Users\Administrator\Desktop\video.mp4 <a href="mailto:&#x72;&#111;&#x6f;&#x74;&#x40;&#50;&#48;&#56;&#46;&#x38;&#55;&#x2e;&#x32;&#48;&#49;&#x2e;&#49;&#x36;&#52;">&#x72;&#111;&#x6f;&#x74;&#x40;&#50;&#48;&#56;&#46;&#x38;&#55;&#x2e;&#x32;&#48;&#49;&#x2e;&#49;&#x36;&#52;</a>:&#x2F;usr&#x2F;local<br>会提示这个：<br><img src="/%5Cimages%5Cpasted-2.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-2.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"><br>输入yes并回车</p>
-<p><img src="/%5Cimages%5Cpasted-3.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-3.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"><br>接下来输入远程服务器的密码<br>注意该密码是登录远程服务器时设的密码，在云服务器实例页面中能看到，对应的账号是root<br>如果出现下面的图说明传输成功，我传了1个59兆的视频花了29秒，速度为2MB一秒<br><img src="/%5Cimages%5Cpasted-4.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-4.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"><br>接下来到服务器查看这个文件<br>Q：找不到usr文件夹？<br>A：可以试试点击桌面的【主文件夹】图表，或者找到桌面左上角的【应用程序&#x2F;附件&#x2F;文件】,在打开的资源管理器窗口找到【其他位置】选项，点击后找到【计算机】，再点击即可看到盘根的全部文件夹，usr就在其中。<br>在服务器端或许由于缺少播放视频的插件而无法预览视频，但这本就不是服务器的职责，我们只要确保该文件被平安地放到指定的目录，并且可以被外部网络访问到即可。<br>接下来我们要做的工作就是将该视频部署到某一个网络地址，生成可以被访问的外链。</p>
-<p>介绍新工具，nginx<br>在linux安装nginx<br><a href="https://blog.csdn.net/t8116189520/article/details/81909574">https://blog.csdn.net/t8116189520/article/details/81909574</a><br>Q：如何在图形界面系统上输入命令？<br>A：在应用程序中找到【系统工具&#x2F;终端】即可。请注意，通过此种方式运行终端，用户并非拥有root权限，因此，如果在执行命令时收到【您需要root权限执行此命令】或者【permission denied】，【you need to be root to xxxx】等报错时，只要在当前的命令前增加sudo 即可。例如sudo yum -y install xxxxxxx</p>
-<p>Q：如何在图形界面获取root权限？<br>A：选择root作为用户名登录，即可获得root权限，你可以选择注销当前账号的登录，回到登录界面，然后选择以其他身份登入，以此切换到root账号。</p>
-<p>将nginx配置到环境变量<br>echo ‘export PATH&#x3D;&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin:$PATH’ &gt;&gt; &#x2F;etc&#x2F;profile<br>使其生效<br>source &#x2F;etc&#x2F;profile</p>
-<p>按照该命令安装nginx后，nginx所在的目录为usr&#x2F;local&#x2F;nginx，该文件夹内的nginx-1.13.7.tar.gz是安装包文件，可以删除了<br>删除的命令是：sudo rm -rf nginx-1.13.7.tar.gz</p>
-<p>配置nginx过程中可能涉及到使用命令行修改文件内容，可以上网搜做法<a href="https://blog.csdn.net/qq_51515673/article/details/124390606">https://blog.csdn.net/qq_51515673/article/details/124390606</a><br>配置完nginx后还需要开启防火墙，并且确保自己设置的8089端口是开放tcp的<br><a href="https://blog.csdn.net/szw906689771/article/details/121647887">https://blog.csdn.net/szw906689771/article/details/121647887</a><br>查看端口是否开启：<br><a href="https://www.muzhuangnet.com/show/78535.html">https://www.muzhuangnet.com/show/78535.html</a><br>sudo firewall-cmd –query-port&#x3D;8089&#x2F;tcp<br>如果返回的是no，则说明端口还没有打开<br>开启8089端口<br>sudo firewall-cmd –add-port&#x3D;8089&#x2F;tcp –permanent<br>开启后需再次重启防火墙，才能生效<br>sudo firewall-cmd –reload<br>然后再查询一次端口是否打开，如果是yes，则我们已经取得90%的胜利了。<br>Q：我还是no，怎么办？<br>A：你可能还需要在服务器控制台的安全组中创建规则，在【入方向规则】中添加8089端口</p>
-<p>接下来让我们打开服务器的firefox浏览器，在地址栏输入本机公网IP:端口号，例如208.87.125.168:8089</p>
-<p>注意：重启服务器时，防火墙和nginx会重新回到关闭状态，需要留意。开机后需要执行的操作：<br>获得root权限：su root<br>重新开启防火墙：systemctl start firewalld<br>开启nginx：&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin&#x2F;nginx -c &#x2F;usr&#x2F;local&#x2F;nginx&#x2F;conf&#x2F;nginx.conf<br>（关闭命令：&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin&#x2F;nginx -s stop）<br>在其它机器上访问http:&#x2F;&#x2F;公网IP:端口号，看看能否出现nginx的index.html页面，出现即为成功<br>此处我们需要牢记，&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;html是资源的根目录，所有的资源都必须在此目录下才可以被访问到<br>Q：可以更换目录吗？<br>A：可以，只需要修改&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;conf&#x2F;nginx.conf文件重新指定目录即可，可以在互联网上轻松找到修改方法<br>接下来我们都以&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;html作为资源根目录来举例。<br>只剩最后一点了，我们要在nginx的文件夹下放置一个资源，然后尝试在其它设备上访问<br>首先在服务器的nginx&#x2F;html目录下创建新文件夹Images<br>其它设备使用scp指令拷贝一个图片到服务器，例如：（注意不能照抄）<br>scp myImage.jpg <a href="mailto:&#x72;&#x6f;&#111;&#x74;&#64;&#x31;&#57;&#x32;&#x2e;&#x31;&#54;&#56;&#46;&#x31;&#46;&#49;&#x30;&#52;">&#x72;&#x6f;&#111;&#x74;&#64;&#x31;&#57;&#x32;&#x2e;&#x31;&#54;&#56;&#46;&#x31;&#46;&#49;&#x30;&#52;</a>:&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;html&#x2F;Images<br>然后在浏览器访问该图片，地址栏中依旧填写本机公网IP:端口号，与此同时在后面加上文件路径，例如208.87.125.168:8089&#x2F;Images&#x2F;myImage.jpg<br>浏览器显示出图片了吗？如果显示出了图片，那么恭喜，100%的步骤已经完成了<br>Q：懊恼，我没有看到图片，我看到的是50x报错页面<br>A：</p>
-<p>将资源放在Git上从而暴露的风险，而我们已经将自己的服务器用作私有的资源服，这很酷，它意味着他人必须通过我们自己的网站才能获取到这些资源，这为我们带来了流量。<br>是时候将我们的网站全部迁移至自己的服务器了。<br>放心，这不会花费太长时间，之后涉及的每一个步骤你都会感到似曾相识，由于在过往的历程中你已经积累了一些相关知识，相信接下来的操作我们将顺风顺水。</p>
-<p>Q：我觉得目前将网站托管到github上已经很好了，迁移至私服有足够的必要性吗？<br>A：迁移至私服不是必须的，如果你觉得github已经足够，那么可以跳过该教程，事实上很多人的博客都是直接托管给github的，由于github仓库是公开的，所以使用github仓库时要时刻注意对自己的隐私保护。</p>
-<p>git和nginx是服务器所需的必要组件，nginx我们已经安装过，接下来我们安装git<br>切换至root用户，此处不再赘述<br>yum –y install git<br>键入git指令验证是否安装成功<br>创建git用户，先不创建密码<br>adduser git<br>检查是否创建成功 cd &#x2F;home &amp;&amp; ls -al<br>如果显示有git则说明用户创建成功<br>进入local目录<br>cd &#x2F;usr&#x2F;local<br>还记得吗？nginx就是在此文件夹下<br>接下来创建一个新的git库，需要你自己起一个喜欢的名字，我起名为cpblog.git，注意.git后缀不要变<br>git init –bare cpblog.git<br>此时终端提示你创建了一个空的git库，这就对了。<br>新建文件夹作为博客根目录<br>mkdir cpblog_webroot<br>chmod 777 cpblog_webroot<br>使用Git-Hooks同步网站根目录，这里使用的是Git中的“post-receive”，当有Git收发的时候会调用该脚本，自动将最新内容同步到网站根目录中<br>用下面的指令新建沟子文件<br>vim cpblog.git&#x2F;hooks&#x2F;post-receive<br>将以下语句写入文件<br>#!&#x2F;bin&#x2F;sh<br>git –work-tree&#x3D;&#x2F;usr&#x2F;local&#x2F;cpblog_webroot –git-dir&#x3D;&#x2F;root&#x2F;cpblog.git checkout -f<br>(注意博客路径和当前用户)<br>之前我们安装了图形界面，如果你也装了，那么就可以直接用gedit文本编辑器书写了。<br>保存并赋予执行权限<br>chmod +x cpblog.git&#x2F;hooks&#x2F;post-receive<br>sudo chown -R git:git cpblog.git<br>sudo chown -R git:git cpblog_webroot</p>
-<p>修改&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;conf&#x2F;nginx.conf<br>将里面的地址改为cpblog_webroot的位置<br>server {<br>    listen    80 default_server;<br>    listen    [::] default_server;<br>    server_name    blog.59devops.com;<br>    root    &#x2F;usr&#x2F;local&#x2F;cpblog_webroot<br>}</p>
-<p>配置账户免密码登录<br>创建 ssh 的默认目录<br>进入 git 账户的主目录<br>cd &#x2F;home&#x2F;git<br>创建 .ssh 的配置，如果此文件夹已经存在请忽略此步<br>mkdir .ssh<br>创建校验公钥的配置文件<br>进入 .ssh 目录并创建 authorized_keys 文件，此文件存放客户端远程访问的 ssh 的公钥<br>cd .ssh<br>touch authorized_keys<br>cd ..<br>设置权限<br>chmod 700 .ssh&#x2F;<br>chmod 600 .ssh&#x2F;authorized_keys</p>
-<p>208.87.201.164</p>
-<p>注意，我们要切换到本地端操作了<br>本地配置<br>配置”_config.yml”<br>打开位于Hexo博客根目录下的“_config.yml”文件，找到“deploy”并修改</p>
-<p>deploy:</p>
-<ul>
-<li>type: git<br>repository: <a href="mailto:&#103;&#x69;&#x74;&#64;&#103;&#105;&#x74;&#104;&#x75;&#x62;&#46;&#x63;&#111;&#x6d;">&#103;&#x69;&#x74;&#64;&#103;&#105;&#x74;&#104;&#x75;&#x62;&#46;&#x63;&#111;&#x6d;</a>:oO0OoOo&#x2F;oO0OoOo.github.io.git  #此行改为你的git仓库地址<br>branch: master</li>
-<li>type: git<br>repository: root@服务器的公网IP:&#x2F;usr&#x2F;local&#x2F;cpblog.git  #此行改为你的私服仓库地址<br>branch: master      # 分支</li>
-</ul>
-<p>注意若原来type: git前面没有-这个符号要手动添加上，不然后面会报错<br>本地执行下列命令即可<br>hexo clean<br>hexo g<br>hexo d<br>这样以后hexo d的时候就会推到github和个人服务器上了</p>
-<p>hexo d免密码</p>
-<p>经过上述操作我们每次使用hexo d的时候就会推到服务器上，但是每次都要输入密码，添加秘钥免密推送</p>
-<p>找到id_rsa.pub文件，通常位于C盘用户文件夹下的.ssh文件夹里，例如我的是：<br>‪C:\Users\Administrator.ssh\id_rsa.pub<br>找到该文件后，将其用scp发送到服务器<br>scp ‪C:\Users\Administrator.ssh\id_rsa.pub root@服务器的公网IP:&#x2F;home&#x2F;git&#x2F;.ssh<br>（scp拷贝文件夹，开头用scp -r，后边都一样）<br>将 id_rsa.pub 文件中的内容追加到当前目录下的 authorized_keys 中<br>cat id_rsa.pub &gt;&gt; authorized_keys<br>之后就可以将id_rsa.pub删除了<br>rm -rf id_rsa.pub</p>
-<p>解析域名<br>到你购买域名的供应商控制台，将域名解析到你的服务器即可。</p>
-]]></content>
-      <categories>
-        <category>博客搭建</category>
-      </categories>
-      <tags>
-        <tag>博客搭建</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客搭建教程10 - 最佳实践</title>
-    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-9-zui-jia-shi-jian/</url>
-    <content><![CDATA[<p>正在筹备<br>规划好资源目录结构<br>1.按博文 每个博文对应一个文件夹<br>2.按数据类型，音频在一个文件夹下，视频在一个文件夹下</p>
-<p>我选择了按博文建目录，这样可以和Markdown归档保持一致，但是按博文建目录会面临一个问题，资源冗余。两篇博文使用了相同的资源，那么该资源就会在两个目录里存在两份，这种情况不太可能发生，即使冗余其占比也不高，所以不用担心，而且冗余也有好处，一旦这两篇博文有一篇被删除，那么另一篇的资源不会被误删。<br>在&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;html&#x2F; 目录就是资源根目录。我在此目录下又新建了一个文件夹epya15，专门用来存放该网站的资源。同时我在epya15目录下又新建了文件夹blogresource，用来存储每个博文的资源文件<br>至此，我的服务器的目录结构为<br>&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;html&#x2F;epya15&#x2F;		（存放网站所有资源）<br>&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;html&#x2F;epya15&#x2F;blogresource		（存放网站所有博客资源）</p>
-]]></content>
-      <categories>
-        <category>博客搭建</category>
-      </categories>
-      <tags>
-        <tag>博客搭建</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客搭建教程7 - 购买云服务器</title>
-    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-7-shi-yong-yun-fu-wu-qi-da-jian-tu-chuang/</url>
-    <content><![CDATA[<p>网页中会展示一些大体积的资源，比如音频视频等多媒体文件，还有一些可被公开下载的文件。<br>虽然使用Git可以存储这些文件（比如Gitee，相关介绍链接<a href="https://zhuanlan.zhihu.com/p/581297109%EF%BC%89%EF%BC%8C%E4%BD%86%E6%98%AFGitee%E7%9A%84%E6%9C%AC%E6%84%8F%E6%98%AF%E4%BB%A3%E7%A0%81%E7%AE%A1%E7%90%86%EF%BC%8C%E5%AF%B9%E4%BA%8E%E5%A4%A7%E4%BD%93%E7%A7%AF%E6%96%87%E4%BB%B6%E6%9D%A5%E8%AE%B2%E5%B9%B6%E4%B8%8D%E9%80%82%E5%90%88%EF%BC%8CGitee%E5%85%B6%E5%AE%9E%E6%98%AF%E7%A6%81%E6%AD%A2%E8%A2%AB%E7%94%A8%E4%BD%9C%E5%9B%BE%E5%BA%8A%E7%9A%84">https://zhuanlan.zhihu.com/p/581297109），但是Gitee的本意是代码管理，对于大体积文件来讲并不适合，Gitee其实是禁止被用作图床的</a></p>
-<p><img src="/%5Cimages%5Cpasted-5.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-5.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"></p>
-<p>Q:在中国访问Github和Gitee并不稳定，那是否意味着在某些时候，网站将无法访问？<br>A：是这样的，在后续的教程中，我们会让博客脱离Github管理，转移到自己的云服务器上。</p>
-<p>Q：我不想买云服务器，可以将网站部署到自己的闲置电脑上吗？<br>A：你可以在网络上搜索这个话题，了解实现这个需求的难度，从而决定要选择何种方式。本文只介绍使用云服务器搭建网站的方法。</p>
-<p>那接下来我们开始选择合适的云服务器。<br>在选择云服务器之前，你可以在网上搜索一些文章，对这些概念有一个初步的印象，这将有助于你选择合适自己的云服务器。<br>【什么是网站备案】<br>【搭建网站是否需要备案】<br>【买云服务器哪家好】</p>
-<p>以下介绍博主使用的云服务器。<br>在建站初期，网站基本没有访客，因此无需考虑太多。博主最开始决定使用恒创ECS云服务器，因为有7天免费试用，可以顺带了解一下1核2G的配置是否够用。<br>后来考虑到域名是在阿里云买的，所以也买了一个月的阿里云轻量应用服务器，它的价格比ECS服务器便宜一些，但是对配置并不满意，因此还是选择了恒创的ECS云服务器。<br>在试用恒创的服务器时发现2G的内存超出了实际需求，因此在购买时决定只买1G内存套餐即可。<br>恒创的ECS云服务器算是很便宜的了，博主选择了最低配置，CentOS 7系统，1核1G带宽2M，大约300元&#x2F;年。<br>你可以选择喜欢的操作系统，但如果你对这些操作系统不了解，建议也选择CentOS系统。<br>当网站发展起来后，再考虑升级服务器也来得及，将网站迁移到其它服务器上并不困难。</p>
-<p>以下是博主购买的恒创云服务器<br><img src="/%5Cimages%5Cpasted-1.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-1.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"></p>
-<p>点击【VNC登录】即可连接到远程服务器。用户名是root，密码可以在页面上查看，也可以自己重置。</p>
-<p>看到远程视窗了吗？它现在的形态应该是命令行的样子，并且正在等待你输入用户名和密码，输入用户名root和密码，即可以root身份登录CentOS系统。</p>
-<p>接下来，我们就要沉浸到CentOS的世界了。CentOS是基于Linux的发行版本，在接下来的教程中开始涉及到Linux命令行代码，因此最好还是对一些基础的Linux命令和CentOS系统目录结构有所了解，这有利于后续在配置服务器过程中遭遇问题时自我排查问题。</p>
-]]></content>
-      <categories>
-        <category>博客搭建</category>
-      </categories>
-      <tags>
-        <tag>博客搭建</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客搭建教程6 - 拥有自己的域名</title>
-    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-6-yong-you-zi-ji-de-yu-ming/</url>
-    <content><![CDATA[<p>在万网购买域名<br><a href="https://wanwang.aliyun.com/domain">https://wanwang.aliyun.com/domain</a></p>
-<p>不知道想要什么域名，买一个最便宜的就可以，后续可以更换。</p>
-<p>购买后在域名控制台就能进行域名解析操作了。</p>
-<p><img src="/%5Cimages%5Cpasted-13.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-13.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"></p>
-<p>点击域名后面的【解析】按钮，进入解析界面</p>
-<p>关于如何添加解析记录，可以参考这篇文章<br><a href="https://zhuanlan.zhihu.com/p/103813944">https://zhuanlan.zhihu.com/p/103813944</a></p>
-<p>大体操作思路是：<br>登录自己的github博客仓库，在页面上找到Settings按钮，点击进入</p>
-<p><img src="/%5Cimages%5Cpasted-15.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-15.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"></p>
-<p>进入Pages页面</p>
-<p><img src="/%5Cimages%5Cpasted-16.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-16.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"><br>在Pages页面里可以看到你目前的域名，是以github.io结尾的，接下来我们在CustomDomain里填写自己的域名，并点击Save<br>接下来就会发现你的博客地址变成了自己填写的域名</p>
-<p><img src="/%5Cimages%5Cpasted-17.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-17.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"><br>点击【Visit site】进行测试,看看能否访问。若可以访问，则说明配置成功。</p>
-]]></content>
-      <categories>
-        <category>博客搭建</category>
-      </categories>
-      <tags>
-        <tag>博客搭建</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客搭建教程5 - 为博客安装插件</title>
-    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-5-di-yi-ci-fa-bu-bo-ke/</url>
-    <content><![CDATA[<p>正在筹备<br>先不装额外插件</p>
-]]></content>
-      <categories>
-        <category>博客搭建</category>
-      </categories>
-      <tags>
-        <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客搭建教程3 - 初识Node.js和Hexo</title>
-    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-3-shi-yong-hexo-kai-shi-da-jian/</url>
-    <content><![CDATA[<p>本篇内容比较简单，可以参考这位博主的文章<br><a href="https://zhuanlan.zhihu.com/p/105715224">https://zhuanlan.zhihu.com/p/105715224</a></p>
-<p>按照上述流程做完后，基于Github Page的博客就已经搭建好了，你可以在浏览器上输入自己的Github仓库地址，就可以看到搭建好的Hexo博客了。</p>
-<p>接下来的教程里，我们将继续做如下几件事情来加深对网站的理解，增强管理能力，但这些并非必要项。<br>未来要做的事：<br>1.选择自己喜欢的Hexo主题美化博客<br>2.购买一个自己喜欢的域名，解析域名，并取代现在github访问的方式<br>3.了解网站备案，选择云服务器，搭建资源服实现图床<br>4.将博客部署在云服务器上<br>5.学习Markdown常用语法<br>6.使用宝塔管理自己的服务器<br>7.知识财产保护与侵权行为</p>
-]]></content>
-      <categories>
-        <category>博客搭建</category>
-      </categories>
-      <tags>
-        <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客搭建教程4 - 选择喜欢的Hexo主题</title>
-    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-3-xuan-ze-xi-huan-de-hexo-zhu-ti/</url>
-    <content><![CDATA[<p>首先我们熟悉Hexo的目录，在你之前搭建的博客仓库目录里可以看到_configs.yml和themes文件夹。<br>这两个文件夹在更换主题时非常重要。</p>
-<p><img src="/%5Cimages%5Cpasted-7.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-7.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"></p>
-<p>其中themes文件夹负责存储下载的主题，每一个下载的主题都以其名字的方式放在此文件夹里，例如</p>
-<p><img src="/%5Cimages%5Cpasted-8.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-8.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"></p>
-<p>文件_configs.yml则是博客网站的配置文件，主题下载好后，用文本编辑器编辑这个文件，只要修改theme字段，改为主题名称即可，图片中使用bamboo作为当前博客主题。</p>
-<p><img src="/%5Cimages%5Cpasted-9.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-9.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"></p>
-<p>在这里选择喜欢的主题<br><a href="https://hexo.io/themes/">https://hexo.io/themes/</a></p>
-<p>主题安装方式：<br>这里的每一个主题都对应一个Github仓库，比如我们选择了Ocean这个主题<br><a href="https://github.com/zhwangart/hexo-theme-ocean">https://github.com/zhwangart/hexo-theme-ocean</a></p>
-<p><img src="/%5Cimages%5Cpasted-6.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-6.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"></p>
-<p>可以看到Readme文档，里面有使用Git命令安装主题的方式。</p>
-<p>使用$ git clone <a href="https://github.com/zhwangart/hexo-theme-ocean.git">https://github.com/zhwangart/hexo-theme-ocean.git</a> themes&#x2F;ocean<br>将主题下载到themes文件夹，注意目录结构，确保themes下就是ocean的git仓库，而且命名就叫ocean<br>接着在_configs.yml中（注意不是themes&#x2F;ocean目录下面的_configs.yml），找到theme字段，更改为<br>theme: ocean</p>
-<p>接下来在博客目录下启动Git Bash</p>
-<p><img src="/%5Cimages%5Cpasted-10.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-10.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"><br>执行hexo s</p>
-<p><img src="/%5Cimages%5Cpasted-11.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-11.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"></p>
-<p>接下来就可以在浏览器输入 <a href="http://localhost:4000/">http://localhost:4000/</a>  预览主题了</p>
-<p>想定制主题？<br>进入themes&#x2F;ocean文件夹，修改_config.yml文件，通常主题的Git文档中会介绍这个文件里的配置如何修改，你可以在这个配置文件中控制网站图表，是否开启评论系统，是否允许右键复制等等。</p>
-<p>Q：我可以在themes文件夹中放置多个主题吗？实际运行网站时显示的是哪一个主题？<br>A：完全可以，多个主题在themes文件夹中互相并不影响，网站运行时使用的主题就是_config.yml中theme字段配置的主题名。</p>
-]]></content>
-      <categories>
-        <category>博客搭建</category>
-      </categories>
-      <tags>
-        <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客搭建教程2 - 创建Git仓库</title>
-    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-2-shou-xi-git/</url>
-    <content><![CDATA[<p>在阅读本章前，我们默认你已经了解了Git的概念。</p>
-<p>本章内容比较简单，网上相关文章很多，这里推荐这位博主的文章：<br><a href="https://zhuanlan.zhihu.com/p/102592286">https://zhuanlan.zhihu.com/p/102592286</a></p>
-<p>第一步，注册Github账号<br>可以参考这篇知乎的教程<a href="https://zhuanlan.zhihu.com/p/103268406">https://zhuanlan.zhihu.com/p/103268406</a></p>
-<p>第二步，安装Git<br>可以参考这篇知乎的教程<a href="https://zhuanlan.zhihu.com/p/103325381">https://zhuanlan.zhihu.com/p/103325381</a></p>
-<p>第三步，创建Github仓库并使用Git推送文件<br>可以参考这篇知乎的教程<a href="https://zhuanlan.zhihu.com/p/103391101">https://zhuanlan.zhihu.com/p/103391101</a></p>
-]]></content>
-      <categories>
-        <category>博客搭建</category>
-      </categories>
       <tags>
         <tag>博客</tag>
       </tags>
@@ -238,9 +29,9 @@
 <p>需要注意的是，只有1到4级标题才会被文章目录收录。</p>
 <p>以下为Bamboo主题的定制标题样式：  </p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% title h1, 这是一级标题 %&#125;</span><br><span class="line">&#123;% title h6, 这是六级标题, red %&#125;</span><br><span class="line">&#123;% titleB h5, 这是五级标题, #895546 %&#125;</span><br></pre></td></tr></table></figure>
-<h1 class="bamboo-h " id="这是一级标题1qzi4mieban">这是一级标题</h1><br/>
-<h6 class="bamboo-h red" id="这是六级标题2croc2ev97e">这是六级标题</h6><br/>
-<h5 class="bamboo-h-b" id="这是五级标题1eucwgdbxcm" style="color:#895546!important">这是五级标题</h5><div></div>
+<h1 class="bamboo-h " id="这是一级标题2bxecta444x">这是一级标题</h1><br/>
+<h6 class="bamboo-h red" id="这是六级标题1ihox46y2ie">这是六级标题</h6><br/>
+<h5 class="bamboo-h-b" id="这是五级标题4ro0m4g1752" style="color:#895546!important">这是五级标题</h5><div></div>
 
 <h3 id="文本加粗，倾斜，上下标，删除线，下划线，大小号"><a href="#文本加粗，倾斜，上下标，删除线，下划线，大小号" class="headerlink" title="文本加粗，倾斜，上下标，删除线，下划线，大小号"></a>文本加粗，倾斜，上下标，删除线，下划线，大小号</h3><p>（MarkDown兼容HTML语言,可直接使用HTML的语法）<br>只需在文本前后打上星号,即可将包夹的文字<strong>加粗</strong>或<em>倾斜</em>：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">**想要加粗的内容**</span><br><span class="line">*想要倾斜的内容*</span><br></pre></td></tr></table></figure>
@@ -371,8 +162,238 @@
       </tags>
   </entry>
   <entry>
+    <title>博客搭建教程14 - 使用宝塔运维工具</title>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-14-an-zhuang-bao-ta/</url>
+    <content><![CDATA[<p>.安装宝塔面板只需要一句话命令：<br>在<a href="http://www.bt.cn宝塔官网上能找到安装命令,比如/">www.bt.cn宝塔官网上能找到安装命令，比如</a><br>yum install -y wget &amp;&amp; wget -O install.sh <a href="https://download.bt.cn/install/install_6.0.sh">https://download.bt.cn/install/install_6.0.sh</a> &amp;&amp; sh install.sh ed8484bec</p>
+<p>回车开始自动安装，安装大概需要2-10分钟。安装成功后，会显示出你的宝塔登录信息，帐号和密码。</p>
+<p>直接用你的 IP打开 http:&#x2F;&#x2F;你的IP:8888&#x2F; 就可以登录后台，然后选择网站环境安装了。<br>可以在宝塔面板上修改账号和密码</p>
+<p>在浏览上打开宝塔面板的地址，登入面板会自动推荐你安装环境的套件，这里有两种选择，第一种是LNMP套件，第二种是LAMP套件。选择安装的程序后，面板的左上角会自动显示任务的数量，点击后进入任务列表。最后，调试面板即可安装网站操作。</p>
+<p>scp -r D:\Hexo\public <a href="mailto:&#x72;&#111;&#111;&#x74;&#64;&#x32;&#x30;&#x38;&#x2e;&#56;&#x37;&#x2e;&#50;&#48;&#x31;&#x2e;&#49;&#x36;&#x34;">&#x72;&#111;&#111;&#x74;&#64;&#x32;&#x30;&#x38;&#x2e;&#56;&#x37;&#x2e;&#50;&#48;&#x31;&#x2e;&#49;&#x36;&#x34;</a>:&#x2F;www&#x2F;wwwroot</p>
+]]></content>
+      <categories>
+        <category>博客搭建</category>
+      </categories>
+      <tags>
+        <tag>博客搭建</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客搭建教程13 - 更换域名</title>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-13-geng-huan-yu-ming/</url>
+    <content><![CDATA[<p>正在筹备<br>找到了更心仪的域名？先买下来，之后再换</p>
+<p><img src="/images/pasted-0.png" class="lazyload placeholder" data-srcset="/images/pasted-0.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"></p>
+<div class="video"><video controls preload><source src='/images/video2.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div>]]></content>
+      <categories>
+        <category>博客搭建</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客搭建教程12 - 服务器数据迁移</title>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-12-fu-wu-qi-shu-ju-qian-yi/</url>
+    <content><![CDATA[<p>正在筹备</p>
+<p>随着我们在网站开展事业而变得更富有或者变得更穷，现有的服务器可能不再符合我们的需求，因此我们需要换一台更适合自己的服务器。<br>想到这里，你会觉得痛苦，因为配置好一台服务器实在花费了太多精力，在无数次试错后它终于得以正常运行，现在要更换新服务器，或许会质疑自己没有足够的自信去完成这件事。<br>不用担心，你无需再回顾前几篇教程，我将切换服务器所需的操作集成在这篇文档中，你会发现其实并不复杂，迁移过程中大量的时间只是花在拷贝文件上而已。</p>
+]]></content>
+      <categories>
+        <category>博客搭建</category>
+      </categories>
+      <tags>
+        <tag>博客搭建</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客搭建教程11 - Linux常用操作</title>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-11-linux-chang-yong-cao-zuo/</url>
+    <content><![CDATA[<p>重启服务器后的例行操作</p>
+<p>1.检查防火墙<br>检查防火墙状态：systemctl status firewalld<br>若出现绿色的active(running)，说明防火墙已经启动，否则<br>systemctl start firewalld开启防火墙，没有任何提示即开启成功<br>如果没有反应，或者等待1分钟后出现timeout，需要先kill掉现在的防火墙进程再重新开启<br>kill防火墙进程：pkill -f firewalld<br>然后再重新systemctl start firewalld开启防火墙，没有任何提示即开启成功</p>
+<p>2.检查80端口<br>firewall-cmd –query-port&#x3D;80&#x2F;tcp<br>返回yes即没问题，否则打开80端口<br>firewall-cmd –add-port&#x3D;80&#x2F;tcp –permanent<br>开启后需再次重启防火墙，才能生效<br>firewall-cmd –reload</p>
+<p>3.检查nginx服务<br>开启nginx：&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin&#x2F;nginx -c &#x2F;usr&#x2F;local&#x2F;nginx&#x2F;conf&#x2F;nginx.conf<br>在其它机器上访问服务器IP:端口号，如果出现nginx页面，就表示开启成功（出现403 Forbidden也无所谓）<br>（关闭命令：&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin&#x2F;nginx -s stop）<br>如果提示80端口被占用，可能被nginx占用<br>查看80端口使用情况<br>netstat -lnp|grep 80<br>如果是被nginx占用的，则记住显示的进程号，比如1053<br>停掉nginx<br>systemctl stop nginx<br>强制杀掉1053进程<br>kill -9 1053<br>再查询<br>netstat -lnp|grep 80<br>没结果说明已经不占用了<br>接着重新开启nginx服务<br>开启nginx：&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin&#x2F;nginx -c &#x2F;usr&#x2F;local&#x2F;nginx&#x2F;conf&#x2F;nginx.conf</p>
+]]></content>
+      <categories>
+        <category>博客搭建</category>
+      </categories>
+      <tags>
+        <tag>博客搭建</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客搭建教程10 - 最佳实践</title>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-9-zui-jia-shi-jian/</url>
+    <content><![CDATA[<p>正在筹备<br>规划好资源目录结构<br>1.按博文 每个博文对应一个文件夹<br>2.按数据类型，音频在一个文件夹下，视频在一个文件夹下</p>
+<p>我选择了按博文建目录，这样可以和Markdown归档保持一致，但是按博文建目录会面临一个问题，资源冗余。两篇博文使用了相同的资源，那么该资源就会在两个目录里存在两份，这种情况不太可能发生，即使冗余其占比也不高，所以不用担心，而且冗余也有好处，一旦这两篇博文有一篇被删除，那么另一篇的资源不会被误删。<br>在&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;html&#x2F; 目录就是资源根目录。我在此目录下又新建了一个文件夹epya15，专门用来存放该网站的资源。同时我在epya15目录下又新建了文件夹blogresource，用来存储每个博文的资源文件<br>至此，我的服务器的目录结构为<br>&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;html&#x2F;epya15&#x2F;		（存放网站所有资源）<br>&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;html&#x2F;epya15&#x2F;blogresource		（存放网站所有博客资源）</p>
+]]></content>
+      <categories>
+        <category>博客搭建</category>
+      </categories>
+      <tags>
+        <tag>博客搭建</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客搭建教程9 - 占位</title>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-9-zhan-wei/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客搭建教程8 - 搭建云服务器环境</title>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-8-jie-hong-linux/</url>
+    <content><![CDATA[<p>恒创的CentOS系统并不自带图形界面，如果想和Windows系统一样看到图形界面，需要额外进行安装。<br>但是要注意，虽然图形界面在交互上比命令行更加直观，但是会占用大约500MB的内存，这也就意味着，如果你购买的服务器内存小于500MB，一定是无法安装图形界面的。实际上，1G内存的服务器也不建议安装图形界面，在实测中，1G内存的服务器运行图形界面会非常卡，打开一个firefox浏览器有概率直接让服务器卡死。而2G及以上的服务器安装图形界面则是无压力的，实测在2G服务器上运行CentOS系统+GNOME桌面，内存占用在50%左右。<br>接下来的教程中都是以命令行的方式操作的，如果你可以接受命令行，那就尽量不要安装图形界面，毕竟它会占用一部分服务器的资源，影响到服务器的性能。<br>如果你实在希望使用图形界面的方式操作，可以按照如下教程安装。<br>在图形界面中打开【终端】也可以执行命令行，实测在1G内存情况下在图形界面执行【终端】是没有问题的。（但不要再开更多窗口了）<br><a href="https://blog.csdn.net/weixin_45115705/article/details/100553983">https://blog.csdn.net/weixin_45115705/article/details/100553983</a></p>
+<p>使用scp向服务器传输文件<br><a href="https://www.cnblogs.com/tugenhua0707/p/8278772.html">https://www.cnblogs.com/tugenhua0707/p/8278772.html</a></p>
+<p>比如传送一个Windows桌面上的视频到服务器，输入下面指令并回车<br>scp D:\Users\Administrator\Desktop\video.mp4 <a href="mailto:&#114;&#111;&#111;&#116;&#x40;&#x32;&#x30;&#x38;&#x2e;&#x38;&#x37;&#x2e;&#x32;&#48;&#x31;&#x2e;&#49;&#54;&#52;">&#114;&#111;&#111;&#116;&#x40;&#x32;&#x30;&#x38;&#x2e;&#x38;&#x37;&#x2e;&#x32;&#48;&#x31;&#x2e;&#49;&#54;&#52;</a>:&#x2F;usr&#x2F;local<br>会提示这个：<br><img src="/%5Cimages%5Cpasted-2.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-2.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"><br>输入yes并回车</p>
+<p><img src="/%5Cimages%5Cpasted-3.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-3.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"><br>接下来输入远程服务器的密码<br>注意该密码是登录远程服务器时设的密码，在云服务器实例页面中能看到，对应的账号是root<br>如果出现下面的图说明传输成功，我传了1个59兆的视频花了29秒，速度为2MB一秒<br><img src="/%5Cimages%5Cpasted-4.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-4.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"><br>接下来到服务器查看这个文件<br>Q：找不到usr文件夹？<br>A：可以试试点击桌面的【主文件夹】图表，或者找到桌面左上角的【应用程序&#x2F;附件&#x2F;文件】,在打开的资源管理器窗口找到【其他位置】选项，点击后找到【计算机】，再点击即可看到盘根的全部文件夹，usr就在其中。<br>在服务器端或许由于缺少播放视频的插件而无法预览视频，但这本就不是服务器的职责，我们只要确保该文件被平安地放到指定的目录，并且可以被外部网络访问到即可。<br>接下来我们要做的工作就是将该视频部署到某一个网络地址，生成可以被访问的外链。</p>
+<p>介绍新工具，nginx<br>在linux安装nginx<br><a href="https://blog.csdn.net/t8116189520/article/details/81909574">https://blog.csdn.net/t8116189520/article/details/81909574</a><br>Q：如何在图形界面系统上输入命令？<br>A：在应用程序中找到【系统工具&#x2F;终端】即可。请注意，通过此种方式运行终端，用户并非拥有root权限，因此，如果在执行命令时收到【您需要root权限执行此命令】或者【permission denied】，【you need to be root to xxxx】等报错时，只要在当前的命令前增加sudo 即可。例如sudo yum -y install xxxxxxx</p>
+<p>Q：如何在图形界面获取root权限？<br>A：选择root作为用户名登录，即可获得root权限，你可以选择注销当前账号的登录，回到登录界面，然后选择以其他身份登入，以此切换到root账号。</p>
+<p>将nginx配置到环境变量<br>echo ‘export PATH&#x3D;&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin:$PATH’ &gt;&gt; &#x2F;etc&#x2F;profile<br>使其生效<br>source &#x2F;etc&#x2F;profile</p>
+<p>按照该命令安装nginx后，nginx所在的目录为usr&#x2F;local&#x2F;nginx，该文件夹内的nginx-1.13.7.tar.gz是安装包文件，可以删除了<br>删除的命令是：sudo rm -rf nginx-1.13.7.tar.gz</p>
+<p>配置nginx过程中可能涉及到使用命令行修改文件内容，可以上网搜做法<a href="https://blog.csdn.net/qq_51515673/article/details/124390606">https://blog.csdn.net/qq_51515673/article/details/124390606</a><br>配置完nginx后还需要开启防火墙，并且确保自己设置的8089端口是开放tcp的<br><a href="https://blog.csdn.net/szw906689771/article/details/121647887">https://blog.csdn.net/szw906689771/article/details/121647887</a><br>查看端口是否开启：<br><a href="https://www.muzhuangnet.com/show/78535.html">https://www.muzhuangnet.com/show/78535.html</a><br>sudo firewall-cmd –query-port&#x3D;8089&#x2F;tcp<br>如果返回的是no，则说明端口还没有打开<br>开启8089端口<br>sudo firewall-cmd –add-port&#x3D;8089&#x2F;tcp –permanent<br>开启后需再次重启防火墙，才能生效<br>sudo firewall-cmd –reload<br>然后再查询一次端口是否打开，如果是yes，则我们已经取得90%的胜利了。<br>Q：我还是no，怎么办？<br>A：你可能还需要在服务器控制台的安全组中创建规则，在【入方向规则】中添加8089端口</p>
+<p>接下来让我们打开服务器的firefox浏览器，在地址栏输入本机公网IP:端口号，例如208.87.125.168:8089</p>
+<p>注意：重启服务器时，防火墙和nginx会重新回到关闭状态，需要留意。开机后需要执行的操作：<br>获得root权限：su root<br>重新开启防火墙：systemctl start firewalld<br>开启nginx：&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin&#x2F;nginx -c &#x2F;usr&#x2F;local&#x2F;nginx&#x2F;conf&#x2F;nginx.conf<br>（关闭命令：&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;sbin&#x2F;nginx -s stop）<br>在其它机器上访问http:&#x2F;&#x2F;公网IP:端口号，看看能否出现nginx的index.html页面，出现即为成功<br>此处我们需要牢记，&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;html是资源的根目录，所有的资源都必须在此目录下才可以被访问到<br>Q：可以更换目录吗？<br>A：可以，只需要修改&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;conf&#x2F;nginx.conf文件重新指定目录即可，可以在互联网上轻松找到修改方法<br>接下来我们都以&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;html作为资源根目录来举例。<br>只剩最后一点了，我们要在nginx的文件夹下放置一个资源，然后尝试在其它设备上访问<br>首先在服务器的nginx&#x2F;html目录下创建新文件夹Images<br>其它设备使用scp指令拷贝一个图片到服务器，例如：（注意不能照抄）<br>scp myImage.jpg <a href="mailto:&#x72;&#x6f;&#111;&#x74;&#64;&#49;&#57;&#x32;&#x2e;&#x31;&#54;&#x38;&#x2e;&#49;&#x2e;&#49;&#48;&#52;">&#x72;&#x6f;&#111;&#x74;&#64;&#49;&#57;&#x32;&#x2e;&#x31;&#54;&#x38;&#x2e;&#49;&#x2e;&#49;&#48;&#52;</a>:&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;html&#x2F;Images<br>然后在浏览器访问该图片，地址栏中依旧填写本机公网IP:端口号，与此同时在后面加上文件路径，例如208.87.125.168:8089&#x2F;Images&#x2F;myImage.jpg<br>浏览器显示出图片了吗？如果显示出了图片，那么恭喜，100%的步骤已经完成了<br>Q：懊恼，我没有看到图片，我看到的是50x报错页面<br>A：</p>
+<p>将资源放在Git上从而暴露的风险，而我们已经将自己的服务器用作私有的资源服，这很酷，它意味着他人必须通过我们自己的网站才能获取到这些资源，这为我们带来了流量。<br>是时候将我们的网站全部迁移至自己的服务器了。<br>放心，这不会花费太长时间，之后涉及的每一个步骤你都会感到似曾相识，由于在过往的历程中你已经积累了一些相关知识，相信接下来的操作我们将顺风顺水。</p>
+<p>Q：我觉得目前将网站托管到github上已经很好了，迁移至私服有足够的必要性吗？<br>A：迁移至私服不是必须的，如果你觉得github已经足够，那么可以跳过该教程，事实上很多人的博客都是直接托管给github的，由于github仓库是公开的，所以使用github仓库时要时刻注意对自己的隐私保护。</p>
+<p>git和nginx是服务器所需的必要组件，nginx我们已经安装过，接下来我们安装git<br>切换至root用户，此处不再赘述<br>yum –y install git<br>键入git指令验证是否安装成功<br>创建git用户，先不创建密码<br>adduser git<br>检查是否创建成功 cd &#x2F;home &amp;&amp; ls -al<br>如果显示有git则说明用户创建成功<br>进入local目录<br>cd &#x2F;usr&#x2F;local<br>还记得吗？nginx就是在此文件夹下<br>接下来创建一个新的git库，需要你自己起一个喜欢的名字，我起名为cpblog.git，注意.git后缀不要变<br>git init –bare cpblog.git<br>此时终端提示你创建了一个空的git库，这就对了。<br>新建文件夹作为博客根目录<br>mkdir cpblog_webroot<br>chmod 777 cpblog_webroot<br>使用Git-Hooks同步网站根目录，这里使用的是Git中的“post-receive”，当有Git收发的时候会调用该脚本，自动将最新内容同步到网站根目录中<br>用下面的指令新建沟子文件<br>vim cpblog.git&#x2F;hooks&#x2F;post-receive<br>将以下语句写入文件<br>#!&#x2F;bin&#x2F;sh<br>git –work-tree&#x3D;&#x2F;usr&#x2F;local&#x2F;cpblog_webroot –git-dir&#x3D;&#x2F;root&#x2F;cpblog.git checkout -f<br>(注意博客路径和当前用户)<br>之前我们安装了图形界面，如果你也装了，那么就可以直接用gedit文本编辑器书写了。<br>保存并赋予执行权限<br>chmod +x cpblog.git&#x2F;hooks&#x2F;post-receive<br>sudo chown -R git:git cpblog.git<br>sudo chown -R git:git cpblog_webroot</p>
+<p>修改&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;conf&#x2F;nginx.conf<br>将里面的地址改为cpblog_webroot的位置<br>server {<br>    listen    80 default_server;<br>    listen    [::] default_server;<br>    server_name    blog.59devops.com;<br>    root    &#x2F;usr&#x2F;local&#x2F;cpblog_webroot<br>}</p>
+<p>配置账户免密码登录<br>创建 ssh 的默认目录<br>进入 git 账户的主目录<br>cd &#x2F;home&#x2F;git<br>创建 .ssh 的配置，如果此文件夹已经存在请忽略此步<br>mkdir .ssh<br>创建校验公钥的配置文件<br>进入 .ssh 目录并创建 authorized_keys 文件，此文件存放客户端远程访问的 ssh 的公钥<br>cd .ssh<br>touch authorized_keys<br>cd ..<br>设置权限<br>chmod 700 .ssh&#x2F;<br>chmod 600 .ssh&#x2F;authorized_keys</p>
+<p>208.87.201.164</p>
+<p>注意，我们要切换到本地端操作了<br>本地配置<br>配置”_config.yml”<br>打开位于Hexo博客根目录下的“_config.yml”文件，找到“deploy”并修改</p>
+<p>deploy:</p>
+<ul>
+<li>type: git<br>repository: <a href="mailto:&#103;&#105;&#116;&#64;&#103;&#105;&#116;&#104;&#117;&#x62;&#x2e;&#x63;&#111;&#x6d;">&#103;&#105;&#116;&#64;&#103;&#105;&#116;&#104;&#117;&#x62;&#x2e;&#x63;&#111;&#x6d;</a>:oO0OoOo&#x2F;oO0OoOo.github.io.git  #此行改为你的git仓库地址<br>branch: master</li>
+<li>type: git<br>repository: root@服务器的公网IP:&#x2F;usr&#x2F;local&#x2F;cpblog.git  #此行改为你的私服仓库地址<br>branch: master      # 分支</li>
+</ul>
+<p>注意若原来type: git前面没有-这个符号要手动添加上，不然后面会报错<br>本地执行下列命令即可<br>hexo clean<br>hexo g<br>hexo d<br>这样以后hexo d的时候就会推到github和个人服务器上了</p>
+<p>hexo d免密码</p>
+<p>经过上述操作我们每次使用hexo d的时候就会推到服务器上，但是每次都要输入密码，添加秘钥免密推送</p>
+<p>找到id_rsa.pub文件，通常位于C盘用户文件夹下的.ssh文件夹里，例如我的是：<br>‪C:\Users\Administrator.ssh\id_rsa.pub<br>找到该文件后，将其用scp发送到服务器<br>scp ‪C:\Users\Administrator.ssh\id_rsa.pub root@服务器的公网IP:&#x2F;home&#x2F;git&#x2F;.ssh<br>（scp拷贝文件夹，开头用scp -r，后边都一样）<br>将 id_rsa.pub 文件中的内容追加到当前目录下的 authorized_keys 中<br>cat id_rsa.pub &gt;&gt; authorized_keys<br>之后就可以将id_rsa.pub删除了<br>rm -rf id_rsa.pub</p>
+<p>解析域名<br>到你购买域名的供应商控制台，将域名解析到你的服务器即可。</p>
+]]></content>
+      <categories>
+        <category>博客搭建</category>
+      </categories>
+      <tags>
+        <tag>博客搭建</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客搭建教程7 - 购买云服务器</title>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-7-shi-yong-yun-fu-wu-qi-da-jian-tu-chuang/</url>
+    <content><![CDATA[<p>网页中会展示一些大体积的资源，比如音频视频等多媒体文件，还有一些可被公开下载的文件。<br>虽然使用Git可以存储这些文件（比如Gitee，相关介绍链接<a href="https://zhuanlan.zhihu.com/p/581297109%EF%BC%89%EF%BC%8C%E4%BD%86%E6%98%AFGitee%E7%9A%84%E6%9C%AC%E6%84%8F%E6%98%AF%E4%BB%A3%E7%A0%81%E7%AE%A1%E7%90%86%EF%BC%8C%E5%AF%B9%E4%BA%8E%E5%A4%A7%E4%BD%93%E7%A7%AF%E6%96%87%E4%BB%B6%E6%9D%A5%E8%AE%B2%E5%B9%B6%E4%B8%8D%E9%80%82%E5%90%88%EF%BC%8CGitee%E5%85%B6%E5%AE%9E%E6%98%AF%E7%A6%81%E6%AD%A2%E8%A2%AB%E7%94%A8%E4%BD%9C%E5%9B%BE%E5%BA%8A%E7%9A%84">https://zhuanlan.zhihu.com/p/581297109），但是Gitee的本意是代码管理，对于大体积文件来讲并不适合，Gitee其实是禁止被用作图床的</a></p>
+<p><img src="/%5Cimages%5Cpasted-5.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-5.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"></p>
+<p>Q:在中国访问Github和Gitee并不稳定，那是否意味着在某些时候，网站将无法访问？<br>A：是这样的，在后续的教程中，我们会让博客脱离Github管理，转移到自己的云服务器上。</p>
+<p>Q：我不想买云服务器，可以将网站部署到自己的闲置电脑上吗？<br>A：你可以在网络上搜索这个话题，了解实现这个需求的难度，从而决定要选择何种方式。本文只介绍使用云服务器搭建网站的方法。</p>
+<p>那接下来我们开始选择合适的云服务器。<br>在选择云服务器之前，你可以在网上搜索一些文章，对这些概念有一个初步的印象，这将有助于你选择合适自己的云服务器。<br>【什么是网站备案】<br>【搭建网站是否需要备案】<br>【买云服务器哪家好】</p>
+<p>以下介绍博主使用的云服务器。<br>在建站初期，网站基本没有访客，因此无需考虑太多。博主最开始决定使用恒创ECS云服务器，因为有7天免费试用，可以顺带了解一下1核2G的配置是否够用。<br>后来考虑到域名是在阿里云买的，所以也买了一个月的阿里云轻量应用服务器，它的价格比ECS服务器便宜一些，但是对配置并不满意，因此还是选择了恒创的ECS云服务器。<br>在试用恒创的服务器时发现2G的内存超出了实际需求，因此在购买时决定只买1G内存套餐即可。<br>恒创的ECS云服务器算是很便宜的了，博主选择了最低配置，CentOS 7系统，1核1G带宽2M，大约300元&#x2F;年。<br>你可以选择喜欢的操作系统，但如果你对这些操作系统不了解，建议也选择CentOS系统。<br>当网站发展起来后，再考虑升级服务器也来得及，将网站迁移到其它服务器上并不困难。</p>
+<p>以下是博主购买的恒创云服务器<br><img src="/%5Cimages%5Cpasted-1.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-1.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"></p>
+<p>点击【VNC登录】即可连接到远程服务器。用户名是root，密码可以在页面上查看，也可以自己重置。</p>
+<p>看到远程视窗了吗？它现在的形态应该是命令行的样子，并且正在等待你输入用户名和密码，输入用户名root和密码，即可以root身份登录CentOS系统。</p>
+<p>接下来，我们就要沉浸到CentOS的世界了。CentOS是基于Linux的发行版本，在接下来的教程中开始涉及到Linux命令行代码，因此最好还是对一些基础的Linux命令和CentOS系统目录结构有所了解，这有利于后续在配置服务器过程中遭遇问题时自我排查问题。</p>
+]]></content>
+      <categories>
+        <category>博客搭建</category>
+      </categories>
+      <tags>
+        <tag>博客搭建</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客搭建教程6 - 拥有自己的域名</title>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-6-yong-you-zi-ji-de-yu-ming/</url>
+    <content><![CDATA[<p>在万网购买域名<br><a href="https://wanwang.aliyun.com/domain">https://wanwang.aliyun.com/domain</a></p>
+<p>不知道想要什么域名，买一个最便宜的就可以，后续可以更换。</p>
+<p>购买后在域名控制台就能进行域名解析操作了。</p>
+<p><img src="/%5Cimages%5Cpasted-13.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-13.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"></p>
+<p>点击域名后面的【解析】按钮，进入解析界面</p>
+<p>关于如何添加解析记录，可以参考这篇文章<br><a href="https://zhuanlan.zhihu.com/p/103813944">https://zhuanlan.zhihu.com/p/103813944</a></p>
+<p>大体操作思路是：<br>登录自己的github博客仓库，在页面上找到Settings按钮，点击进入</p>
+<p><img src="/%5Cimages%5Cpasted-15.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-15.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"></p>
+<p>进入Pages页面</p>
+<p><img src="/%5Cimages%5Cpasted-16.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-16.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"><br>在Pages页面里可以看到你目前的域名，是以github.io结尾的，接下来我们在CustomDomain里填写自己的域名，并点击Save<br>接下来就会发现你的博客地址变成了自己填写的域名</p>
+<p><img src="/%5Cimages%5Cpasted-17.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-17.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"><br>点击【Visit site】进行测试,看看能否访问。若可以访问，则说明配置成功。</p>
+]]></content>
+      <categories>
+        <category>博客搭建</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客搭建教程5 - 为博客安装插件</title>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-5-di-yi-ci-fa-bu-bo-ke/</url>
+    <content><![CDATA[<p>正在筹备<br>先不装额外插件</p>
+]]></content>
+      <categories>
+        <category>博客搭建</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客搭建教程4 - 选择喜欢的Hexo主题</title>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-3-xuan-ze-xi-huan-de-hexo-zhu-ti/</url>
+    <content><![CDATA[<p>首先我们熟悉Hexo的目录，在你之前搭建的博客仓库目录里可以看到_configs.yml和themes文件夹。<br>这两个文件夹在更换主题时非常重要。</p>
+<p><img src="/%5Cimages%5Cpasted-7.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-7.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"></p>
+<p>其中themes文件夹负责存储下载的主题，每一个下载的主题都以其名字的方式放在此文件夹里，例如</p>
+<p><img src="/%5Cimages%5Cpasted-8.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-8.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"></p>
+<p>文件_configs.yml则是博客网站的配置文件，主题下载好后，用文本编辑器编辑这个文件，只要修改theme字段，改为主题名称即可，图片中使用bamboo作为当前博客主题。</p>
+<p><img src="/%5Cimages%5Cpasted-9.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-9.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"></p>
+<p>在这里选择喜欢的主题<br><a href="https://hexo.io/themes/">https://hexo.io/themes/</a></p>
+<p>主题安装方式：<br>这里的每一个主题都对应一个Github仓库，比如我们选择了Ocean这个主题<br><a href="https://github.com/zhwangart/hexo-theme-ocean">https://github.com/zhwangart/hexo-theme-ocean</a></p>
+<p><img src="/%5Cimages%5Cpasted-6.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-6.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"></p>
+<p>可以看到Readme文档，里面有使用Git命令安装主题的方式。</p>
+<p>使用$ git clone <a href="https://github.com/zhwangart/hexo-theme-ocean.git">https://github.com/zhwangart/hexo-theme-ocean.git</a> themes&#x2F;ocean<br>将主题下载到themes文件夹，注意目录结构，确保themes下就是ocean的git仓库，而且命名就叫ocean<br>接着在_configs.yml中（注意不是themes&#x2F;ocean目录下面的_configs.yml），找到theme字段，更改为<br>theme: ocean</p>
+<p>接下来在博客目录下启动Git Bash</p>
+<p><img src="/%5Cimages%5Cpasted-10.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-10.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"><br>执行hexo s</p>
+<p><img src="/%5Cimages%5Cpasted-11.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-11.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"></p>
+<p>接下来就可以在浏览器输入 <a href="http://localhost:4000/">http://localhost:4000/</a>  预览主题了</p>
+<p>想定制主题？<br>进入themes&#x2F;ocean文件夹，修改_config.yml文件，通常主题的Git文档中会介绍这个文件里的配置如何修改，你可以在这个配置文件中控制网站图表，是否开启评论系统，是否允许右键复制等等。</p>
+<p>Q：我可以在themes文件夹中放置多个主题吗？实际运行网站时显示的是哪一个主题？<br>A：完全可以，多个主题在themes文件夹中互相并不影响，网站运行时使用的主题就是_config.yml中theme字段配置的主题名。</p>
+]]></content>
+      <categories>
+        <category>博客搭建</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客搭建教程3 - 初识Node.js和Hexo</title>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-3-shi-yong-hexo-kai-shi-da-jian/</url>
+    <content><![CDATA[<p>本篇内容比较简单，可以参考这位博主的文章<br><a href="https://zhuanlan.zhihu.com/p/105715224">https://zhuanlan.zhihu.com/p/105715224</a></p>
+<p>按照上述流程做完后，基于Github Page的博客就已经搭建好了，你可以在浏览器上输入自己的Github仓库地址，就可以看到搭建好的Hexo博客了。</p>
+<p>接下来的教程里，我们将继续做如下几件事情来加深对网站的理解，增强管理能力，但这些并非必要项。<br>未来要做的事：<br>1.选择自己喜欢的Hexo主题美化博客<br>2.购买一个自己喜欢的域名，解析域名，并取代现在github访问的方式<br>3.了解网站备案，选择云服务器，搭建资源服实现图床<br>4.将博客部署在云服务器上<br>5.学习Markdown常用语法<br>6.使用宝塔管理自己的服务器<br>7.知识财产保护与侵权行为</p>
+]]></content>
+      <categories>
+        <category>博客搭建</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客搭建教程2 - 创建Git仓库</title>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-2-shou-xi-git/</url>
+    <content><![CDATA[<p>在阅读本章前，我们默认你已经了解了Git的概念。</p>
+<p>本章内容比较简单，网上相关文章很多，这里推荐这位博主的文章：<br><a href="https://zhuanlan.zhihu.com/p/102592286">https://zhuanlan.zhihu.com/p/102592286</a></p>
+<p>第一步，注册Github账号<br>可以参考这篇知乎的教程<a href="https://zhuanlan.zhihu.com/p/103268406">https://zhuanlan.zhihu.com/p/103268406</a></p>
+<p>第二步，安装Git<br>可以参考这篇知乎的教程<a href="https://zhuanlan.zhihu.com/p/103325381">https://zhuanlan.zhihu.com/p/103325381</a></p>
+<p>第三步，创建Github仓库并使用Git推送文件<br>可以参考这篇知乎的教程<a href="https://zhuanlan.zhihu.com/p/103391101">https://zhuanlan.zhihu.com/p/103391101</a></p>
+]]></content>
+      <categories>
+        <category>博客搭建</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>博客搭建教程1 - 准备阶段</title>
-    <url>/2023/01/08/hexo-bo-ke-da-jian-jiao-cheng-1/</url>
+    <url>/2023/01/09/hexo-bo-ke-da-jian-jiao-cheng-1/</url>
     <content><![CDATA[<p>在一切开始之前，我们先来回答几个关键问题。</p>
 <p>Q：搭建个人博客需要花钱吗？<br>A：不需要。如果我们依赖Github，则可以不花一分钱搭建好自己的博客网站。但是如果你想拥有自己的域名，或者脱离Github使用自己的服务器，那么需要支付一定的费用，在刚刚起步的阶段，开销不会很大。</p>
 <p>Q：搭建个人博客能挣钱吗？<br>A：不能。网站可以接入商业广告实现广告收入，但是获得成功并非易事，因此，不抱盈利的期待是最好的。</p>
