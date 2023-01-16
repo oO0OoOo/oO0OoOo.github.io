@@ -11,7 +11,7 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-  <title>博客搭建教程7 - 购买云服务器 | 赛朋博客</title>
+  <title>博客搭建教程7 - 为博客网站选择合适的云服务器 | 赛朋博客</title>
 
   <link rel="icon" type="image/jpeg" href="/favicon.jpg">
   <link rel="stylesheet" href="https://at.alicdn.com/t/font_1911880_c1nvbyezg17.css">
@@ -604,14 +604,14 @@
 
 
 <div class="post-detail-header" id="thumbnail_canvas" style="background-repeat: no-repeat; background-size: cover; 
-  background-position: center center;position: relative;background-image:url('/medias/1.jpg')">
+  background-position: center center;position: relative;background-image:url('/medias/8.jpg')">
   <div class="post-detail-header-mask"></div>
   <canvas id="header_canvas"style="position:absolute;bottom:0;pointer-events:none;"></canvas>
   
   <div class="post-detail-header_info-box">
     <div class="title-box">
       <span class="title">
-        博客搭建教程7 - 购买云服务器
+        博客搭建教程7 - 为博客网站选择合适的云服务器
       </span>
     </div>
     
@@ -636,7 +636,7 @@
       
         <div class="post-detail-header_wordcount">
           <span class="totalcount">
-            <i class="fas fa-file-text-o"></i> Words: 837 |
+            <i class="fas fa-file-text-o"></i> Words: 852 |
           </span>
   
           <span class="min2read">
@@ -665,16 +665,14 @@
   <div class="main-content">
     <article class="post post-detail">
       <div class="post-content">
-        <p>网页中会展示一些大体积的资源，比如音频视频等多媒体文件，还有一些可被公开下载的文件。<br>虽然使用Git可以存储这些文件（比如Gitee，相关介绍链接<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/581297109%EF%BC%89%EF%BC%8C%E4%BD%86%E6%98%AFGitee%E7%9A%84%E6%9C%AC%E6%84%8F%E6%98%AF%E4%BB%A3%E7%A0%81%E7%AE%A1%E7%90%86%EF%BC%8C%E5%AF%B9%E4%BA%8E%E5%A4%A7%E4%BD%93%E7%A7%AF%E6%96%87%E4%BB%B6%E6%9D%A5%E8%AE%B2%E5%B9%B6%E4%B8%8D%E9%80%82%E5%90%88%EF%BC%8CGitee%E5%85%B6%E5%AE%9E%E6%98%AF%E7%A6%81%E6%AD%A2%E8%A2%AB%E7%94%A8%E4%BD%9C%E5%9B%BE%E5%BA%8A%E7%9A%84">https://zhuanlan.zhihu.com/p/581297109），但是Gitee的本意是代码管理，对于大体积文件来讲并不适合，Gitee其实是禁止被用作图床的</a></p>
-<p><img src="/%5Cimages%5Cpasted-5.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-5.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"></p>
-<p>Q:在中国访问Github和Gitee并不稳定，那是否意味着在某些时候，网站将无法访问？<br>A：是这样的，在后续的教程中，我们会让博客脱离Github管理，转移到自己的云服务器上。</p>
+        <p>网页中会展示一些大体积的资源，比如音频视频等多媒体文件，还有一些可被公开下载的文件。<br>你可能听过图床，图床就是将博客的图片存储到云盘里，比如七牛云，图床为图片生成外链，博客仓库中无需携带图片，只要通过链接访问就可以了。<br>如果你只是想要一个图床，并且你的网站有ICP备案，那么直接使用七牛云的服务就可以了，专业的图床还有防盗链，CDN等实用技术加持，真的是一个不错的选择。</p>
+<p>Q：未备案的个人博客网站可以使用七牛云图床吗？<br>A：不可以。</p>
+<p>虽然使用Git仓库可以存储这些大文件（比如Gitee，Github，相关介绍链接<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/581297109">https://zhuanlan.zhihu.com/p/581297109</a><br>，但是Git的本意是代码管理，对于大体积文件来讲并不适合，Git仓库其实是禁止被用作图床的，关于Gitee历史上也不止一次发生过图片无法访问的情况。</p>
+<div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="/images/giteeforbiddenjpgbed.png" class="lazyload placeholder" data-srcset="/images/giteeforbiddenjpgbed.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" style="width:80%;"/></div></div>
+
 <p>Q：我不想买云服务器，可以将网站部署到自己的闲置电脑上吗？<br>A：你可以在网络上搜索这个话题，了解实现这个需求的难度，从而决定要选择何种方式。本文只介绍使用云服务器搭建网站的方法。</p>
-<p>那接下来我们开始选择合适的云服务器。<br>在选择云服务器之前，你可以在网上搜索一些文章，对这些概念有一个初步的印象，这将有助于你选择合适自己的云服务器。<br>【什么是网站备案】<br>【搭建网站是否需要备案】<br>【买云服务器哪家好】</p>
-<p>以下介绍博主使用的云服务器。<br>在建站初期，网站基本没有访客，因此无需考虑太多。博主最开始决定使用恒创ECS云服务器，因为有7天免费试用，可以顺带了解一下1核2G的配置是否够用。<br>后来考虑到域名是在阿里云买的，所以也买了一个月的阿里云轻量应用服务器，它的价格比ECS服务器便宜一些，但是对配置并不满意，因此还是选择了恒创的ECS云服务器。<br>在试用恒创的服务器时发现2G的内存超出了实际需求，因此在购买时决定只买1G内存套餐即可。<br>恒创的ECS云服务器算是很便宜的了，博主选择了最低配置，CentOS 7系统，1核1G带宽2M，大约300元&#x2F;年。<br>你可以选择喜欢的操作系统，但如果你对这些操作系统不了解，建议也选择CentOS系统。<br>当网站发展起来后，再考虑升级服务器也来得及，将网站迁移到其它服务器上并不困难。</p>
-<p>以下是博主购买的恒创云服务器<br><img src="/%5Cimages%5Cpasted-1.png%5C" class="lazyload placeholder" data-srcset="/%5Cimages%5Cpasted-1.png%5C" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="upload successful"></p>
-<p>点击【VNC登录】即可连接到远程服务器。用户名是root，密码可以在页面上查看，也可以自己重置。</p>
-<p>看到远程视窗了吗？它现在的形态应该是命令行的样子，并且正在等待你输入用户名和密码，输入用户名root和密码，即可以root身份登录CentOS系统。</p>
-<p>接下来，我们就要沉浸到CentOS的世界了。CentOS是基于Linux的发行版本，在接下来的教程中开始涉及到Linux命令行代码，因此最好还是对一些基础的Linux命令和CentOS系统目录结构有所了解，这有利于后续在配置服务器过程中遭遇问题时自我排查问题。</p>
+<p>以下介绍博主使用的云服务器。<br>在建站初期，网站基本没有访客，因此无需考虑太多。博主最开始决定使用恒创ECS云服务器，因为有7天免费试用，可以顺带了解一下1核2G的配置是否够用。<br>后来考虑到域名是在阿里云买的，所以也买了一个月的阿里云轻量应用服务器，它的价格比ECS服务器便宜一些，但是对配置并不满意，因此还是选择了恒创的ECS云服务器。<br>在试用恒创的服务器时发现2G的内存超出了实际需求，因此在购买时决定只买1G内存套餐即可。<br>恒创的ECS云服务器算是很便宜的了，博主选择了最低配置，CentOS 7系统，1核1G带宽2M，大约300元&#x2F;年。而且恒创的香港，美国，日本服务器无需备案，很方便。<br>博主建议选择linux系统，不要选择Windows系统，使用linux建站更节省软硬件资源，很适合建站，而Windows系统很臃肿，以至于在1G内存的云服务器上无法运行，2G内存才勉勉强强。因此Windows服务器起步配置要比linux的高，起步价也更高。<br>博主选择的是CentOS 7.1系统。</p>
+<p>Q：云服务器的带宽如何选择？家庭网络都已经100M起步了，云服务器2M带宽是不是太低了？<br>A：对于新手站长，博主建议可以选择2M作为入门选择，如果你的网站没有视频或者大量下载资源，那么完全可以支撑早期的网站建设。博主实测2M带宽的服务器加载一篇博客（1k文字+多张100kb图片）只需要1-2秒，如果是mp4视频，那么压缩到10MB&#x2F;分钟的体积，是可以流畅播放的。</p>
 
       </div>
       <div class="post-tags-categories">
@@ -696,7 +694,7 @@
     </li>
     <li class="post-copyright-link">
     <strong>link:  </strong>
-    <a href="/2023/01/09/bo-ke-da-jian-jiao-cheng-7-shi-yong-yun-fu-wu-qi-da-jian-tu-chuang/" target="_blank" title="博客搭建教程7 - 购买云服务器">http://cypunberk.cn/2023/01/09/bo-ke-da-jian-jiao-cheng-7-shi-yong-yun-fu-wu-qi-da-jian-tu-chuang/</a>
+    <a href="/2023/01/09/bo-ke-da-jian-jiao-cheng-7-shi-yong-yun-fu-wu-qi-da-jian-tu-chuang/" target="_blank" title="博客搭建教程7 - 为博客网站选择合适的云服务器">http://cypunberk.cn/2023/01/09/bo-ke-da-jian-jiao-cheng-7-shi-yong-yun-fu-wu-qi-da-jian-tu-chuang/</a>
     </li>
     <li class="post-copyright-license">
       <strong>Copyright notice:   </strong>
@@ -718,16 +716,16 @@
   <div class="post-nav-prev post-nav-item">
     <div class="post-nav-img" style="background-size: cover; 
       background-position: center center;">
-      <img class="lazyload lazyload placeholder" src="/medias/13.jpg" class="lazyload placeholder" data-srcset="/medias/13.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+      <img class="lazyload lazyload placeholder" src="/medias/3.jpg" class="lazyload placeholder" data-srcset="/medias/3.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
     </div>
     <a href="/2023/01/09/bo-ke-da-jian-jiao-cheng-8-jie-hong-linux/" class="post-nav-link">
       <div class="title">
         <i class="fas fa-angle-left"></i> Prev:
-        <div class="title-text">博客搭建教程8 - 搭建云服务器环境</div>
+        <div class="title-text">博客搭建教程8 - 在CentOS云服务器利用Nginx搭建Hexo博客</div>
       </div>
       
       <!-- <div class="content">
-        恒创的CentOS系统并不自带图形界面，如果想和Windows系统一样看到图形界面，需要额外进行安装。但是要注意，虽然图
+        关于图形界面：有的云服务器将CentOS系统的图形界面阉割，如果想和Windows系统一样看到图形界面，需要额外进行安装
       </div> -->
     </a>
   </div>
@@ -738,16 +736,16 @@
   <div class="post-nav-next post-nav-item">
     <div class="post-nav-img" style="background-size: cover; 
       background-position: center center;">
-      <img class="lazyload lazyload placeholder" src="/medias/3.jpg" class="lazyload placeholder" data-srcset="/medias/3.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" src="" alt="">
+      <img class="lazyload lazyload placeholder" src="/medias/4.jpg" class="lazyload placeholder" data-srcset="/medias/4.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" src="" alt="">
     </div>
     <a href="/2023/01/09/bo-ke-da-jian-jiao-cheng-6-yong-you-zi-ji-de-yu-ming/" class="post-nav-link">
       <div class="title">
         Next: <i class="fas fa-angle-right"></i>
-        <div class="title-text">博客搭建教程6 - 拥有自己的域名</div>
+        <div class="title-text">博客搭建教程6 - 为Github部署的Hexo博客更换新域名</div>
       </div>
       <!-- <div class="content">
-        在万网购买域名https://wanwang.aliyun.com/domain
-不知道想要什么域名，买一个最便宜的就可
+        首先在域名购买网站挑选心仪的域名并购买，比如万网：https://wanwang.aliyun.com/domain
+暂
       </div> -->
     </a>
   </div>
@@ -920,7 +918,7 @@
             <div class="post-img-box">
               <a href="/2023/01/09/bo-ke-da-jian-jiao-cheng-16-zhi-shi-cai-chan-bao-hu/" class="post-img " style="background-size: cover; 
                 background-position: center center;">
-                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="/medias/8.jpg" class="lazyload placeholder" data-srcset="/medias/8.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="/medias/13.jpg" class="lazyload placeholder" data-srcset="/medias/13.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
               </a>
             </div>
             <div class="post-date-title">
@@ -929,7 +927,7 @@
                   <span class="post-date">01-09</span>
                 
               </div>
-              <a class="post-title" href="/2023/01/09/bo-ke-da-jian-jiao-cheng-16-zhi-shi-cai-chan-bao-hu/">博客搭建教程16 - 知识财产保护</a>
+              <a class="post-title" href="/2023/01/09/bo-ke-da-jian-jiao-cheng-16-zhi-shi-cai-chan-bao-hu/">博客搭建教程16 - linux云服务器在nginx.conf配置防盗链</a>
             </div>
           </div>
         
@@ -962,7 +960,7 @@
             <div class="post-img-box">
               <a href="/2023/01/09/bo-ke-da-jian-jiao-cheng-14-an-zhuang-bao-ta/" class="post-img " style="background-size: cover; 
                 background-position: center center;">
-                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="/medias/10.jpg" class="lazyload placeholder" data-srcset="/medias/10.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="/medias/12.jpg" class="lazyload placeholder" data-srcset="/medias/12.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
               </a>
             </div>
             <div class="post-date-title">
@@ -971,7 +969,7 @@
                   <span class="post-date">01-09</span>
                 
               </div>
-              <a class="post-title" href="/2023/01/09/bo-ke-da-jian-jiao-cheng-14-an-zhuang-bao-ta/">博客搭建教程14 - 使用宝塔运维工具</a>
+              <a class="post-title" href="/2023/01/09/bo-ke-da-jian-jiao-cheng-14-an-zhuang-bao-ta/">博客搭建教程14 - Linux云服务器安装宝塔运维工具</a>
             </div>
           </div>
         
@@ -983,7 +981,7 @@
             <div class="post-img-box">
               <a href="/2023/01/09/bo-ke-da-jian-jiao-cheng-13-geng-huan-yu-ming/" class="post-img " style="background-size: cover; 
                 background-position: center center;">
-                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="/medias/1.jpg" class="lazyload placeholder" data-srcset="/medias/1.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="/medias/10.jpg" class="lazyload placeholder" data-srcset="/medias/10.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
               </a>
             </div>
             <div class="post-date-title">
@@ -992,7 +990,7 @@
                   <span class="post-date">01-09</span>
                 
               </div>
-              <a class="post-title" href="/2023/01/09/bo-ke-da-jian-jiao-cheng-13-geng-huan-yu-ming/">博客搭建教程13 - 更换域名</a>
+              <a class="post-title" href="/2023/01/09/bo-ke-da-jian-jiao-cheng-13-geng-huan-yu-ming/">博客搭建教程13 - 写博客实用网站大合集</a>
             </div>
           </div>
         
@@ -1013,7 +1011,7 @@
                   <span class="post-date">01-09</span>
                 
               </div>
-              <a class="post-title" href="/2023/01/09/bo-ke-da-jian-jiao-cheng-12-fu-wu-qi-shu-ju-qian-yi/">博客搭建教程12 - 服务器数据迁移</a>
+              <a class="post-title" href="/2023/01/09/bo-ke-da-jian-jiao-cheng-12-fu-wu-qi-shu-ju-qian-yi/">博客搭建教程12 - 更换云服务器完成数据迁移</a>
             </div>
           </div>
         
