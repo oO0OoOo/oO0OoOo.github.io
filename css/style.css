@@ -966,7 +966,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   margin-left: 5px;
   display: inline-block;
   font-size: 1.6em;
-  font-family: sans-serif;
+  font-family: "Comic Sans MS", cursive, sans-serif;
   text-decoration: none;
 }
 .header #he-plugin-simple {
