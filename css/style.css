@@ -949,7 +949,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   align-items: center;
   height: 60px;
   white-space: nowrap;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 .header .blog-title .avatar {
   border-radius: 50%;
@@ -963,7 +963,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
 }
 .header .blog-title a {
   color: #fff;
-  margin-left: 35px;
+  margin-left: 15px;
   display: inline-block;
   font-size: 1.6em;
   font-family: "Comic Sans MS", LiSu, sans-serif;
