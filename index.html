@@ -19,6 +19,21 @@
   <link href="/js/swiper/swiper@5.4.1.min.css" rel="stylesheet">
   
   
+    <script>
+        var themeModelId = '0';
+        if (themeModelId) {
+            localStorage.setItem('modelId', themeModelId);
+        }
+    </script>
+    
+    <script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+    <script>
+        var live2dOpen = eval('false') || false;
+        if (!live2dOpen) {
+            localStorage.setItem('waifu-display', 1609323474481);
+        }
+    </script>
+  
   
   
 <link rel="stylesheet" href="/css/animate.min.css">
@@ -2415,7 +2430,7 @@ Q：搭建个人博客需要花钱吗？A：不需要。如果我们依赖Github
         <div class="webinfo-item">
           <div>最后活动时间：</div>
           
-            <div id="last-update" style="display: none;">Tue Jan 17 2023 23:46:41 GMT+0800 (中国标准时间)</div>
+            <div id="last-update" style="display: none;">Tue Jan 17 2023 23:49:09 GMT+0800 (中国标准时间)</div>
             <div id="last-update-show">2023-01-17 日</div>
           
         </div>
