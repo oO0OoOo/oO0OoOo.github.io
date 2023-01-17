@@ -840,7 +840,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   z-index: 2;
   border-bottom: 1px solid rgba(60,60,60,0.122);
   animation: headerNoOpacity 1s;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
   animation-timing-function: ease;
   animation-delay: 0s;
   animation-iteration-count: 1;
@@ -975,7 +975,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   margin-left: 5px;
   display: inline-block;
   font-size: 1.6em;
-  font-family: cursive, sans-serif;
+  font-family: sans-serif;
   text-decoration: none;
 }
 .header #he-plugin-simple {
