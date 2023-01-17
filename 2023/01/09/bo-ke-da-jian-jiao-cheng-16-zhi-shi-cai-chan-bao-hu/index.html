@@ -646,7 +646,6 @@
 <div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="/images/nginxconfopensf.png" class="lazyload placeholder" data-srcset="/images/nginxconfopensf.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" style="width:80%;"/></div></div>  
 <p>再增加下面代码  </p>
 <div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="/images/nginxsetlocation.png" class="lazyload placeholder" data-srcset="/images/nginxsetlocation.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" style="width:80%;"/></div></div>  
-
 <p>然后重启nginx<br>nginx -s reload<br>如果自己的网站能显示图片，其它网站CNAME过来的就不显示图片，就说明配置成功<br>盗链网站效果如下  </p>
 <div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="/images/otherwebsitelocaitionnginx.png" class="lazyload placeholder" data-srcset="/images/otherwebsitelocaitionnginx.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" style="width:80%;"/></div></div>  
 <p>这里实现了如果检测到盗链行为就用一张图片回击，也可以只return 403，显示一张裂开的图片<br>盗链提示图片资源  </p>
