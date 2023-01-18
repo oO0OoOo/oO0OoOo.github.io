@@ -1071,7 +1071,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   height: 300px;
   display: flex;
   margin-bottom: 16px;
-  background: rgba(255,255,255,0.5);
+  background: rgba(255,255,255,0.6);
   border-radius: 10px;
   overflow: hidden;
 }
@@ -1451,7 +1451,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   top: 13px !important;
   font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
   font-size: 0.91rem;
-  color: #d63200;
+  color: ;
   background-color: #f8f8f8;
   border-radius: 2px;
 }
@@ -1515,7 +1515,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   font-weight: bold;
   line-height: 1.4;
   cursor: url(""), text;
-  color: #213547;
+  color: ;
 }
 .post-detail h1:focus,
 .post-detail h2:focus,
@@ -1589,7 +1589,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   color: #777;
 }
 .post-detail p {
-  color: #213547;
+  color: ;
 }
 .post-detail p,
 .post-detail blockquote,
