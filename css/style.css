@@ -1371,7 +1371,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 0 5px #ccc;
-  font-family: -apple-system, BlinkMacSystemFont, PingFang SC, Segoe UI, Microsoft YaHei, Hiragino Sans GB, Helvetica Neue, Helvetica, Arial, sans-serif;
+font-family
   position: relative;
 /* 代码块复制按钮 */
 /* 代码块复制按钮 */
@@ -1663,7 +1663,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   text-align: center;
   line-height: 20px;
   font-weight: bold;
-  font-family: 'Font Awesome 6 Free';
+font-family
   font-weight: 600;
   font-size: 14px;
 }
