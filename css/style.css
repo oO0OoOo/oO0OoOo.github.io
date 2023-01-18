@@ -826,7 +826,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
 .header-bg-color,
 .no-img-top,
 .no-swiper {
-  background: #60b6fc;
+  background: #5cacee;
   transition: all 0.3s;
 }
 .header {
@@ -933,7 +933,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   color: #fff !important;
 }
 .header .header-content .navbar .menu .menu-item .sub-menu li {
-  background: #60b6fc;
+  background: #5cacee;
   width: 140px;
   text-align: center;
   line-height: 45px;
@@ -1749,7 +1749,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   margin: 0 5px;
 }
 .footer .footer-main .link .social:hover {
-  color: #000;
+  color: #12548a;
   background: rgba(255,87,34,0.1);
 }
 .footer .footer-main .link i {
@@ -1763,13 +1763,13 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   text-decoration: underline;
 }
 .footer .footer-main .footer-copyright a:hover {
-  color: #000;
+  color: #12548a;
 }
 .footer .footer-main .footer-custom a {
   text-decoration: underline;
 }
 .footer .footer-main .footer-custom a:hover {
-  color: #000;
+  color: #12548a;
 }
 #j-fish-skip {
   margin-top: 15px;
