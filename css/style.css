@@ -1219,7 +1219,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   background-position: center center;
   color: #fff;
   font-weight: lighter;
-  font-family: Inconsolata, Courier, monospace;
+  font-family: Inconsolata, Monaco, Consolas, 'Courier New';
   animation: header-effect 1s;
   animation-duration: 1s;
   animation-timing-function: ease;
