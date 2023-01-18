@@ -826,7 +826,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
 .header-bg-color,
 .no-img-top,
 .no-swiper {
-  background: 60b 6fc;
+  background: #60b6fc;
   transition: all 0.3s;
 }
 .header {
@@ -933,7 +933,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   color: #fff !important;
 }
 .header .header-content .navbar .menu .menu-item .sub-menu li {
-  background: 60b 6fc;
+  background: #60b6fc;
   width: 140px;
   text-align: center;
   line-height: 45px;
@@ -1218,7 +1218,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   background-size: cover;
   background-position: center center;
   color: #fff;
-  font-weight: normal;
+  font-weight: lighter;
   font-family: 'KaiTi';
 }
 .post-detail-header .post-detail-header-mask {
