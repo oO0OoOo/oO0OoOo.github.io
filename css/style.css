@@ -1972,7 +1972,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
 .categories-header .categories-header-title {
   z-index: 2;
   font-size: 2.5rem;
-  font-family: MV Boli;
+font-family
   color: #fff;
 }
 .categories-header .categories-header-desc {
@@ -1980,7 +1980,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   font-weight: 500;
   font-size: 1.25rem;
   line-height: 1.4em;
-  font-family: 'Architects Daughter', cursive !important;
+font-family
   color: #fff;
   min-height: 1.4em;
 }
@@ -2007,7 +2007,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
 .categories-video .video-header-title {
   z-index: 2;
   font-size: 2.5rem;
-  font-family: MV Boli;
+font-family
   position: absolute;
   left: 50%;
   top: 50%;
@@ -2019,7 +2019,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   font-weight: 500;
   font-size: 1.25rem;
   line-height: 1.4em;
-  font-family: 'Architects Daughter', cursive !important;
+font-family
   color: #fff;
   min-height: 1.4em;
   position: absolute;
@@ -2903,7 +2903,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
 .category-header .category-header-title {
   z-index: 2;
   font-size: 2.5rem;
-font-family
+  font-family: MV Boli;
   color: #fff;
 }
 .category-header .category-header-desc {
@@ -2911,7 +2911,7 @@ font-family
   font-weight: 500;
   font-size: 1.25rem;
   line-height: 1.4em;
-font-family
+  font-family: 'Architects Daughter', cursive !important;
   color: #fff;
   min-height: 1.4em;
 }
@@ -2938,7 +2938,7 @@ font-family
 .category-video .video-header-title {
   z-index: 2;
   font-size: 2.5rem;
-font-family
+  font-family: MV Boli;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -2950,7 +2950,7 @@ font-family
   font-weight: 500;
   font-size: 1.25rem;
   line-height: 1.4em;
-font-family
+  font-family: 'Architects Daughter', cursive !important;
   color: #fff;
   min-height: 1.4em;
   position: absolute;
