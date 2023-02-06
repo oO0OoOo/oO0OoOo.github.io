@@ -11,7 +11,7 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-  <title>博客搭建教程14 - Linux云服务器安装宝塔运维工具 | 赛朋博客</title>
+  <title>博客搭建教程11 - 使用linux+nginx建站每次云服务器重启后的例行检查操作 | 赛朋博客</title>
 
   <link rel="icon" type="image/jpeg" href="/favicon.jpg">
   <link rel="stylesheet" href="https://at.alicdn.com/t/font_1911880_c1nvbyezg17.css">
@@ -87,28 +87,44 @@
     <!-- 预加载动画 -->
     <!-- 页面预加载动画 -->
 
-<div id='loader'>
-  <link rel="stylesheet" href="/js/loaded/index.css" >
-  <div class="loading-left-bg"></div>
-  <div class="loading-right-bg"></div>
-  <div class="spinner-box">
-    <div class="configure-border-1">
-      <div class="configure-core"></div>
+  
+    <div class="preloader_5" id="loader">
+  <div class="cube">
+    <div class="topD"></div>
+    <div>
+      <span style="--i:0"></span>
+      <span style="--i:1"></span>
+      <span style="--i:2"></span>
+      <span style="--i:3"></span>
     </div>
-    <div class="configure-border-2">
-      <div class="configure-core"></div>
+
+    <div class="cube2">
+      <div>
+        <span style="--i:0"></span>
+        <span style="--i:1"></span>
+        <span style="--i:2"></span>
+        <span style="--i:3"></span>
+      </div>
+
+      <div class="cube3">
+        <div class="top3"></div>
+        <div>
+          <span style="--i:0"></span>
+          <span style="--i:1"></span>
+          <span style="--i:2"></span>
+          <span style="--i:3"></span>
+        </div>
+      </div>
     </div>
-    <div class="loading-word">loading...</div>
   </div>
 </div>
-
+  
 <script>
   var endLoading = function () {
     document.body.style.overflow = 'auto';
     document.getElementById('loader').classList.add("loading");
   }
   window.addEventListener('DOMContentLoaded',endLoading);
-  
 </script>
 
     
@@ -603,14 +619,14 @@
 
 
 <div class="post-detail-header" id="thumbnail_canvas" style="background-repeat: no-repeat; background-size: cover; 
-  background-position: center center;position: relative;background-image:url('/medias/12.jpg')">
+  background-position: center center;position: relative;background-image:url('https://img2.baidu.com/it/u=2273045471,518867457&fm=253&fmt=auto&app=138&f=PNG?w=822&h=500')">
   <div class="post-detail-header-mask"></div>
   <canvas id="header_canvas"style="position:absolute;bottom:0;pointer-events:none;"></canvas>
   
   <div class="post-detail-header_info-box">
     <div class="title-box">
       <span class="title">
-        博客搭建教程14 - Linux云服务器安装宝塔运维工具
+        博客搭建教程11 - 使用linux+nginx建站每次云服务器重启后的例行检查操作
       </span>
     </div>
     
@@ -656,11 +672,10 @@
   <div class="main-content">
     <article class="post post-detail">
       <div class="post-content">
-        <p>安装宝塔面板只需要一句话命令：<br>在<a target="_blank" rel="noopener" href="http://www.bt.cn宝塔官网上能找到安装命令,比如/">www.bt.cn宝塔官网上能找到安装命令，比如</a><br>yum install -y wget &amp;&amp; wget -O install.sh <a target="_blank" rel="noopener" href="https://download.bt.cn/install/install_6.0.sh">https://download.bt.cn/install/install_6.0.sh</a> &amp;&amp; sh install.sh ed8484bec  </p>
-<p>回车开始自动安装，安装大概需要2-10分钟。安装成功后，会显示出你的宝塔登录信息，帐号和密码。  </p>
-<p>直接用你的 IP打开 http:&#x2F;&#x2F;你的IP:8888&#x2F; 就可以登录后台，然后选择网站环境安装了。<br>可以在宝塔面板上修改账号和密码</p>
-<p>在浏览上打开宝塔面板的地址，登入面板会自动推荐你安装环境的套件，这里有两种选择，第一种是LNMP套件，第二种是LAMP套件。选择安装的程序后，面板的左上角会自动显示任务的数量，点击后进入任务列表。最后，调试面板即可安装网站操作。</p>
-<p>注意，任何人都可以通过IP地址和端口号进入宝塔面板，因此你的令牌必须足够复杂，即便自己忘记了，还可以登录服务器修改，但如果被别人记住了，那就是巨大的灾难了。</p>
+        <p>重启服务器后的例行操作  </p>
+<p>1.检查防火墙<br>检查防火墙状态：systemctl status firewalld<br>若出现绿色的active(running)，说明防火墙已经启动，否则<br>systemctl start firewalld开启防火墙，没有任何提示即开启成功<br>如果没有反应，或者等待1分钟后出现timeout，需要先kill掉现在的防火墙进程再重新开启<br>kill防火墙进程：pkill -f firewalld<br>然后再重新systemctl start firewalld开启防火墙，没有任何提示即开启成功  </p>
+<p>2.检查nginx端口（比如80端口）<br>firewall-cmd –query-port&#x3D;80&#x2F;tcp<br>返回yes即没问题，否则打开80端口<br>firewall-cmd –add-port&#x3D;80&#x2F;tcp –permanent<br>开启后需再次重启防火墙，才能生效<br>firewall-cmd –reload  </p>
+<p>3.检查nginx服务<br>开启nginx：nginx<br>（nginx关闭命令：nginx -s stop）<br>（nginx重启命令：nginx -s reload）<br>在其它机器上访问服务器IP:端口号，如果出现nginx页面，就表示开启成功（出现40x 页面也无所谓）<br>如果开启nginx提示端口被占用，需要杀死占用这个端口的进程<br>可以使用一个快捷的方法，直接杀死指定端口的所有进程，比如80端口<br>kill -9 $(lsof -i:80 -t)<br>或者可以仔细查看是哪个进程占用了80端口<br>查看80端口使用情况<br>netstat -lnp|grep 80<br>比如正在被nginx占用，记住显示的进程号，比如1053<br>停掉nginx<br>systemctl stop nginx<br>强制杀掉1053进程<br>kill -9 1053<br>再查询<br>netstat -lnp|grep 80<br>没结果说明已经不占用了<br>接着重新开启nginx服务  </p>
 
       </div>
       <div class="post-tags-categories">
@@ -682,7 +697,7 @@
     </li>
     <li class="post-copyright-link">
     <strong>link:  </strong>
-    <a href="/2023/01/09/bo-ke-da-jian-jiao-cheng-14-an-zhuang-bao-ta/" target="_blank" title="博客搭建教程14 - Linux云服务器安装宝塔运维工具">http://cypunberk.cn/2023/01/09/bo-ke-da-jian-jiao-cheng-14-an-zhuang-bao-ta/</a>
+    <a href="/2023/01/09/bo-ke-da-jian-jiao-cheng-11-shi-yong-linux-nginx-jian-zhan-mei-ci-yun-fu-wu-qi-chong-qi-hou-de-li-xing-jian-cha-cao-zuo/" target="_blank" title="博客搭建教程11 - 使用linux+nginx建站每次云服务器重启后的例行检查操作">http://cypunberk.cn/2023/01/09/bo-ke-da-jian-jiao-cheng-11-shi-yong-linux-nginx-jian-zhan-mei-ci-yun-fu-wu-qi-chong-qi-hou-de-li-xing-jian-cha-cao-zuo/</a>
     </li>
     <li class="post-copyright-license">
       <strong>Copyright notice:   </strong>
@@ -704,17 +719,17 @@
   <div class="post-nav-prev post-nav-item">
     <div class="post-nav-img" style="background-size: cover; 
       background-position: center center;">
-      <img class="lazyload lazyload placeholder" src="/medias/10.jpg" class="lazyload placeholder" data-srcset="/medias/10.jpg" srcset="https://img-blog.csdnimg.cn/img_convert/44f00537358e467d63aa3ea2652ab005.gif" alt="">
+      <img class="lazyload lazyload placeholder" src="https://zhongces3.sina.com.cn/products/201904/740d84b4db27bb0b7303adf092f44cbc.jpeg" class="lazyload placeholder" data-srcset="https://zhongces3.sina.com.cn/products/201904/740d84b4db27bb0b7303adf092f44cbc.jpeg" srcset="https://img-blog.csdnimg.cn/img_convert/44f00537358e467d63aa3ea2652ab005.gif" alt="">
     </div>
-    <a href="/2023/01/09/hexo-bo-wen-shu-xie-yang-ban/" class="post-nav-link">
+    <a href="/2023/01/09/bo-ke-da-jian-jiao-cheng-12-geng-huan-yun-fu-wu-qi-wan-cheng-shu-ju-qian-yi/" class="post-nav-link">
       <div class="title">
         <i class="fas fa-angle-left"></i> Prev:
-        <div class="title-text">博客搭建教程15 - Markdown常用语法</div>
+        <div class="title-text">博客搭建教程12 - 更换云服务器完成数据迁移</div>
       </div>
       
       <!-- <div class="content">
-        本文记录了书写博文时常用的Markdown语法和Html标签
-Markdown官方文档：https://markdown
+        文档正在筹备
+
       </div> -->
     </a>
   </div>
@@ -725,15 +740,15 @@ Markdown官方文档：https://markdown
   <div class="post-nav-next post-nav-item">
     <div class="post-nav-img" style="background-size: cover; 
       background-position: center center;">
-      <img class="lazyload lazyload placeholder" src="/medias/10.jpg" class="lazyload placeholder" data-srcset="/medias/10.jpg" srcset="https://img-blog.csdnimg.cn/img_convert/44f00537358e467d63aa3ea2652ab005.gif" src="" alt="">
+      <img class="lazyload lazyload placeholder" src="http://p1.itc.cn/images01/20201215/eda25797a20f4d32b50a7057c2cd147a.jpeg" class="lazyload placeholder" data-srcset="http://p1.itc.cn/images01/20201215/eda25797a20f4d32b50a7057c2cd147a.jpeg" srcset="https://img-blog.csdnimg.cn/img_convert/44f00537358e467d63aa3ea2652ab005.gif" src="" alt="">
     </div>
-    <a href="/2023/01/09/bo-ke-da-jian-jiao-cheng-13-geng-huan-yu-ming/" class="post-nav-link">
+    <a href="/2023/01/09/bo-ke-da-jian-jiao-cheng-10-jiang-tuo-guan-zai-github-de-hexo-bo-ke-qian-yi-dao-ge-ren-yun-fu-wu-qi/" class="post-nav-link">
       <div class="title">
         Next: <i class="fas fa-angle-right"></i>
-        <div class="title-text">博客搭建教程13 - 写博客实用网站大合集</div>
+        <div class="title-text">博客搭建教程10 - 将托管在Github的Hexo博客迁移到个人云服务器</div>
       </div>
       <!-- <div class="content">
-        无版权图片网站合集https://zhuanlan.zhihu.com/p/99543178无版权视频素材网站合集htt
+        Q：我觉得目前将网站托管到github上已经很好了，迁移至私服有足够的必要性吗？A：迁移至私服不是必须的，如果你觉得gi
       </div> -->
     </a>
   </div>
@@ -904,7 +919,7 @@ Markdown官方文档：https://markdown
             
 
             <div class="post-img-box">
-              <a href="/2023/01/18/wang-qi-feng-mian-2023-01-18-ji-nian-yi-zhi-xiong-mao-tu/" class="post-img " style="background-size: cover; 
+              <a href="/2023/01/18/wang-qi-feng-mian-2023-01-18-xiong-mao-tu-zhen-gui-ying-xiang-zi-liao/" class="post-img " style="background-size: cover; 
                 background-position: center center;">
                 <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="/images/cover_rebbitbg.jpg" class="lazyload placeholder" data-srcset="/images/cover_rebbitbg.jpg" srcset="https://img-blog.csdnimg.cn/img_convert/44f00537358e467d63aa3ea2652ab005.gif" alt="">
               </a>
@@ -915,7 +930,7 @@ Markdown官方文档：https://markdown
                   <span class="post-date">01-18</span>
                 
               </div>
-              <a class="post-title" href="/2023/01/18/wang-qi-feng-mian-2023-01-18-ji-nian-yi-zhi-xiong-mao-tu/">往期封面2023/01/18 熊猫兔珍贵影像资料</a>
+              <a class="post-title" href="/2023/01/18/wang-qi-feng-mian-2023-01-18-xiong-mao-tu-zhen-gui-ying-xiang-zi-liao/">往期封面2023/01/18 熊猫兔珍贵影像资料</a>
             </div>
           </div>
         
@@ -925,9 +940,9 @@ Markdown官方文档：https://markdown
             
 
             <div class="post-img-box">
-              <a href="/2023/01/09/bo-ke-da-jian-jiao-cheng-16-zhi-shi-cai-chan-bao-hu/" class="post-img " style="background-size: cover; 
+              <a href="/2023/01/09/bo-ke-da-jian-jiao-cheng-16-linux-yun-fu-wu-qi-zai-nginx.conf-pei-zhi-fang-dao-lian/" class="post-img " style="background-size: cover; 
                 background-position: center center;">
-                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="/medias/13.jpg" class="lazyload placeholder" data-srcset="/medias/13.jpg" srcset="https://img-blog.csdnimg.cn/img_convert/44f00537358e467d63aa3ea2652ab005.gif" alt="">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/4/17/16a2a86415e2db30~tplv-t2oaga2asx-zoom-crop-mark:3024:3024:3024:1702.awebp" class="lazyload placeholder" data-srcset="https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2019/4/17/16a2a86415e2db30~tplv-t2oaga2asx-zoom-crop-mark:3024:3024:3024:1702.awebp" srcset="https://img-blog.csdnimg.cn/img_convert/44f00537358e467d63aa3ea2652ab005.gif" alt="">
               </a>
             </div>
             <div class="post-date-title">
@@ -936,7 +951,7 @@ Markdown官方文档：https://markdown
                   <span class="post-date">01-09</span>
                 
               </div>
-              <a class="post-title" href="/2023/01/09/bo-ke-da-jian-jiao-cheng-16-zhi-shi-cai-chan-bao-hu/">博客搭建教程16 - linux云服务器在nginx.conf配置防盗链</a>
+              <a class="post-title" href="/2023/01/09/bo-ke-da-jian-jiao-cheng-16-linux-yun-fu-wu-qi-zai-nginx.conf-pei-zhi-fang-dao-lian/">博客搭建教程16 - linux云服务器在nginx.conf配置防盗链</a>
             </div>
           </div>
         
@@ -946,9 +961,9 @@ Markdown官方文档：https://markdown
             
 
             <div class="post-img-box">
-              <a href="/2023/01/09/hexo-bo-wen-shu-xie-yang-ban/" class="post-img " style="background-size: cover; 
+              <a href="/2023/01/09/bo-ke-da-jian-jiao-cheng-15-markdown-chang-yong-yu-fa/" class="post-img " style="background-size: cover; 
                 background-position: center center;">
-                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="/medias/10.jpg" class="lazyload placeholder" data-srcset="/medias/10.jpg" srcset="https://img-blog.csdnimg.cn/img_convert/44f00537358e467d63aa3ea2652ab005.gif" alt="">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*9YSZWmqtVKsQ7qBlLETQtA.jpeg" class="lazyload placeholder" data-srcset="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*9YSZWmqtVKsQ7qBlLETQtA.jpeg" srcset="https://img-blog.csdnimg.cn/img_convert/44f00537358e467d63aa3ea2652ab005.gif" alt="">
               </a>
             </div>
             <div class="post-date-title">
@@ -957,7 +972,7 @@ Markdown官方文档：https://markdown
                   <span class="post-date">01-09</span>
                 
               </div>
-              <a class="post-title" href="/2023/01/09/hexo-bo-wen-shu-xie-yang-ban/">博客搭建教程15 - Markdown常用语法</a>
+              <a class="post-title" href="/2023/01/09/bo-ke-da-jian-jiao-cheng-15-markdown-chang-yong-yu-fa/">博客搭建教程15 - Markdown常用语法</a>
             </div>
           </div>
         
@@ -967,9 +982,9 @@ Markdown官方文档：https://markdown
             
 
             <div class="post-img-box">
-              <a href="/2023/01/09/bo-ke-da-jian-jiao-cheng-14-an-zhuang-bao-ta/" class="post-img " style="background-size: cover; 
+              <a href="/2023/01/09/bo-ke-da-jian-jiao-cheng-14-linux-yun-fu-wu-qi-an-zhuang-bao-ta-yun-wei-gong-ju/" class="post-img " style="background-size: cover; 
                 background-position: center center;">
-                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="/medias/12.jpg" class="lazyload placeholder" data-srcset="/medias/12.jpg" srcset="https://img-blog.csdnimg.cn/img_convert/44f00537358e467d63aa3ea2652ab005.gif" alt="">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://www.leixue.com/uploads/2022/03/baota.png" class="lazyload placeholder" data-srcset="https://www.leixue.com/uploads/2022/03/baota.png" srcset="https://img-blog.csdnimg.cn/img_convert/44f00537358e467d63aa3ea2652ab005.gif" alt="">
               </a>
             </div>
             <div class="post-date-title">
@@ -978,7 +993,7 @@ Markdown官方文档：https://markdown
                   <span class="post-date">01-09</span>
                 
               </div>
-              <a class="post-title" href="/2023/01/09/bo-ke-da-jian-jiao-cheng-14-an-zhuang-bao-ta/">博客搭建教程14 - Linux云服务器安装宝塔运维工具</a>
+              <a class="post-title" href="/2023/01/09/bo-ke-da-jian-jiao-cheng-14-linux-yun-fu-wu-qi-an-zhuang-bao-ta-yun-wei-gong-ju/">博客搭建教程14 - Linux云服务器安装宝塔运维工具</a>
             </div>
           </div>
         
@@ -988,9 +1003,9 @@ Markdown官方文档：https://markdown
             
 
             <div class="post-img-box">
-              <a href="/2023/01/09/bo-ke-da-jian-jiao-cheng-13-geng-huan-yu-ming/" class="post-img " style="background-size: cover; 
+              <a href="/2023/01/09/bo-ke-da-jian-jiao-cheng-13-xie-bo-ke-shi-yong-wang-zhan-da-he-ji/" class="post-img " style="background-size: cover; 
                 background-position: center center;">
-                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="/medias/10.jpg" class="lazyload placeholder" data-srcset="/medias/10.jpg" srcset="https://img-blog.csdnimg.cn/img_convert/44f00537358e467d63aa3ea2652ab005.gif" alt="">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/8/9/5e1040cd64eefde3ecb5e0c809cdd3e5~tplv-t2oaga2asx-zoom-crop-mark:3024:3024:3024:1702.awebp" class="lazyload placeholder" data-srcset="https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-user-assets/2017/8/9/5e1040cd64eefde3ecb5e0c809cdd3e5~tplv-t2oaga2asx-zoom-crop-mark:3024:3024:3024:1702.awebp" srcset="https://img-blog.csdnimg.cn/img_convert/44f00537358e467d63aa3ea2652ab005.gif" alt="">
               </a>
             </div>
             <div class="post-date-title">
@@ -999,7 +1014,7 @@ Markdown官方文档：https://markdown
                   <span class="post-date">01-09</span>
                 
               </div>
-              <a class="post-title" href="/2023/01/09/bo-ke-da-jian-jiao-cheng-13-geng-huan-yu-ming/">博客搭建教程13 - 写博客实用网站大合集</a>
+              <a class="post-title" href="/2023/01/09/bo-ke-da-jian-jiao-cheng-13-xie-bo-ke-shi-yong-wang-zhan-da-he-ji/">博客搭建教程13 - 写博客实用网站大合集</a>
             </div>
           </div>
         
@@ -1505,7 +1520,7 @@ Markdown官方文档：https://markdown
     scrollSmooth: true,
     scrollSmoothOffset: -70,
     // headingsOffset: -($(window).height() * 0.4 - 45),
-    headingsOffset: -($(window).height() * 0.6 - 70),
+    headingsOffset: -($(window).height() * 0.4 - 70),
     // positionFixedSelector: '.toc-main',
     // positionFixedClass: 'is-position-fixed',
     fixedSidebarOffset: 'auto',
@@ -1632,8 +1647,7 @@ Markdown官方文档：https://markdown
     left: 12px;
     top: 0;
   } */
-</style>
- 
+</style> 
 
 <!-- 设置导航背景 -->
 <script>

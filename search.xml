@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>往期封面2023/01/18 熊猫兔珍贵影像资料</title>
-    <url>/2023/01/18/wang-qi-feng-mian-2023-01-18-ji-nian-yi-zhi-xiong-mao-tu/</url>
+    <url>/2023/01/18/wang-qi-feng-mian-2023-01-18-xiong-mao-tu-zhen-gui-ying-xiang-zi-liao/</url>
     <content><![CDATA[<p>这只熊猫兔是2022&#x2F;1&#x2F;9在上海一条马路边买的。<br>刚买来的时候，小小一只很可爱<br>喜欢吃胡萝卜<br><video width="540" controls loop src="/images/histcover1_rabbit01.mp4" />  </p>
 <p>后来发现它喜欢吃卷心菜胜过胡萝卜<br><video width="540" controls loop src="/images/histcover1_rabbit02.mp4" />  </p>
 <p>养了一段时间，逐渐变大，已经有能力自己跳出来了<br><video width="270" controls loop src="/images/histcover1_rabbit03.mp4" />  </p>
@@ -23,7 +23,7 @@
   </entry>
   <entry>
     <title>博客搭建教程16 - linux云服务器在nginx.conf配置防盗链</title>
-    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-16-zhi-shi-cai-chan-bao-hu/</url>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-16-linux-yun-fu-wu-qi-zai-nginx.conf-pei-zhi-fang-dao-lian/</url>
     <content><![CDATA[<p>简单的防盗链设置，可参考如下文章<br><a href="https://www.huati365.com/16b0661323e8cec6">https://www.huati365.com/16b0661323e8cec6</a><br><a href="https://blog.csdn.net/qq_52162404/article/details/127051356">https://blog.csdn.net/qq_52162404/article/details/127051356</a><br><a href="https://www.jb51.net/article/251177.htm">https://www.jb51.net/article/251177.htm</a>  </p>
 <p>总结下来写法，以经由博主验证<br>编辑…&#x2F;nginx&#x2F;conf&#x2F;nginx.conf文件，<br>如果下面这段代码是注释的状态，则将其打开  </p>
 <div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="/images/nginxconfopensf.png" class="lazyload placeholder" data-srcset="/images/nginxconfopensf.png" srcset="https://img-blog.csdnimg.cn/img_convert/44f00537358e467d63aa3ea2652ab005.gif" style="width:80%;"/></div></div>  
@@ -39,7 +39,7 @@
   </entry>
   <entry>
     <title>博客搭建教程15 - Markdown常用语法</title>
-    <url>/2023/01/09/hexo-bo-wen-shu-xie-yang-ban/</url>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-15-markdown-chang-yong-yu-fa/</url>
     <content><![CDATA[<p>本文记录了书写博文时常用的Markdown语法和Html标签</p>
 <p>Markdown官方文档：<a href="https://markdown.tw/">https://markdown.tw/</a><br><a href="https://markdown.com.cn/basic-syntax/">https://markdown.com.cn/basic-syntax/</a><br>推荐阅读：<br><a href="https://xuxiaoshi.gitee.io/Hexo%E9%97%AE%E9%A2%98-Hexo%E5%86%99%E4%BD%9C%E8%AF%AD%E6%B3%95%E6%8C%87%E5%8D%97/">https://xuxiaoshi.gitee.io/Hexo%E9%97%AE%E9%A2%98-Hexo%E5%86%99%E4%BD%9C%E8%AF%AD%E6%B3%95%E6%8C%87%E5%8D%97/</a><br>本博客网站是基于Bamboo主题修改的，以下是Bamboo作者的Markdown语法博客，实现了很多额外的效果。<br><a href="https://yuang01.github.io/categories/%E5%89%8D%E7%AB%AF/">https://yuang01.github.io/categories/%E5%89%8D%E7%AB%AF/</a></p>
 <h2 id="文本"><a href="#文本" class="headerlink" title="文本"></a>文本</h2><h3 id="单行文本"><a href="#单行文本" class="headerlink" title="单行文本"></a>单行文本</h3><p>这是一行示例文本，没有任何语法规则。</p>
@@ -53,9 +53,9 @@
 <p>需要注意的是，只有1到4级标题才会被文章目录收录。</p>
 <p>以下为Bamboo主题的定制标题样式，依赖额外js代码实现，不属于基础的Markdown语法：  </p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% title h1, 这是一级标题 %&#125;</span><br><span class="line">&#123;% title h6, 这是六级标题, red %&#125;</span><br><span class="line">&#123;% titleB h5, 这是五级标题, #895546 %&#125;</span><br></pre></td></tr></table></figure>
-<h1 class="bamboo-h " id="这是一级标题1j4y73zk6u1">这是一级标题</h1><br/>
-<h6 class="bamboo-h red" id="这是六级标题q2a5i6r0ck">这是六级标题</h6><br/>
-<h5 class="bamboo-h-b" id="这是五级标题1n33wzp5kw7" style="color:#895546!important">这是五级标题</h5><div></div>  
+<h1 class="bamboo-h " id="这是一级标题5wgbjolfad">这是一级标题</h1><br/>
+<h6 class="bamboo-h red" id="这是六级标题21tya3g3zmt">这是六级标题</h6><br/>
+<h5 class="bamboo-h-b" id="这是五级标题2h1iizabkg4" style="color:#895546!important">这是五级标题</h5><div></div>  
 
 <h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt;这是一个块引用</span><br><span class="line">&gt;&gt;这是一个二层块引用</span><br><span class="line">&gt;</span><br><span class="line">&gt;返回到第一层</span><br></pre></td></tr></table></figure>
 
@@ -196,7 +196,7 @@
   </entry>
   <entry>
     <title>博客搭建教程14 - Linux云服务器安装宝塔运维工具</title>
-    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-14-an-zhuang-bao-ta/</url>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-14-linux-yun-fu-wu-qi-an-zhuang-bao-ta-yun-wei-gong-ju/</url>
     <content><![CDATA[<p>安装宝塔面板只需要一句话命令：<br>在<a href="http://www.bt.cn宝塔官网上能找到安装命令,比如/">www.bt.cn宝塔官网上能找到安装命令，比如</a><br>yum install -y wget &amp;&amp; wget -O install.sh <a href="https://download.bt.cn/install/install_6.0.sh">https://download.bt.cn/install/install_6.0.sh</a> &amp;&amp; sh install.sh ed8484bec  </p>
 <p>回车开始自动安装，安装大概需要2-10分钟。安装成功后，会显示出你的宝塔登录信息，帐号和密码。  </p>
 <p>直接用你的 IP打开 http:&#x2F;&#x2F;你的IP:8888&#x2F; 就可以登录后台，然后选择网站环境安装了。<br>可以在宝塔面板上修改账号和密码</p>
@@ -212,7 +212,7 @@
   </entry>
   <entry>
     <title>博客搭建教程13 - 写博客实用网站大合集</title>
-    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-13-geng-huan-yu-ming/</url>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-13-xie-bo-ke-shi-yong-wang-zhan-da-he-ji/</url>
     <content><![CDATA[<p>无版权图片网站合集<br><a href="https://zhuanlan.zhihu.com/p/99543178">https://zhuanlan.zhihu.com/p/99543178</a><br>无版权视频素材网站合集<br><a href="https://zhuanlan.zhihu.com/p/431221694">https://zhuanlan.zhihu.com/p/431221694</a><br>在线图片压缩，超简洁<br><a href="https://tinypng.com/">https://tinypng.com/</a><br>在线视频压缩，超简洁<br><a href="https://yasuo.xunjiepdf.com/video/">https://yasuo.xunjiepdf.com/video/</a><br>在线视频旋转，超简洁<br><a href="https://app.xunjieshipin.com/video-rotation/">https://app.xunjieshipin.com/video-rotation/</a><br>在线RGB颜色选择器<br><a href="http://tools.jb51.net/static/colorpicker/">http://tools.jb51.net/static/colorpicker/</a></p>
 ]]></content>
       <categories>
@@ -224,9 +224,8 @@
   </entry>
   <entry>
     <title>博客搭建教程12 - 更换云服务器完成数据迁移</title>
-    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-12-fu-wu-qi-shu-ju-qian-yi/</url>
-    <content><![CDATA[<p>正在筹备</p>
-<p>随着我们在网站开展事业而变得富有或者更穷，现有的服务器可能不再符合我们的需求，因此我们需要换一台更适合自己的服务器。<br>Q：配置好一台服务器花费了太多精力，在无数次试错后它终于得以正常运行，现在要更换新服务器，会不会非常麻烦？<br>A：确实有点麻烦，但是当你第二次配置的时候，速度一定会比第一次快得多，这是个并不复杂的操作，几乎所有的操作都在本系列之前的教程有所涉及。  </p>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-12-geng-huan-yun-fu-wu-qi-wan-cheng-shu-ju-qian-yi/</url>
+    <content><![CDATA[<p>文档正在筹备</p>
 ]]></content>
       <categories>
         <category>博客搭建</category>
@@ -237,7 +236,7 @@
   </entry>
   <entry>
     <title>博客搭建教程11 - 使用linux+nginx建站每次云服务器重启后的例行检查操作</title>
-    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-11-linux-chang-yong-cao-zuo/</url>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-11-shi-yong-linux-nginx-jian-zhan-mei-ci-yun-fu-wu-qi-chong-qi-hou-de-li-xing-jian-cha-cao-zuo/</url>
     <content><![CDATA[<p>重启服务器后的例行操作  </p>
 <p>1.检查防火墙<br>检查防火墙状态：systemctl status firewalld<br>若出现绿色的active(running)，说明防火墙已经启动，否则<br>systemctl start firewalld开启防火墙，没有任何提示即开启成功<br>如果没有反应，或者等待1分钟后出现timeout，需要先kill掉现在的防火墙进程再重新开启<br>kill防火墙进程：pkill -f firewalld<br>然后再重新systemctl start firewalld开启防火墙，没有任何提示即开启成功  </p>
 <p>2.检查nginx端口（比如80端口）<br>firewall-cmd –query-port&#x3D;80&#x2F;tcp<br>返回yes即没问题，否则打开80端口<br>firewall-cmd –add-port&#x3D;80&#x2F;tcp –permanent<br>开启后需再次重启防火墙，才能生效<br>firewall-cmd –reload  </p>
@@ -252,7 +251,7 @@
   </entry>
   <entry>
     <title>博客搭建教程10 - 将托管在Github的Hexo博客迁移到个人云服务器</title>
-    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-9-zui-jia-shi-jian/</url>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-10-jiang-tuo-guan-zai-github-de-hexo-bo-ke-qian-yi-dao-ge-ren-yun-fu-wu-qi/</url>
     <content><![CDATA[<p>Q：我觉得目前将网站托管到github上已经很好了，迁移至私服有足够的必要性吗？<br>A：迁移至私服不是必须的，如果你觉得github已经足够，那么可以跳过该教程，事实上很多人的博客都是直接托管给github的。但境内网络访问github很不稳定，加之由于github仓库是公开的，所以还是有很多缺点，使用github仓库时要时刻注意对自己网站数据的保护，否则会有泄露风险。</p>
 <p>如果你希望在服务器建立git服务器，每次发布博客时将变更同步至服务器的git仓库，那么可以先给服务器安装git<br>切换至root用户<br>su root<br>安装git<br>yum –y install git<br>键入git指令验证是否安装成功<br>创建git用户，先不创建密码<br>adduser git<br>检查是否创建成功 cd &#x2F;home &amp;&amp; ls -al<br>如果显示有git则说明用户创建成功<br>接下来找一个喜欢的目录，创建一个新的git库，需要你自己起一个喜欢的名字，我起名为cpblog.git，注意.git后缀不要变<br>git init –bare cpblog.git<br>此时终端提示你创建了一个空的git库，这就说明操作对了。<br>接下来将Hexo博客转移到服务器，以后使用hexo d发布博客就在服务器上进行了，我们需要做的是当你执行hexo d时将网站推送至自己的git仓库<br>新建文件夹作为博客根目录<br>mkdir cpblog_webroot<br>chmod 777 cpblog_webroot<br>使用Git-Hooks同步网站根目录，这里使用的是Git中的“post-receive”，当有Git收发的时候会调用该脚本，自动将最新内容同步到网站根目录中<br>用下面的指令新建勾子文件<br>vim cpblog.git&#x2F;hooks&#x2F;post-receive<br>将以下语句写入文件<br>#!&#x2F;bin&#x2F;sh<br>git –work-tree&#x3D;&#x2F;usr&#x2F;local&#x2F;cpblog_webroot –git-dir&#x3D;&#x2F;root&#x2F;cpblog.git checkout -f<br>(注意博客路径和当前用户)<br>保存并赋予执行权限<br>chmod +x cpblog.git&#x2F;hooks&#x2F;post-receive<br>sudo chown -R git:git cpblog.git<br>sudo chown -R git:git cpblog_webroot</p>
 <p>修改&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;conf&#x2F;nginx.conf<br>将里面的地址改为cpblog_webroot的位置<br>server {<br>    listen    80 default_server;<br>    listen    [::] default_server;<br>    server_name    blog.59devops.com;<br>    root    &#x2F;usr&#x2F;local&#x2F;cpblog_webroot<br>}</p>
@@ -273,9 +272,9 @@
   </entry>
   <entry>
     <title>博客搭建教程9 - 使用scp命令从Windows向linux传输文件</title>
-    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-9-zhan-wei/</url>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-9-shi-yong-scp-ming-ling-cong-windows-xiang-linux-chuan-shu-wen-jian/</url>
     <content><![CDATA[<p>Windows使用scp向linux服务器传输文件,可参考这篇博客<br><a href="https://www.cnblogs.com/tugenhua0707/p/8278772.html">https://www.cnblogs.com/tugenhua0707/p/8278772.html</a></p>
-<p>比如传送一个Windows桌面上的视频到服务器，输入下面指令并回车<br>scp D:\Users\Administrator\Desktop\video.mp4 <a href="mailto:&#114;&#111;&#x6f;&#116;&#x40;&#x32;&#x30;&#56;&#46;&#x38;&#55;&#x2e;&#x32;&#x30;&#x31;&#x2e;&#49;&#54;&#52;">&#114;&#111;&#x6f;&#116;&#x40;&#x32;&#x30;&#56;&#46;&#x38;&#55;&#x2e;&#x32;&#x30;&#x31;&#x2e;&#49;&#54;&#52;</a>:&#x2F;usr&#x2F;local<br>会提示这个：</p>
+<p>比如传送一个Windows桌面上的视频到服务器，输入下面指令并回车<br>scp D:\Users\Administrator\Desktop\video.mp4 <a href="mailto:&#x72;&#111;&#111;&#x74;&#64;&#50;&#48;&#56;&#46;&#56;&#x37;&#x2e;&#x32;&#48;&#49;&#46;&#x31;&#54;&#52;">&#x72;&#111;&#111;&#x74;&#64;&#50;&#48;&#56;&#46;&#56;&#x37;&#x2e;&#x32;&#48;&#49;&#46;&#x31;&#54;&#52;</a>:&#x2F;usr&#x2F;local<br>会提示这个：</p>
 <div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="/images/scpwindowsfirstlink.png" class="lazyload placeholder" data-srcset="/images/scpwindowsfirstlink.png" srcset="https://img-blog.csdnimg.cn/img_convert/44f00537358e467d63aa3ea2652ab005.gif" style="width:80%;"/></div></div>
 <p>这是因为首次连接，双方机器还互相陌生，需要打个招呼，只需输入yes并回车</p>
 <div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="/images/scpwindowslinkok.png" class="lazyload placeholder" data-srcset="/images/scpwindowslinkok.png" srcset="https://img-blog.csdnimg.cn/img_convert/44f00537358e467d63aa3ea2652ab005.gif" style="width:80%;"/></div></div>
@@ -298,7 +297,7 @@
 <p>按照该命令安装nginx后，nginx所在的目录为usr&#x2F;local&#x2F;nginx，该文件夹内的nginx-1.13.7.tar.gz是安装包文件，可以删除了<br>删除的命令是：sudo rm -rf nginx-1.13.7.tar.gz</p>
 <p>配置nginx过程中可能涉及到使用命令行修改文件内容,以下博客介绍的比较好，建议参考<br><a href="https://blog.csdn.net/qq_51515673/article/details/124390606">https://blog.csdn.net/qq_51515673/article/details/124390606</a>  </p>
 <p>配置完nginx后还需要开启防火墙，并且确保自己设置nginx网站端口是开放的，可参考如下文章<br><a href="https://blog.csdn.net/szw906689771/article/details/121647887">https://blog.csdn.net/szw906689771/article/details/121647887</a><br>下面的文章介绍了查看端口是否开启的方法：<br><a href="https://www.muzhuangnet.com/show/78535.html">https://www.muzhuangnet.com/show/78535.html</a><br>比如你要开启8089端口，那么就是下面这句话：<br>firewall-cmd –query-port&#x3D;8089&#x2F;tcp<br>如果返回的是no，则说明端口还没有打开<br>开启8089端口的命令：<br>firewall-cmd –add-port&#x3D;8089&#x2F;tcp –permanent<br>开启后需再次重启防火墙，才能生效<br>firewall-cmd –reload<br>然后再查询一次端口是否打开，如果是yes，就成功了。<br>Q：我还是no，怎么办？<br>A：你在使用云服务器吗？那可能还需要在服务器控制台的安全组中创建规则，在【入方向规则】中添加对应的端口</p>
-<p>开启nginx：nginx -c &#x2F;usr&#x2F;local&#x2F;nginx&#x2F;conf&#x2F;nginx.conf<br>（nginx关闭命令：nginx -s stop）<br>（nginx重启命令：nginx -s reload）<br>如果服务器有安装GNOME图形界面，接下来可以打开服务器的firefox浏览器，在地址栏输入本机公网IP:端口号，看看有没有显示nginx的welcome界面，如果看到了，说明nginx服务启动成功。如果操作系统没有图形界面，可以通过curl命令访问页面。<br>然后在其它机器上访问http:&#x2F;&#x2F;服务器公网IP:端口号，看看能否出现nginx的welcome页面。<br>如果你是严格按照文档配置的nginx，那么现在，&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;html是网站资源的根目录，所有的资源都必须在此目录下才可以被访问到<br>Q：可以更换目录吗？<br>A：可以，只需要修改&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;conf&#x2F;nginx.conf文件重新指定目录即可，可以在网上轻松搜到关于这个文件的修改方法。<br>nginx.conf这个文件有很多用处，在本教程的其它文章中，我们还会涉及到这个文件来实现防盗链功能。<br>接下来我们都以&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;html作为资源根目录来举例。<br>现在做一个测试，我们要在nginx的文件夹下放置一个资源，然后尝试在其它设备上访问<br>首先在服务器的nginx&#x2F;html目录下创建新文件夹Images<br>找一台其它设备，比如一台windows电脑，使用scp指令拷贝一个图片到服务器，例如：（注意图片原路径和ip地址不能照抄）<br>scp myImage.jpg <a href="mailto:&#x72;&#x6f;&#x6f;&#116;&#x40;&#x31;&#57;&#50;&#46;&#49;&#x36;&#56;&#46;&#x31;&#46;&#x31;&#48;&#52;">&#x72;&#x6f;&#x6f;&#116;&#x40;&#x31;&#57;&#50;&#46;&#49;&#x36;&#56;&#46;&#x31;&#46;&#x31;&#48;&#52;</a>:&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;html&#x2F;Images<br>然后在这台windows电脑打开浏览器访问该图片，地址栏中依旧填写本机公网IP:端口号，与此同时在后面加上文件路径，例如192.168.1.104:8089&#x2F;Images&#x2F;myImage.jpg<br>浏览器显示出图片了吗？如果显示出了图片，那么恭喜，你已经完成了第一次网站资源更新。  </p>
+<p>开启nginx：nginx -c &#x2F;usr&#x2F;local&#x2F;nginx&#x2F;conf&#x2F;nginx.conf<br>（nginx关闭命令：nginx -s stop）<br>（nginx重启命令：nginx -s reload）<br>如果服务器有安装GNOME图形界面，接下来可以打开服务器的firefox浏览器，在地址栏输入本机公网IP:端口号，看看有没有显示nginx的welcome界面，如果看到了，说明nginx服务启动成功。如果操作系统没有图形界面，可以通过curl命令访问页面。<br>然后在其它机器上访问http:&#x2F;&#x2F;服务器公网IP:端口号，看看能否出现nginx的welcome页面。<br>如果你是严格按照文档配置的nginx，那么现在，&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;html是网站资源的根目录，所有的资源都必须在此目录下才可以被访问到<br>Q：可以更换目录吗？<br>A：可以，只需要修改&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;conf&#x2F;nginx.conf文件重新指定目录即可，可以在网上轻松搜到关于这个文件的修改方法。<br>nginx.conf这个文件有很多用处，在本教程的其它文章中，我们还会涉及到这个文件来实现防盗链功能。<br>接下来我们都以&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;html作为资源根目录来举例。<br>现在做一个测试，我们要在nginx的文件夹下放置一个资源，然后尝试在其它设备上访问<br>首先在服务器的nginx&#x2F;html目录下创建新文件夹Images<br>找一台其它设备，比如一台windows电脑，使用scp指令拷贝一个图片到服务器，例如：（注意图片原路径和ip地址不能照抄）<br>scp myImage.jpg <a href="mailto:&#114;&#111;&#x6f;&#116;&#x40;&#x31;&#57;&#50;&#x2e;&#49;&#x36;&#x38;&#x2e;&#49;&#x2e;&#49;&#48;&#52;">&#114;&#111;&#x6f;&#116;&#x40;&#x31;&#57;&#50;&#x2e;&#49;&#x36;&#x38;&#x2e;&#49;&#x2e;&#49;&#48;&#52;</a>:&#x2F;usr&#x2F;local&#x2F;nginx&#x2F;html&#x2F;Images<br>然后在这台windows电脑打开浏览器访问该图片，地址栏中依旧填写本机公网IP:端口号，与此同时在后面加上文件路径，例如192.168.1.104:8089&#x2F;Images&#x2F;myImage.jpg<br>浏览器显示出图片了吗？如果显示出了图片，那么恭喜，你已经完成了第一次网站资源更新。  </p>
 <p>注意：重启服务器时，nginx会重新回到关闭状态，防火墙也可能会关闭，需要留意。  开机后可能需要执行的操作：<br>重新开启防火墙：systemctl start firewalld<br>重新启动nginx：nginx</p>
 ]]></content>
       <categories>
@@ -310,7 +309,7 @@
   </entry>
   <entry>
     <title>博客搭建教程7 - 为博客网站选择合适的云服务器</title>
-    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-7-shi-yong-yun-fu-wu-qi-da-jian-tu-chuang/</url>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-7-wei-bo-ke-wang-zhan-xuan-ze-he-gua-de-yun-fu-wu-qi/</url>
     <content><![CDATA[<p>网页中会展示一些大体积的资源，比如音频视频等多媒体文件，还有一些可被公开下载的文件。<br>你可能听过图床，图床就是将博客的图片存储到云盘里，比如七牛云，图床为图片生成外链，博客仓库中无需携带图片，只要通过链接访问就可以了。<br>如果你只是想要一个图床，并且你的网站有ICP备案，那么直接使用七牛云的服务就可以了，专业的图床还有防盗链，CDN等实用技术加持，真的是一个不错的选择。</p>
 <p>Q：未备案的个人博客网站可以使用七牛云图床吗？<br>A：不可以。</p>
 <p>虽然使用Git仓库可以存储这些大文件（比如Gitee，Github，相关介绍链接<a href="https://zhuanlan.zhihu.com/p/581297109">https://zhuanlan.zhihu.com/p/581297109</a><br>，但是Git的本意是代码管理，对于大体积文件来讲并不适合，Git仓库其实是禁止被用作图床的，关于Gitee历史上也不止一次发生过图片无法访问的情况。</p>
@@ -329,7 +328,7 @@
   </entry>
   <entry>
     <title>博客搭建教程6 - 为Github部署的Hexo博客更换新域名</title>
-    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-6-yong-you-zi-ji-de-yu-ming/</url>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-6-wei-github-bu-shu-de-hexo-bo-ke-geng-huan-xin-yu-ming/</url>
     <content><![CDATA[<p>首先在域名购买网站挑选心仪的域名并购买，比如万网：<br><a href="https://wanwang.aliyun.com/domain">https://wanwang.aliyun.com/domain</a></p>
 <p>暂时不知道想要什么域名？那买一个最便宜的就可以了。又短又便宜的域名不多见，但是捞到就是赚到。</p>
 <p>购买后在域名控制台就能进行域名解析操作了。</p>
@@ -355,7 +354,7 @@
   </entry>
   <entry>
     <title>博客搭建教程5 - 为Hexo博客安装插件</title>
-    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-5-di-yi-ci-fa-bu-bo-ke/</url>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-5-wei-hexo-bo-ke-an-zhuang-cha-jian/</url>
     <content><![CDATA[<p>文档正在筹备</p>
 ]]></content>
       <categories>
@@ -367,7 +366,7 @@
   </entry>
   <entry>
     <title>博客搭建教程4 - 更换Hexo博客主题</title>
-    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-3-xuan-ze-xi-huan-de-hexo-zhu-ti/</url>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-4-geng-huan-hexo-bo-ke-zhu-ti/</url>
     <content><![CDATA[<p>在这里选择喜欢的主题<br><a href="https://hexo.io/themes/">https://hexo.io/themes/</a></p>
 <p>在Hexo博客仓库目录里可以看到_configs.yml和themes文件夹。<br>这两个文件夹在更换主题时非常重要。</p>
 <div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="/images/themeandconfigs.png" class="lazyload placeholder" data-srcset="/images/themeandconfigs.png" srcset="https://img-blog.csdnimg.cn/img_convert/44f00537358e467d63aa3ea2652ab005.gif" style="width:80%;"/></div></div>
@@ -399,7 +398,7 @@
   </entry>
   <entry>
     <title>博客搭建教程3 - 初识Node.js和Hexo</title>
-    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-3-shi-yong-hexo-kai-shi-da-jian/</url>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-3-chu-shi-node.js-he-hexo/</url>
     <content><![CDATA[<p>本篇内容比较简单，同样参考这位博主的文章<br><a href="https://zhuanlan.zhihu.com/p/105715224">https://zhuanlan.zhihu.com/p/105715224</a></p>
 <p>按照上述流程做完后，基于Github Page的博客就已经搭建好了，你可以在浏览器上输入自己的Github仓库地址，就可以看到搭建好的Hexo博客了。</p>
 <p>接下来的教程里，我们将继续做如下几件事情来加深对网站的理解，增强管理能力，这些并非必要项，而且每篇教程都是独立的，可以选择有需要的部分阅读，未来博主也会随时扩充。<br>接下来教程的内容大致如下，看看有没有你比较关心的：<br>1.选择自己喜欢的Hexo主题美化博客<br>2.购买一个自己喜欢的域名，解析域名，并取代现在github访问的方式<br>3.了解网站备案，选择云服务器，搭建资源服实现图床<br>4.将博客部署在云服务器上<br>5.学习Markdown常用语法<br>6.使用宝塔管理自己的服务器<br>7.知识财产保护与侵权行为</p>
@@ -413,7 +412,7 @@
   </entry>
   <entry>
     <title>博客搭建教程2 - 创建Git仓库</title>
-    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-2-shou-xi-git/</url>
+    <url>/2023/01/09/bo-ke-da-jian-jiao-cheng-2-chuang-jian-git-cang-ku/</url>
     <content><![CDATA[<p>在阅读本章前，我们默认你已经了解了Git的概念。</p>
 <p>本章内容比较简单，网上相关文章很多，这里推荐这位博主的文章，因为cypunberk最初就是按照这篇教程搭建的，教程的准确性已经得到验证。<br><a href="https://zhuanlan.zhihu.com/p/102592286">https://zhuanlan.zhihu.com/p/102592286</a></p>
 <p>第一步，注册Github账号<br>可以参考这篇知乎的教程<a href="https://zhuanlan.zhihu.com/p/103268406">https://zhuanlan.zhihu.com/p/103268406</a></p>

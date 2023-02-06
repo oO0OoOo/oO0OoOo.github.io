@@ -87,28 +87,44 @@
     <!-- 预加载动画 -->
     <!-- 页面预加载动画 -->
 
-<div id='loader'>
-  <link rel="stylesheet" href="/js/loaded/index.css" >
-  <div class="loading-left-bg"></div>
-  <div class="loading-right-bg"></div>
-  <div class="spinner-box">
-    <div class="configure-border-1">
-      <div class="configure-core"></div>
+  
+    <div class="preloader_5" id="loader">
+  <div class="cube">
+    <div class="topD"></div>
+    <div>
+      <span style="--i:0"></span>
+      <span style="--i:1"></span>
+      <span style="--i:2"></span>
+      <span style="--i:3"></span>
     </div>
-    <div class="configure-border-2">
-      <div class="configure-core"></div>
+
+    <div class="cube2">
+      <div>
+        <span style="--i:0"></span>
+        <span style="--i:1"></span>
+        <span style="--i:2"></span>
+        <span style="--i:3"></span>
+      </div>
+
+      <div class="cube3">
+        <div class="top3"></div>
+        <div>
+          <span style="--i:0"></span>
+          <span style="--i:1"></span>
+          <span style="--i:2"></span>
+          <span style="--i:3"></span>
+        </div>
+      </div>
     </div>
-    <div class="loading-word">loading...</div>
   </div>
 </div>
-
+  
 <script>
   var endLoading = function () {
     document.body.style.overflow = 'auto';
     document.getElementById('loader').classList.add("loading");
   }
   window.addEventListener('DOMContentLoaded',endLoading);
-  
 </script>
 
     
@@ -976,7 +992,7 @@
     scrollSmooth: true,
     scrollSmoothOffset: -70,
     // headingsOffset: -($(window).height() * 0.4 - 45),
-    headingsOffset: -($(window).height() * 0.6 - 70),
+    headingsOffset: -($(window).height() * 0.4 - 70),
     // positionFixedSelector: '.toc-main',
     // positionFixedClass: 'is-position-fixed',
     fixedSidebarOffset: 'auto',
@@ -1103,8 +1119,7 @@
     left: 12px;
     top: 0;
   } */
-</style>
- 
+</style> 
 
 <!-- 设置导航背景 -->
 <script>
