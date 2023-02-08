@@ -88,35 +88,8 @@
     <!-- 页面预加载动画 -->
 
   
-    <div class="preloader_5" id="loader">
-  <div class="cube">
-    <div class="topD"></div>
-    <div>
-      <span style="--i:0"></span>
-      <span style="--i:1"></span>
-      <span style="--i:2"></span>
-      <span style="--i:3"></span>
-    </div>
-
-    <div class="cube2">
-      <div>
-        <span style="--i:0"></span>
-        <span style="--i:1"></span>
-        <span style="--i:2"></span>
-        <span style="--i:3"></span>
-      </div>
-
-      <div class="cube3">
-        <div class="top3"></div>
-        <div>
-          <span style="--i:0"></span>
-          <span style="--i:1"></span>
-          <span style="--i:2"></span>
-          <span style="--i:3"></span>
-        </div>
-      </div>
-    </div>
-  </div>
+    <div class="preloader_6" id="loader">
+  <div class="loader"></div>
 </div>
   
 <script>
@@ -246,29 +219,7 @@
                   
                     <i class="fas fa-home" aria-hidden="true"></i>
                   
-                  <span class="name">Home</span>
-                </a>
-              
-            </li>
-          
-            <li class="drawer-box-content_item" style="position: relative;">
-              
-                <a href="/archives" class="drawer-menu-item-link">
-                  
-                    <i class="fas fa-archive" aria-hidden="true"></i>
-                  
-                  <span class="name">Archives</span>
-                </a>
-              
-            </li>
-          
-            <li class="drawer-box-content_item" style="position: relative;">
-              
-                <a href="/tags" class="drawer-menu-item-link">
-                  
-                    <i class="fas fa-tags" aria-hidden="true"></i>
-                  
-                  <span class="name">Tags</span>
+                  <span class="name">主页</span>
                 </a>
               
             </li>
@@ -279,30 +230,72 @@
                   
                     <i class="fas fa-bookmark" aria-hidden="true"></i>
                   
-                  <span class="name">Categories</span>
+                  <span class="name">分类</span>
                 </a>
               
             </li>
           
             <li class="drawer-box-content_item" style="position: relative;">
               
-                <a href="javascript:;" class="drawer-menu-item-link has-children" @click="openOrCloseMenu(4)">
+                <a href="/gallery" class="drawer-menu-item-link">
+                  
+                    <i class="fas fa-camera-retro" aria-hidden="true"></i>
+                  
+                  <span class="name">画廊</span>
+                </a>
+              
+            </li>
+          
+            <li class="drawer-box-content_item" style="position: relative;">
+              
+                <a href="/vlog" class="drawer-menu-item-link">
+                  
+                    <i class="fas fa-video-camera" aria-hidden="true"></i>
+                  
+                  <span class="name">影像</span>
+                </a>
+              
+            </li>
+          
+            <li class="drawer-box-content_item" style="position: relative;">
+              
+                <a href="/creation" class="drawer-menu-item-link">
+                  
+                    <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                  
+                  <span class="name">创造</span>
+                </a>
+              
+            </li>
+          
+            <li class="drawer-box-content_item" style="position: relative;">
+              
+                <a href="javascript:;" class="drawer-menu-item-link has-children" @click="openOrCloseMenu(5)">
                   <span>
                     
                       <i class="fas fa-link"></i>
                     
                     <span class="name">更多</span>
                   </span>
-                  <i class="fas fa-chevron-left arrow " :class="{'icon-rotate': isOpen(4)}" aria-hidden="true"></i>
+                  <i class="fas fa-chevron-left arrow " :class="{'icon-rotate': isOpen(5)}" aria-hidden="true"></i>
                 </a>
-                <ul class="drawer-sub-menu" v-if="isOpen(4)">
+                <ul class="drawer-sub-menu" v-if="isOpen(5)">
                   
                   <li>
-                    <a href="/gallery">
+                    <a href="/tags">
                       
-                      <i class="fas fa-camera" style="margin-top: -20px;"></i>
+                      <i class="fas fa-tags" style="margin-top: -20px;"></i>
                       
-                      <span>图库</span>
+                      <span>标签</span>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/archives">
+                      
+                      <i class="fas fa-archive" style="margin-top: -20px;"></i>
+                      
+                      <span>归档</span>
                     </a>
                   </li>
                   
@@ -400,44 +393,55 @@
           
             <li class="menu-item" style="position: relative;">
               
-                <a href="/" class="menu-item-link" title="Home">
+                <a href="/" class="menu-item-link" title="主页">
                   
                     <i class="fas fa-home" aria-hidden="true"></i>
                   
-                  <span class="name">Home</span>
+                  <span class="name">主页</span>
                 </a>
               
             </li>
           
             <li class="menu-item" style="position: relative;">
               
-                <a href="/archives" class="menu-item-link" title="Archives">
-                  
-                    <i class="fas fa-archive" aria-hidden="true"></i>
-                  
-                  <span class="name">Archives</span>
-                </a>
-              
-            </li>
-          
-            <li class="menu-item" style="position: relative;">
-              
-                <a href="/tags" class="menu-item-link" title="Tags">
-                  
-                    <i class="fas fa-tags" aria-hidden="true"></i>
-                  
-                  <span class="name">Tags</span>
-                </a>
-              
-            </li>
-          
-            <li class="menu-item" style="position: relative;">
-              
-                <a href="/categories" class="menu-item-link" title="Categories">
+                <a href="/categories" class="menu-item-link" title="分类">
                   
                     <i class="fas fa-bookmark" aria-hidden="true"></i>
                   
-                  <span class="name">Categories</span>
+                  <span class="name">分类</span>
+                </a>
+              
+            </li>
+          
+            <li class="menu-item" style="position: relative;">
+              
+                <a href="/gallery" class="menu-item-link" title="画廊">
+                  
+                    <i class="fas fa-camera-retro" aria-hidden="true"></i>
+                  
+                  <span class="name">画廊</span>
+                </a>
+              
+            </li>
+          
+            <li class="menu-item" style="position: relative;">
+              
+                <a href="/vlog" class="menu-item-link" title="影像">
+                  
+                    <i class="fas fa-video-camera" aria-hidden="true"></i>
+                  
+                  <span class="name">影像</span>
+                </a>
+              
+            </li>
+          
+            <li class="menu-item" style="position: relative;">
+              
+                <a href="/creation" class="menu-item-link" title="创造">
+                  
+                    <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                  
+                  <span class="name">创造</span>
                 </a>
               
             </li>
@@ -454,11 +458,20 @@
                 <ul class="sub-menu">
                   
                   <li>
-                    <a href="/gallery">
+                    <a href="/tags">
                       
-                      <i class="fas fa-camera" style="margin-top: -20px;"></i>
+                      <i class="fas fa-tags" style="margin-top: -20px;"></i>
                       
-                      <span>图库</span>
+                      <span>标签</span>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/archives">
+                      
+                      <i class="fas fa-archive" style="margin-top: -20px;"></i>
+                      
+                      <span>归档</span>
                     </a>
                   </li>
                   
@@ -607,7 +620,7 @@
         <!-- 内容区域 -->
         <div class="bg-dark-floor" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -2;"></div>
 <div class="bg-light-floor-archive" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -3;"></div>
-<div class="archive-header" style="background-image:url('https://pic1.zhimg.com/80/v2-1414b3a4b205e19060db18a20d08723a_1440w.jpg?source=1940ef5c')">
+<div class="archive-header" style="background-image:url('https://i.328888.xyz/2023/02/07/roWOJ.jpeg')">
   <div class="archive-header-title">
     归档
   </div>
@@ -693,7 +706,7 @@
             <div class="post-img-box">
               <a href="/2023/01/09/bo-ke-da-jian-jiao-cheng-15-markdown-chang-yong-yu-fa/" class="post-img " style="background-size: cover; 
                 background-position: center center;">
-                <img class="lazyload lazyload placeholder" src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*9YSZWmqtVKsQ7qBlLETQtA.jpeg" class="lazyload placeholder" data-srcset="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*9YSZWmqtVKsQ7qBlLETQtA.jpeg" srcset="https://img-blog.csdnimg.cn/img_convert/44f00537358e467d63aa3ea2652ab005.gif" alt="">
+                <img class="lazyload lazyload placeholder" src="https://img-blog.csdnimg.cn/img_convert/a68314308cc0cd101bfc44abb176dd10.png" class="lazyload placeholder" data-srcset="https://img-blog.csdnimg.cn/img_convert/a68314308cc0cd101bfc44abb176dd10.png" srcset="https://img-blog.csdnimg.cn/img_convert/44f00537358e467d63aa3ea2652ab005.gif" alt="">
               </a>
             </div>
             <div class="post-date-title">
@@ -778,7 +791,7 @@
             <div class="post-img-box">
               <a href="/2023/01/09/bo-ke-da-jian-jiao-cheng-10-jiang-tuo-guan-zai-github-de-hexo-bo-ke-qian-yi-dao-ge-ren-yun-fu-wu-qi/" class="post-img " style="background-size: cover; 
                 background-position: center center;">
-                <img class="lazyload lazyload placeholder" src="http://p1.itc.cn/images01/20201215/eda25797a20f4d32b50a7057c2cd147a.jpeg" class="lazyload placeholder" data-srcset="http://p1.itc.cn/images01/20201215/eda25797a20f4d32b50a7057c2cd147a.jpeg" srcset="https://img-blog.csdnimg.cn/img_convert/44f00537358e467d63aa3ea2652ab005.gif" alt="">
+                <img class="lazyload lazyload placeholder" src="https://www.easeus.com.cn/attachment/chuanshu/qinayi-15.png" class="lazyload placeholder" data-srcset="https://www.easeus.com.cn/attachment/chuanshu/qinayi-15.png" srcset="https://img-blog.csdnimg.cn/img_convert/44f00537358e467d63aa3ea2652ab005.gif" alt="">
               </a>
             </div>
             <div class="post-date-title">

@@ -11,7 +11,7 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-  <title>Categories | 赛朋博客</title>
+  <title>分类 | 赛朋博客</title>
 
   <link rel="icon" type="image/jpeg" href="/favicon.jpg">
   <link rel="stylesheet" href="https://at.alicdn.com/t/font_1911880_c1nvbyezg17.css">
@@ -88,35 +88,8 @@
     <!-- 页面预加载动画 -->
 
   
-    <div class="preloader_5" id="loader">
-  <div class="cube">
-    <div class="topD"></div>
-    <div>
-      <span style="--i:0"></span>
-      <span style="--i:1"></span>
-      <span style="--i:2"></span>
-      <span style="--i:3"></span>
-    </div>
-
-    <div class="cube2">
-      <div>
-        <span style="--i:0"></span>
-        <span style="--i:1"></span>
-        <span style="--i:2"></span>
-        <span style="--i:3"></span>
-      </div>
-
-      <div class="cube3">
-        <div class="top3"></div>
-        <div>
-          <span style="--i:0"></span>
-          <span style="--i:1"></span>
-          <span style="--i:2"></span>
-          <span style="--i:3"></span>
-        </div>
-      </div>
-    </div>
-  </div>
+    <div class="preloader_6" id="loader">
+  <div class="loader"></div>
 </div>
   
 <script>
@@ -246,29 +219,7 @@
                   
                     <i class="fas fa-home" aria-hidden="true"></i>
                   
-                  <span class="name">Home</span>
-                </a>
-              
-            </li>
-          
-            <li class="drawer-box-content_item" style="position: relative;">
-              
-                <a href="/archives" class="drawer-menu-item-link">
-                  
-                    <i class="fas fa-archive" aria-hidden="true"></i>
-                  
-                  <span class="name">Archives</span>
-                </a>
-              
-            </li>
-          
-            <li class="drawer-box-content_item" style="position: relative;">
-              
-                <a href="/tags" class="drawer-menu-item-link">
-                  
-                    <i class="fas fa-tags" aria-hidden="true"></i>
-                  
-                  <span class="name">Tags</span>
+                  <span class="name">主页</span>
                 </a>
               
             </li>
@@ -279,30 +230,72 @@
                   
                     <i class="fas fa-bookmark" aria-hidden="true"></i>
                   
-                  <span class="name">Categories</span>
+                  <span class="name">分类</span>
                 </a>
               
             </li>
           
             <li class="drawer-box-content_item" style="position: relative;">
               
-                <a href="javascript:;" class="drawer-menu-item-link has-children" @click="openOrCloseMenu(4)">
+                <a href="/gallery" class="drawer-menu-item-link">
+                  
+                    <i class="fas fa-camera-retro" aria-hidden="true"></i>
+                  
+                  <span class="name">画廊</span>
+                </a>
+              
+            </li>
+          
+            <li class="drawer-box-content_item" style="position: relative;">
+              
+                <a href="/vlog" class="drawer-menu-item-link">
+                  
+                    <i class="fas fa-video-camera" aria-hidden="true"></i>
+                  
+                  <span class="name">影像</span>
+                </a>
+              
+            </li>
+          
+            <li class="drawer-box-content_item" style="position: relative;">
+              
+                <a href="/creation" class="drawer-menu-item-link">
+                  
+                    <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                  
+                  <span class="name">创造</span>
+                </a>
+              
+            </li>
+          
+            <li class="drawer-box-content_item" style="position: relative;">
+              
+                <a href="javascript:;" class="drawer-menu-item-link has-children" @click="openOrCloseMenu(5)">
                   <span>
                     
                       <i class="fas fa-link"></i>
                     
                     <span class="name">更多</span>
                   </span>
-                  <i class="fas fa-chevron-left arrow " :class="{'icon-rotate': isOpen(4)}" aria-hidden="true"></i>
+                  <i class="fas fa-chevron-left arrow " :class="{'icon-rotate': isOpen(5)}" aria-hidden="true"></i>
                 </a>
-                <ul class="drawer-sub-menu" v-if="isOpen(4)">
+                <ul class="drawer-sub-menu" v-if="isOpen(5)">
                   
                   <li>
-                    <a href="/gallery">
+                    <a href="/tags">
                       
-                      <i class="fas fa-camera" style="margin-top: -20px;"></i>
+                      <i class="fas fa-tags" style="margin-top: -20px;"></i>
                       
-                      <span>图库</span>
+                      <span>标签</span>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/archives">
+                      
+                      <i class="fas fa-archive" style="margin-top: -20px;"></i>
+                      
+                      <span>归档</span>
                     </a>
                   </li>
                   
@@ -400,44 +393,55 @@
           
             <li class="menu-item" style="position: relative;">
               
-                <a href="/" class="menu-item-link" title="Home">
+                <a href="/" class="menu-item-link" title="主页">
                   
                     <i class="fas fa-home" aria-hidden="true"></i>
                   
-                  <span class="name">Home</span>
+                  <span class="name">主页</span>
                 </a>
               
             </li>
           
             <li class="menu-item" style="position: relative;">
               
-                <a href="/archives" class="menu-item-link" title="Archives">
-                  
-                    <i class="fas fa-archive" aria-hidden="true"></i>
-                  
-                  <span class="name">Archives</span>
-                </a>
-              
-            </li>
-          
-            <li class="menu-item" style="position: relative;">
-              
-                <a href="/tags" class="menu-item-link" title="Tags">
-                  
-                    <i class="fas fa-tags" aria-hidden="true"></i>
-                  
-                  <span class="name">Tags</span>
-                </a>
-              
-            </li>
-          
-            <li class="menu-item" style="position: relative;">
-              
-                <a href="/categories" class="menu-item-link" title="Categories">
+                <a href="/categories" class="menu-item-link" title="分类">
                   
                     <i class="fas fa-bookmark" aria-hidden="true"></i>
                   
-                  <span class="name">Categories</span>
+                  <span class="name">分类</span>
+                </a>
+              
+            </li>
+          
+            <li class="menu-item" style="position: relative;">
+              
+                <a href="/gallery" class="menu-item-link" title="画廊">
+                  
+                    <i class="fas fa-camera-retro" aria-hidden="true"></i>
+                  
+                  <span class="name">画廊</span>
+                </a>
+              
+            </li>
+          
+            <li class="menu-item" style="position: relative;">
+              
+                <a href="/vlog" class="menu-item-link" title="影像">
+                  
+                    <i class="fas fa-video-camera" aria-hidden="true"></i>
+                  
+                  <span class="name">影像</span>
+                </a>
+              
+            </li>
+          
+            <li class="menu-item" style="position: relative;">
+              
+                <a href="/creation" class="menu-item-link" title="创造">
+                  
+                    <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                  
+                  <span class="name">创造</span>
                 </a>
               
             </li>
@@ -454,11 +458,20 @@
                 <ul class="sub-menu">
                   
                   <li>
-                    <a href="/gallery">
+                    <a href="/tags">
                       
-                      <i class="fas fa-camera" style="margin-top: -20px;"></i>
+                      <i class="fas fa-tags" style="margin-top: -20px;"></i>
                       
-                      <span>图库</span>
+                      <span>标签</span>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/archives">
+                      
+                      <i class="fas fa-archive" style="margin-top: -20px;"></i>
+                      
+                      <span>归档</span>
                     </a>
                   </li>
                   
@@ -609,7 +622,7 @@
 <div class="bg-dark-floor" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -2;"></div>
 <div class="bg-light-floor-categories" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -3;"></div>
 
-<div class="categories-header" style="background-image:url('https://pic2.zhimg.com/80/v2-7c496c95897fb15768593cc5170c8b1a_1440w.jpg?source=1940ef5c')">
+<div class="categories-header" style="background-image:url('https://i.328888.xyz/2023/02/07/roADC.jpeg')">
     <div class="categories-header-title">
         分类
     </div>
@@ -634,6 +647,14 @@
             <div class="category-chips">
                 
                 
+                <a href="/categories/%E6%97%85%E6%8B%8Dvlog/" title="旅拍vlog: 2">
+                    <span class="category-content"
+                        title="旅拍vlog" style="background-color: #F9EBEA;">旅拍vlog
+                        <span class="category-length">2</span>
+                    </span>
+                </a>
+                
+                
                 <a href="/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" title="博客搭建: 14">
                     <span class="category-content"
                         title="博客搭建" style="background-color: #F8F9F9;">博客搭建
@@ -642,10 +663,10 @@
                 </a>
                 
                 
-                <a href="/categories/%E5%BE%80%E6%9C%9F%E5%B0%81%E9%9D%A2/" title="往期封面: 1">
+                <a href="/categories/%E5%BE%80%E6%9C%9F%E5%B0%81%E9%9D%A2/" title="往期封面: 2">
                     <span class="category-content"
                         title="往期封面" style="background-color: #D5F5E3;">往期封面
-                        <span class="category-length">1</span>
+                        <span class="category-length">2</span>
                     </span>
                 </a>
                 

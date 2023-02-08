@@ -6,7 +6,7 @@
   <link href="http://cypunberk.cn/atom.xml" rel="self"/>
   
   <link href="http://cypunberk.cn/"/>
-  <updated>2023-01-18T18:42:21.021Z</updated>
+  <updated>2023-02-07T19:00:15.582Z</updated>
   <id>http://cypunberk.cn/</id>
   
   <author>
@@ -15,6 +15,81 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vlog 旅拍系列 vol.2 杭州西湖</title>
+    <link href="http://cypunberk.cn/2023/02/08/vlog-lu-pai-xi-lie-vol.2-hang-zhou-xi-hu/"/>
+    <id>http://cypunberk.cn/2023/02/08/vlog-lu-pai-xi-lie-vol.2-hang-zhou-xi-hu/</id>
+    <published>2023-02-07T18:00:00.000Z</published>
+    <updated>2023-02-07T19:00:15.582Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本站所有vlog视频均非出自商业目的，部分视频配乐未经授权，禁止转载至站外。 </summary>
+        
+      
+    
+    
+    
+    <category term="旅拍vlog" scheme="http://cypunberk.cn/categories/%E6%97%85%E6%8B%8Dvlog/"/>
+    
+    
+    <category term="视频" scheme="http://cypunberk.cn/tags/%E8%A7%86%E9%A2%91/"/>
+    
+    <category term="杭州" scheme="http://cypunberk.cn/tags/%E6%9D%AD%E5%B7%9E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vlog 旅拍系列 vol.1 无锡</title>
+    <link href="http://cypunberk.cn/2023/02/08/vlog-lu-pai-xi-lie-vol.1-wu-xi/"/>
+    <id>http://cypunberk.cn/2023/02/08/vlog-lu-pai-xi-lie-vol.1-wu-xi/</id>
+    <published>2023-02-07T17:00:00.000Z</published>
+    <updated>2023-02-07T18:52:13.822Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本站所有vlog视频均非出自商业目的，部分视频配乐未经授权，禁止转载至站外。 </summary>
+        
+      
+    
+    
+    
+    <category term="旅拍vlog" scheme="http://cypunberk.cn/categories/%E6%97%85%E6%8B%8Dvlog/"/>
+    
+    
+    <category term="视频" scheme="http://cypunberk.cn/tags/%E8%A7%86%E9%A2%91/"/>
+    
+    <category term="无锡" scheme="http://cypunberk.cn/tags/%E6%97%A0%E9%94%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>往期封面2023/02/07 沙特猫</title>
+    <link href="http://cypunberk.cn/2023/02/07/wang-qi-feng-mian-2023-02-07-sha-te-mao/"/>
+    <id>http://cypunberk.cn/2023/02/07/wang-qi-feng-mian-2023-02-07-sha-te-mao/</id>
+    <published>2023-02-07T15:17:00.000Z</published>
+    <updated>2023-02-07T18:59:09.355Z</updated>
+    
+    
+    <summary type="html">它的父母是流浪猫，但它是家猫。</summary>
+    
+    
+    
+    <category term="往期封面" scheme="http://cypunberk.cn/categories/%E5%BE%80%E6%9C%9F%E5%B0%81%E9%9D%A2/"/>
+    
+    
+    <category term="生活" scheme="http://cypunberk.cn/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>往期封面2023/01/18 熊猫兔珍贵影像资料</title>
@@ -46,7 +121,7 @@
     <link href="http://cypunberk.cn/2023/01/09/bo-ke-da-jian-jiao-cheng-16-linux-yun-fu-wu-qi-zai-nginx.conf-pei-zhi-fang-dao-lian/"/>
     <id>http://cypunberk.cn/2023/01/09/bo-ke-da-jian-jiao-cheng-16-linux-yun-fu-wu-qi-zai-nginx.conf-pei-zhi-fang-dao-lian/</id>
     <published>2023-01-09T08:00:00.000Z</published>
-    <updated>2023-02-06T08:08:59.195Z</updated>
+    <updated>2023-02-06T17:54:29.775Z</updated>
     
     
     <summary type="html">防止多媒体资源被其它网站引用从而占据流失用户或占据带宽</summary>
@@ -63,7 +138,7 @@
     <link href="http://cypunberk.cn/2023/01/09/bo-ke-da-jian-jiao-cheng-15-markdown-chang-yong-yu-fa/"/>
     <id>http://cypunberk.cn/2023/01/09/bo-ke-da-jian-jiao-cheng-15-markdown-chang-yong-yu-fa/</id>
     <published>2023-01-09T07:00:00.000Z</published>
-    <updated>2023-02-06T08:08:56.193Z</updated>
+    <updated>2023-02-06T16:56:55.209Z</updated>
     
     
     <summary type="html">掌握了Markdown的语法，就可以在各大博客网站发布排版美丽的博文了。</summary>
@@ -101,7 +176,7 @@
     <link href="http://cypunberk.cn/2023/01/09/bo-ke-da-jian-jiao-cheng-13-xie-bo-ke-shi-yong-wang-zhan-da-he-ji/"/>
     <id>http://cypunberk.cn/2023/01/09/bo-ke-da-jian-jiao-cheng-13-xie-bo-ke-shi-yong-wang-zhan-da-he-ji/</id>
     <published>2023-01-09T05:00:00.000Z</published>
-    <updated>2023-02-06T08:08:49.158Z</updated>
+    <updated>2023-02-07T09:14:29.889Z</updated>
     
     
     <summary type="html">免费的，简单的，长期的，无版权的。</summary>
@@ -158,7 +233,7 @@
     <link href="http://cypunberk.cn/2023/01/09/bo-ke-da-jian-jiao-cheng-10-jiang-tuo-guan-zai-github-de-hexo-bo-ke-qian-yi-dao-ge-ren-yun-fu-wu-qi/"/>
     <id>http://cypunberk.cn/2023/01/09/bo-ke-da-jian-jiao-cheng-10-jiang-tuo-guan-zai-github-de-hexo-bo-ke-qian-yi-dao-ge-ren-yun-fu-wu-qi/</id>
     <published>2023-01-09T02:00:00.000Z</published>
-    <updated>2023-02-06T08:08:41.215Z</updated>
+    <updated>2023-02-06T08:18:26.610Z</updated>
     
     
     <summary type="html">防止Github有朝一日不再提供免费服务或彻底被墙</summary>
